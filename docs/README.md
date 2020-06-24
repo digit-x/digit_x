@@ -33,7 +33,7 @@
 
 * 现任社长
 
-  <img title="Wang Yaoyao(Artist)The little flower lies in the dust.It sought the path of the butterfly." src="./imgs/0005.jpg" height="100" width="auto" />
+  <img title="Wang Yaoyao(Artist)The little flower lies in the dust.It sought the path of the butterfly." src="./imgs/0005.jpg" height="100" width="auto" /><em>王垚</em>
 
 * 往届社长
 
