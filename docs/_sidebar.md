@@ -1,8 +1,28 @@
 * [digit-x](./markdown/preface.md)
+
 * 🙀\. 后生
-    * 实验
-    * 活动
-    * 读书
+    - **做实验**
+        * [exper.10 飞驰吧无人机！秋叶、白鹿塬与我们](./markdown/flyTHEdrone_autumLeaves_whiteDeer.md)
+        * [exper.9 犀游记之暑期充电计划](./markdown/summer_charging_rh.md)
+        * [exper.8 冬天校园晒太阳的地方——以建大贾平凹文学馆门前广场为例](./markdown/place_where_sun_bask.md)
+        * [exper.7 基于无人机-Agisoft-GIS-Rhino-FlowdesignPhoenics的场地物理环境分析](./markdown/physical_envir_analysis_basedOn_uavAgisoft.md)
+        * [exper.6 带上无人机去看世界——后期数据处理](./markdown/take_aDrone_toSee_theWorld_postDataProcessing.md)
+        * [exper.5 带上无人机去看世界](./markdown/take_aDrone_toSee_theWorld.md)
+        * [exper.4 小环境因子差异实验_实验结果](./markdown/mircro_envi_factor_changesExperiment.md)
+        * [exper.3 装置_3_水流线捕捉](./markdown/experimental_report_ofWater_flow_stream_capture.md)
+        * [exper.2 装置_2_测试结果](./markdown/device_2_test_outcome.md)
+        * [exper.1 小气候环境差异监测（互动艺术装置）_数据处理](./markdown/microclimate_environment_changes_monitoring.md)    
+    - **学长说**
+        * [upper.2 学长说_孙浩鑫：从“不振则死”到“万事皆允”](./markdown/uppercassman_Sunhaoxin.md)
+        * [upper.1 学长说_刘辛：数字化设计对我的影响](./markdown/upperclassman_Liuxin_theInfluence_of_digitalDesignOnme.md)
+    - **学社事**
+        * [aff.4 辅助线上教学：数字营造学社在行动](./markdown/auxiliary_online_teaching_inAction.md)
+        * [aff.3 往事过去，皆为序章：学社年度分享与纳新活动](./markdown/the_past_isthe_preface_recruitment.md)
+        * [aff.2 数字营造学社：分享+纳新](./markdown/sharing_recruit.md)
+        * [aff.1 数字营造学社：新的征程！](./markdown/digital_Construction_society_newJourney.md)
+        
+
+        
 * 🦍\. 先生  
     * 数字营造导论 Introduction to Digital Construction
         * [IDC.1+2 概述](./markdown/IDC_overview.md)
