@@ -60,7 +60,7 @@
 
 它是一个完整的遥感图像处理平台，应用汇集中的软件处理技术覆盖了图像数据的输入/输出、图像定标、图像增强、纠正、正射校正、镶嵌、数据融合以及各种变换、信息提取、图像分类、基于知识的决策树分类、与GIS的整合、DEM及地形信息提取、雷达数据处理、三维立体显示分析。
 
-<img src="./imgs_/take_aDrone_toSee_theWorld_postDataProcessing/12.webp" height="auto" width="auto"  title="digit-x">
+<img src="./imgs_/take_aDrone_toSee_theWorld_postDataProcessing/12.jpg" height="auto" width="auto"  title="digit-x">
 
 这个软件于Arcgis之间的联系是通过数据的交互，可以把Arcgis中处理好的数据与Envi进行叠加，从而进行宏观的观察，也是栅格数据和矢量数据的结合，两个软件使用同一个数据库管理系统，方便数据的管理和处理。
 
