@@ -12,6 +12,7 @@
         * [exper.3 装置_3_水流线捕捉](./markdown/experimental_report_ofWater_flow_stream_capture.md)
         * [exper.2 装置_2_测试结果](./markdown/device_2_test_outcome.md)
         * [exper.1 小气候环境差异监测（互动艺术装置）_数据处理](./markdown/microclimate_environment_changes_monitoring.md)    
+    - **学姐说**
     - **学长说**
         * [upper.2 学长说_孙浩鑫：从“不振则死”到“万事皆允”](./markdown/uppercassman_Sunhaoxin.md)
         * [upper.1 学长说_刘辛：数字化设计对我的影响](./markdown/upperclassman_Liuxin_theInfluence_of_digitalDesignOnme.md)
