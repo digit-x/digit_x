@@ -15,35 +15,17 @@
 <img src="./imgs_/take_aDrone_toSee_theWorld_postDataProcessing/2.gif" height="auto" width="auto"  title="digit-x">
 
 
-<img src="./imgs_/take_aDrone_toSee_theWorld_postDataProcessing/3.gif" height="auto" width="auto"  title="digit-x">
+<img src="./imgs_/take_aDrone_toSee_theWorld_postDataProcessing/3.webp" height="auto" width="auto"  title="digit-x">
 
 
 我们先来看看我们之前都用无人机做了什么吧
 
-
-<img src="./imgs_/take_aDrone_toSee_theWorld_postDataProcessing/4.gif" height="auto" width="auto"  title="digit-x">
-
-
-**三维建模**
-
-<img src="./imgs_/take_aDrone_toSee_theWorld_postDataProcessing/5.gif" height="auto" width="auto"  title="digit-x">
+| <img src="./imgs_/take_aDrone_toSee_theWorld_postDataProcessing/4.gif" height="auto" width="auto"  title="digit-x">  </br> <em>**三维建模**</em>|<img src="./imgs_/take_aDrone_toSee_theWorld_postDataProcessing/5.gif" height="auto" width="auto"  title="digit-x"> </br><em>**建筑外环境测绘**</em> |
+|------------ | -------------|
+|<img src="./imgs_/take_aDrone_toSee_theWorld_postDataProcessing/6.webp" height="auto" width="auto"  title="digit-x">  </br><em>**平面测绘**</em> |<img src="./imgs_/take_aDrone_toSee_theWorld_postDataProcessing/7.webp" height="auto" width="auto"  title="digit-x"></br><em>**高空摄影**</em>|
+|<img src="./imgs_/take_aDrone_toSee_theWorld_postDataProcessing/8.webp" height="auto" width="auto"  title="digit-x"></br><em>**全景摄影**</em>||
 
 
-**建筑外环境测绘**
-
-<img src="./imgs_/take_aDrone_toSee_theWorld_postDataProcessing/6.webp" height="auto" width="auto"  title="digit-x">
-
-
-**平面测绘**
-
-<img src="./imgs_/take_aDrone_toSee_theWorld_postDataProcessing/7.webp" height="auto" width="auto"  title="digit-x">
-
-
-**高空摄影**
-
-<img src="./imgs_/take_aDrone_toSee_theWorld_postDataProcessing/8.webp" height="auto" width="auto"  title="digit-x">
-
-**全景摄影**
 
 |浐灞湿地公园全景图|商洛市滨江路全景图|
 |------------ | -------------|
