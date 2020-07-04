@@ -70,18 +70,21 @@
   <img title="HaoLin(Landscape architect)let life be beautiful like summer flowers and death like autumn leaves" src="./imgs/0027.png" height="100" width="auto" />
   <img title="Little Moth(Designer)Follow your heart and be yourself" src="./imgs/0028.jpg" height="100" width="auto" />
   <img title="Shannon(Designer)Accept and change." src="./imgs/0029.jpg" height="100" width="auto" />
-  <img title="" src="./imgs/0030.png" height="100" width="auto" />
-  <img title="" src="./imgs/0031.jpg" height="100" width="auto" />
-  <img title="" src="./imgs/0032.jpg" height="100" width="auto" />
-  <img title="" src="./imgs/0033.jpg" height="100" width="auto" />
-  <img title="" src="./imgs/0034.jpg" height="100" width="auto" />
-  <img title="" src="./imgs/0035.jpg" height="100" width="auto" />
-  <img title="" src="./imgs/0036.jpg" height="100" width="auto" />
-  <img title="" src="./imgs/0037.jpg" height="100" width="auto" />
-  <img title="" src="./imgs/0038.jpg" height="100" width="auto" />
-  <img title="" src="./imgs/0039.png" height="100" width="auto" />
-  <img title="" src="./imgs/0040.jpg" height="100" width="auto" />
-  <img title="" src="./imgs/0041.jpg" height="100" width="auto" />
+  <img title="Yuhui Wang(Artist)Know how to live." src="./imgs/0157.jpg" height="100" width="auto" />
+  <img title="Crrie(designe)Nothing is impossible." src="./imgs/0158.jpg" height="100" width="auto" />
+  <img title="O））/(Designer)curiosity！" src="./imgs/0159.jpg" height="100" width="auto" />
+  <img title="Tantan(Designer)Tomorrow is another day." src="./imgs/0160.jpg" height="100" width="auto" />
+  <img title="TAMAKI  Dai(little writer)Let life be beautiful like summer flowers" src="./imgs/0161.jpg" height="100" width="auto" />
+  <img title="MA YUAN(Designer)Lead your own path，let others talk." src="./imgs/0162.jpg" height="100" width="auto" />
+  <img title="Liu Hanning(architect)Be happy for this moment, this moment is your life !" src="./imgs/0163.jpg" height="100" width="auto" />
+  <img title="Liu Hangyu(Landscape architect)stay fool stay hungry" src="./imgs/0164.jpg" height="100" width="auto" />
+  <img title="X.   in()When one can see no future ,all one can do is the next right thing" src="./imgs/0165.jpg" height="100" width="auto" />
+  <img title="Bao ping(Freelancer)Stay alive makes me fascinated" src="./imgs/0166.jpg" height="100" width="auto" />
+  <img title="Olivia Chung(designer)Be yourself. " src="./imgs/0167.jpg" height="100" width="auto" />
+  <img title="Ouyang Yujing(Designer)Technical nerd saves the world" src="./imgs/0168.jpg" height="100" width="auto" />
+  <img title="" src="./imgs/0169.jpg" height="100" width="auto" />
+  <img title="Burgess(landscape designer)Dare to die, dare to bear" src="./imgs/0170.jpg" height="100" width="auto" />
+  
 
 
 
