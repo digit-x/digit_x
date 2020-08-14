@@ -69,7 +69,9 @@
         * [m.14 提取子流域](./markdown/extract_subwatershed.md)
         * [m.15 python测验_20171101_根据提供的数据采集程序下载自选城市的poi数据，基于python编写描述性统计(包括评分和价格等相关性分析)及图表代码](./markdown/python_test_20171101.md)
         * [m.16 “数字营造”本科教学体系建构](./markdown/construction_of_undergraduate_teaching_system_of_digital_construction.md)
-        * [m.17 空间数据分析-规划-引导](/markdown/spatial_data_analysis_planning_guidance.md)
+        * [m.17 空间数据分析-规划-引导](./markdown/spatial_data_analysis_planning_guidance.md)
+        * [m.18 基于ArcGIS辅助规划技术](./markdown/gisforplan.md)
+
 * 检索
     * [知识点检索](./markdown/codeToolIdx.md)
     * [参考文献索引](./markdown/reference.md)
