@@ -21,8 +21,8 @@
         * [aff.3 往事过去，皆为序章：学社年度分享与纳新活动](./markdown/the_past_isthe_preface_recruitment.md)
         * [aff.2 数字营造学社：分享+纳新](./markdown/sharing_recruit.md)
         * [aff.1 数字营造学社：新的征程！](./markdown/digital_Construction_society_newJourney.md)
-        
-
+    - **去读书**        
+        * [col.1 IIT-Illinois Institute of Technology](./markdown/IIT.md)
         
 * 🦍\. 先生  
     * 数字营造导论 Introduction to Digital Construction
