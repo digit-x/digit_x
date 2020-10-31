@@ -66,3 +66,5 @@
 <img src="./imgs_/iit/iit09.jpg" height="auto" width="auto"  title="digit-x">
 
 * Chicago充斥着种族争端，枪击事件不断，为此亦要做好各类防备工作。
+
+> 图片处理在线工具：1，[转换iphone的Heic格式至jpg](https://freetoolonline.com/heic-to-jpg.html);2, [压缩图片适合网络发布](https://www.onlineimagetool.com/en/compress-png-jpg-webp-gif); 3, [组合多个图像](http://makephotogallery.net/)。
