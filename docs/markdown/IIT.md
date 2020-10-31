@@ -58,6 +58,7 @@
 你不用担心这里的空气质量、不用担心空间的局促，不用到处去找绿地公园，不用奔波到5环的距离，Chicago的环境很惬意，学术的氛围同样如此，可以静下心来做你想做的研究。优秀的建筑，环境设计遍布全城，你可以随处寻找灵感。但是学习研究不会很轻松，碰到的学生通常都会整日的闷在实验室里，而休闲时却又如此疯狂。（止不住的Covid-19）
 
 <img src="./imgs_/iit/iit08.jpg" height="auto" width="auto"  title="digit-x">
+<img src="./imgs_/iit/iit12.jpg" height="auto" width="auto"  title="digit-x">
 
 ## 生活的APP
 
