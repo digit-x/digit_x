@@ -84,6 +84,18 @@
   <img title="Ouyang Yujing(Designer)Technical nerd saves the world" src="./imgs/0168.jpg" height="100" width="auto" />
   <img title="" src="./imgs/0169.jpg" height="100" width="auto" />
   <img title="Burgess(landscape designer)Dare to die, dare to bear" src="./imgs/0170.jpg" height="100" width="auto" />
+  <img title="Chuanlin " src="./imgs/Chuanlin Nie_1901 LA.jpg" height="100" width="auto" />
+  <img title="Jiayi Chang " src="./imgs/Jiayi Chang_1902 LA.jpg" height="100" width="auto" />
+  <img title="Mingyue Yang " src="./imgs/Mingyue Yang_2002 LA.jpg" height="100" width="auto" />
+  <img title="Shanyuan Yan " src="./imgs/Shanyuan Yan_1902 planning.jpg" height="100" width="auto" />
+  <img title="Yuanfan Zhang " src="./imgs/Yuanfan Zhang_2001 planning.jpg" height="100" width="auto" />
+  <img title="Zihan Zhang " src="./imgs/Zihan Zhang_2001 planning.jpg" height="100" width="auto" />
+  <img title="Fulin Zhu " src="./imgs/Fulin Zhu_2001 LA.jpg" height="100" width="auto" />
+  <img title="Kaiyue Tang " src="./imgs/Kaiyue Tang_1902 LA.jpg" height="100" width="auto" />
+  <img title="Ruisi Ding " src="./imgs/Ruisi Ding_1901 LA.jpg" height="100" width="auto" />
+  <img title="Yanghao Luo " src="./imgs/Yanghao Luo_1901 LA.jpg" height="100" width="auto" />
+  <img title="Zhaoxi Lu " src="./imgs/Zhaoxi Lv_1902 LA.jpg" height="100" width="auto" />
+  <img title="Zimu Niu " src="./imgs/Zimu Niu_1901 LA.png" height="100" width="auto" />
   
 
 
