@@ -14,7 +14,7 @@
 
 接下来就让我们一起去看看大家的成果如何吧~
 
-![图片](./imgs_/202002_202108/2021-08-20-11-13-28.png)
+<img src="./imgs_/202002_202108/2021-08-20-11-13-28.png" height="auto" width="auto"  title="digit-x" />
 
 ----
 
@@ -25,11 +25,11 @@
 **1.校园虚拟营建**
 
 
-| ![图片](./imgs_/202002_202108/1629429214682-1.png) | ![图片](./imgs_/202002_202108/1629429214682-2.png) |
+| !<img src="./imgs_/202002_202108/1629429214682-1.png" height="auto" width="auto"  title="digit-x" />|  <img src="./imgs_/202002_202108/1629429214682-2.png" height="auto" width="auto"  title="digit-x" />|
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| ![图片](./imgs_/202002_202108/1629429214682-3.png) | ![图片](./imgs_/202002_202108/1629429214682-4.png) |
-| ![图片](./imgs_/202002_202108/1629429214682-5.png) | ![图片](./imgs_/202002_202108/1629429214682-6.png) |
-| ![图片](./imgs_/202002_202108/1629429214682-7.png) | ![图片](./imgs_/202002_202108/1629429214682-8.png) |
+| <img src="./imgs_/202002_202108/1629429214682-3.png" height="auto" width="auto"  title="digit-x" />| <img src="./imgs_/202002_202108/1629429214682-4.png" height="auto" width="auto"  title="digit-x" />|
+| <img src="./imgs_/202002_202108/1629429214682-5.png" height="auto" width="auto"  title="digit-x" />| <img src="./imgs_/202002_202108/1629429214682-6.png" height="auto" width="auto"  title="digit-x" />|
+|  <img src="./imgs_/202002_202108/1629429214682-7.png" height="auto" width="auto"  title="digit-x" />|  <img src="./imgs_/202002_202108/1629429214682-8.png" height="auto" width="auto"  title="digit-x" />|
 
 
 
@@ -42,64 +42,57 @@
 
 （1）研究方向：关于敦煌地区民宿的结构研究
 
-![图片](./imgs_/202002_202108/1629429214682-9.png)
-
+<img src="./imgs_/202002_202108/1629429214682-9.png" height="auto" width="auto"  title="digit-x" />
 
 
 （2）研究方向：中国古建筑的研究保护
 
-![图片](./imgs_/202002_202108/1629429214682-10.png)
-
+<img src="./imgs_/202002_202108/1629429214682-10.png" height="auto" width="auto"  title="digit-x" />
 
 
 （3）研究方向：还原运动公园方案，统计漫步跑步经过不同空间类型时长，同一空间类型经过距离，提出方案优化方向。
 
-![图片](./imgs_/202002_202108/1629429214682-11.png)
+<img src="./imgs_/202002_202108/1629429214682-11.png" height="auto" width="auto"  title="digit-x" />
 
 （4）研究方向：园林艺术与设计原理，主要关于园林空间的分隔方式
 
-![图片](./imgs_/202002_202108/1629429214682-12.png)
-
+<img src="./imgs_/202002_202108/1629429214682-12.png" height="auto" width="auto"  title="digit-x" />
 
 
 （5）研究方向：城市公园设计，通过Mars可视化技术对设计方案的植物配景等方面进行优化。
 
-![图片](./imgs_/202002_202108/1629429214682-13.png)
-
+<img src="./imgs_/202002_202108/1629429214682-13.png" height="auto" width="auto"  title="digit-x" />
 
 
 （6）研究方向：主要是利用电脑模型来展现植物种植设计的过程，更加清楚的展现植物对空间的划分。
 
-![å¾ç](./imgs_/202002_202108/1629429214682-14.png)
+<img src="./imgs_/202002_202108/1629429214682-14.png" height="auto" width="auto"  title="digit-x" />
 
 （7）研究方向：
 
 风景园林植物—城市小微绿地
 
-![图片](./imgs_/202002_202108/1629429214682-15.png)
-
+<img src="./imgs_/202002_202108/1629429214682-15.png" height="auto" width="auto"  title="digit-x" />
 
 
 （8）研究方向：接块的城市设计方法--以西安建筑科技大学街块为例，加以成都锦里和北京三里屯为拓展
 
-![图片](./imgs_/202002_202108/1629429214682-16.png)
+<img src="./imgs_/202002_202108/1629429214682-16.png" height="auto" width="auto"  title="digit-x" />
 
-![图片](./imgs_/202002_202108/1629429214682-17.png)
+<img src="./imgs_/202002_202108/1629429214682-17.png" height="auto" width="auto"  title="digit-x" />
 
 
 
 （9）研究方向：主要研究园林建设的工程技术，包括地形改造的土方工程，山、置石工程园林理水工程和园林驳岸工程，喷泉工程，园林的给水排水工程，园路工程，种植工程等。
 
-![图片](./imgs_/202002_202108/1629429214682-18.png)
+<img src="./imgs_/202002_202108/1629429214682-18.png" height="auto" width="auto"  title="digit-x" />
 
-![图片](./imgs_/202002_202108/1629429214682-19.png)
-
+<img src="./imgs_/202002_202108/1629429214682-19.png" height="auto" width="auto"  title="digit-x" />
 
 
 （10）研究方向：单元空间、空间划分、空间领域、空间划分等
 
-![图片](./imgs_/202002_202108/1629429214682-20.png)
-
+<img src="./imgs_/202002_202108/1629429214682-20.png" height="auto" width="auto"  title="digit-x" />
 
 
 十天的学习换来了同学们难忘的精彩回忆
@@ -118,10 +111,9 @@
 
 
 
-![图片](./imgs_/202002_202108/1629429214682-21.png)
+<img src="./imgs_/202002_202108/1629429214682-21.png" height="auto" width="auto"  title="digit-x" />
 
-![图片](./imgs_/202002_202108/1629429214682-22.png)
-
+<img src="./imgs_/202002_202108/1629429214682-22.png" height="auto" width="auto"  title="digit-x" />
 
 
 
@@ -157,11 +149,11 @@
 
 - **rhino建模预期**
 
-![图片](./imgs_/202002_202108/2021-08-20-11-14-19.png)
+<img src="./imgs_/202002_202108/2021-08-20-11-14-19.png" height="auto" width="auto"  title="digit-x" />
 
-![图片](./imgs_/202002_202108/2021-08-20-11-14-28.png)
+<img src="./imgs_/202002_202108/2021-08-20-11-14-28.png" height="auto" width="auto"  title="digit-x" />
 
-![图片](./imgs_/202002_202108/2021-08-20-11-14-39.png)
+<img src="./imgs_/202002_202108/2021-08-20-11-14-39.png" height="auto" width="auto"  title="digit-x" />
 
 - 
 
@@ -185,15 +177,15 @@
 
 - **rhino+grasshopper建模预期**
 
-![图片](./imgs_/202002_202108/11.gif)
+<img src="./imgs_/202002_202108/11.gif" height="auto" width="auto"  title="digit-x" />
 
-![图片](./imgs_/202002_202108/102.gif)
+<img src="./imgs_/202002_202108/102.gif" height="auto" width="auto"  title="digit-x" />
 
-![图片](./imgs_/202002_202108/103.gif)
+<img src="./imgs_/202002_202108/103.gif" height="auto" width="auto"  title="digit-x" />
 
 - **北林花园建造节**
 
-![图片](./imgs_/202002_202108/2021-08-20-11-15-00.png)
+<img src="./imgs_/202002_202108/2021-08-20-11-15-00.png" height="auto" width="auto"  title="digit-x" />
 
 - 
 
@@ -244,10 +236,9 @@
 
 - 
 
-![图片](./imgs_/202002_202108/2021-08-20-11-15-16.png)
+<img src="./imgs_/202002_202108/2021-08-20-11-15-16.png" height="auto" width="auto"  title="digit-x" />
 
-![图片](./imgs_/202002_202108/1629429214682-23.png)
-
+<img src="./imgs_/202002_202108/1629429214682-23.png" height="auto" width="auto"  title="digit-x" />
 
 
 

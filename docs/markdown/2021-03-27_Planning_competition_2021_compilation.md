@@ -16,8 +16,7 @@
 
 
 
-![图片](./imgs_/202002_202108/2021-08-20-10-46-44.png)
-
+<img src="./imgs_/202002_202108/2021-08-20-10-46-44.png" height="auto" width="auto"  title="digit-x" />
 
 
 ------
@@ -30,7 +29,7 @@
 
 ### **01.** **城市可持续调研报告国际竞赛**
 
-![图片](./imgs_/202002_202108/2021-08-20-10-46-57.png)
+<img src="./imgs_/202002_202108/2021-08-20-10-46-57.png" height="auto" width="auto"  title="digit-x" />
 
 **简介：**
 
@@ -64,7 +63,7 @@ http://icity.ikcest.org/index/competition/surveyspecification
 
 
 
-![图片](./imgs_/202002_202108/iiii.png)
+<img src="./imgs_/202002_202108/iiii.png" height="auto" width="auto"  title="digit-x" />
 
 
 
@@ -110,7 +109,7 @@ https://uia.org/
 
 ### **01.** **全国大学生交通科技大赛**
 
-![图片](./imgs_/202002_202108/2021-08-20-10-47-20.png)
+<img src="./imgs_/202002_202108/2021-08-20-10-47-20.png" height="auto" width="auto"  title="digit-x" />
 
 **简介**：
 
@@ -140,8 +139,7 @@ https://uia.org/
 
 ### **02.** **中国人居环境设计学年奖**
 
-![图片](./imgs_/202002_202108/2021-08-20-10-47-30.png)
-
+<img src="./imgs_/202002_202108/2021-08-20-10-47-30.png" height="auto" width="auto"  title="digit-x" />
 
 
 **简介：**

@@ -14,8 +14,7 @@
 
 
 
-![图片](./imgs_/202002_202108/2021-08-20-10-51-01.png)
-
+<img src="./imgs_/202002_202108/2021-08-20-10-51-01.png" height="auto" width="auto"  title="digit-x" />
 
 
 
@@ -36,7 +35,7 @@
 
 ### **01.** **UIA大学生建筑设计竞赛**
 
-![图片](./imgs_/202002_202108/2021-08-20-10-51-15.png)
+<img src="./imgs_/202002_202108/2021-08-20-10-51-15.png" height="auto" width="auto"  title="digit-x" />
 
 **简介**：
 
@@ -98,7 +97,7 @@ https://uia.org/
 
 
 
-![图片](./imgs_/202002_202108/2021-08-20-10-51-37.png)
+<img src="./imgs_/202002_202108/2021-08-20-10-51-37.png" height="auto" width="auto"  title="digit-x" />
 
 
 
@@ -140,8 +139,7 @@ http://www.evolo.us/registration-2021-skyscraper-competition/
 
 
 
-![图片](./imgs_/202002_202108/2021-08-20-10-51-49.png)
-
+<img src="./imgs_/202002_202108/2021-08-20-10-51-49.png" height="auto" width="auto"  title="digit-x" />
 
 
 
@@ -186,8 +184,7 @@ http://www.evolo.us/registration-2021-skyscraper-competition/
 
 
 
-![图片](./imgs_/202002_202108/2021-08-20-10-52-04.png)
-
+<img src="./imgs_/202002_202108/2021-08-20-10-52-04.png" height="auto" width="auto"  title="digit-x" />
 
 
 
@@ -238,8 +235,7 @@ http://www.evolo.us/registration-2021-skyscraper-competition/
 
 
 
-![图片](./imgs_/202002_202108/2021-08-20-10-52-18.png)
-
+<img src="./imgs_/202002_202108/2021-08-20-10-52-18.png" height="auto" width="auto"  title="digit-x" />
 
 
 **举办方**：
@@ -270,8 +266,7 @@ https://blankspaceproject.com/
 
 
 
-![图片](./imgs_/202002_202108/2021-08-20-10-52-28.png)
-
+<img src="./imgs_/202002_202108/2021-08-20-10-52-28.png" height="auto" width="auto"  title="digit-x" />
 
 
 
@@ -330,8 +325,7 @@ www.designverse.com.cn
 
 ### **01.** **东南·中国建筑新人赛**
 
-![图片](./imgs_/202002_202108/2021-08-20-10-52-44.png)
-
+<img src="./imgs_/202002_202108/2021-08-20-10-52-44.png" height="auto" width="auto"  title="digit-x" />
 
 
 **简介**：
@@ -374,7 +368,7 @@ TOP100: 证书及全套纪念品
 
 ### **02.** **天作奖**
 
-![图片](./imgs_/202002_202108/2021-08-20-10-52-58.png)
+<img src="./imgs_/202002_202108/2021-08-20-10-52-58.png" height="auto" width="auto"  title="digit-x" />
 
 **举办方**：
 
@@ -504,8 +498,7 @@ http://guyubei.tuituisoft.com/
 
 ### **04.** **全国绿色建筑设计竞赛**
 
-![图片](./imgs_/202002_202108/2021-08-20-10-53-16.png)
-
+<img src="./imgs_/202002_202108/2021-08-20-10-53-16.png" height="auto" width="auto"  title="digit-x" />
 
 
 
@@ -569,8 +562,7 @@ http://guyubei.tuituisoft.com/
 第四名仅颁发证书（20名）
 
 
-![图片](./imgs_/202002_202108/2021-08-20-10-53-31.png)
-
+<img src="./imgs_/202002_202108/2021-08-20-10-53-31.png" height="auto" width="auto"  title="digit-x" />
 
 ------
 

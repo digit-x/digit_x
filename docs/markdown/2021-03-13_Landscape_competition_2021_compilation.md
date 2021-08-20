@@ -18,7 +18,7 @@
 
 
 
-![图片](./imgs_/202002_202108/2021-08-20-10-40-36.png)
+<img src="./imgs_/202002_202108/2021-08-20-10-40-36.png" height="auto" width="auto"  title="digit-x" />
 
 
 
@@ -32,7 +32,7 @@
 
 ### **01.  IFLA国际学生设计竞赛**
 
-![图片](./imgs_/202002_202108/2021-08-20-10-41-06.png)
+<img src="./imgs_/202002_202108/2021-08-20-10-41-06.png" height="auto" width="auto"  title="digit-x" />
 
 **简介：**
 
@@ -88,8 +88,7 @@ http://www.landscape.cn/special/ifla/intro/
 
 
 
-![图片](./imgs_/202002_202108/2021-08-20-10-41-20.png)
-
+<img src="./imgs_/202002_202108/2021-08-20-10-41-20.png" height="auto" width="auto"  title="digit-x" />
 
 
 
@@ -144,8 +143,7 @@ http://www.shejijingsai.com/2020/03/385739.html
 
 
 
-![图片](./imgs_/202002_202108/2021-08-20-10-41-32.png)
-
+<img src="./imgs_/202002_202108/2021-08-20-10-41-32.png" height="auto" width="auto"  title="digit-x" />
 
 
 **简介：**
@@ -202,7 +200,7 @@ https://www.asla.org/awardsarchive/
 
 
 
-![图片](./imgs_/202002_202108/2021-08-20-10-41-46.png)
+<img src="./imgs_/202002_202108/2021-08-20-10-41-46.png" height="auto" width="auto"  title="digit-x" />
 
 **举办方：**
 
@@ -270,7 +268,7 @@ http://yyb.chla.com.cn/
 
 ### **05.  艾景奖·国际园林景观规划设计大赛**
 
-![图片](./imgs_/202002_202108/2021-08-20-10-42-00.png)
+<img src="./imgs_/202002_202108/2021-08-20-10-42-00.png" height="auto" width="auto"  title="digit-x" />
 
 **举办方：**
 
@@ -312,7 +310,7 @@ http://www.idea-king.org/
 
 ### **06.  2020世界景观网WLA大奖**
 
-![图片](./imgs_/202002_202108/2021-08-20-10-42-14.png)
+<img src="./imgs_/202002_202108/2021-08-20-10-42-14.png" height="auto" width="auto"  title="digit-x" />
 
 **简介：**
 
@@ -380,8 +378,7 @@ http://www.landscape.cn/event/2234.html
 
 
 
-![图片](./imgs_/202002_202108/2021-08-20-10-42-28.png)
-
+<img src="./imgs_/202002_202108/2021-08-20-10-42-28.png" height="auto" width="auto"  title="digit-x" />
 
 
 
@@ -432,8 +429,7 @@ http://www.landscape.cn/event/2234.html
 
 
 
-![图片](./imgs_/202002_202108/2021-08-20-10-42-39.png)
-
+<img src="./imgs_/202002_202108/2021-08-20-10-42-39.png" height="auto" width="auto"  title="digit-x" />
 
 
 **举办方：**
@@ -492,8 +488,7 @@ http://www.shejijingsai.com/tag/%E5%85%88%E9%94%8B%E5%A5%96
 
 
 
-![图片](./imgs_/202002_202108/2021-08-20-10-42-52.png)
-
+<img src="./imgs_/202002_202108/2021-08-20-10-42-52.png" height="auto" width="auto"  title="digit-x" />
 
 
 **举办方：**
@@ -538,8 +533,7 @@ http://www.shejijingsai.com/2020/06/504783.html
 
 
 
-![图片](./imgs_/202002_202108/2021-08-20-10-43-06.png)
-
+<img src="./imgs_/202002_202108/2021-08-20-10-43-06.png" height="auto" width="auto"  title="digit-x" />
 
 
 **举办方：**
@@ -588,8 +582,7 @@ http://yyb.chla.com.cn/
 
 ### **05.  “Garden”花园杯植物景观设计竞赛**
 
-![图片](./imgs_/202002_202108/2021-08-20-10-43-18.png)
-
+<img src="./imgs_/202002_202108/2021-08-20-10-43-18.png" height="auto" width="auto"  title="digit-x" />
 
 
 
@@ -616,8 +609,7 @@ http://www.qzcyds.com/
 
 
 
-![图片](./imgs_/202002_202108/2021-08-20-10-43-31.png)
-
+<img src="./imgs_/202002_202108/2021-08-20-10-43-31.png" height="auto" width="auto"  title="digit-x" />
 
 
 
@@ -672,9 +664,7 @@ https://www.sohu.com/a/445341453_658633
 
 ### **07.  中国风景园林教育大会学生设计竞赛**
 
-![图片](./imgs_/202002_202108/2021-08-20-10-43-44.png)
-
-
+<img src="./imgs_/202002_202108/2021-08-20-10-43-44.png" height="auto" width="auto"  title="digit-x" />
 
 **简介：**
 
@@ -714,8 +704,7 @@ https://mp.weixin.qq.com/s/bduCe3Nc4pQl3KuDoEGkaA
 
 
 
-![图片](./imgs_/202002_202108/2021-08-20-10-44-01.png)
-
+<img src="./imgs_/202002_202108/2021-08-20-10-44-01.png" height="auto" width="auto"  title="digit-x" />
 
 
 -----

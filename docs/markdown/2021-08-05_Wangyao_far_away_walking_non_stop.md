@@ -6,8 +6,7 @@
 
 
 
-![图片](./imgs_/202002_202108/1201.gif)
-
+<img src="./imgs_/202002_202108/1201.gif" height="auto" width="auto"  title="digit-x" />
 
 
 **又到了毕业季**
@@ -24,7 +23,7 @@
 
 
 
-![图片](./imgs_/202002_202108/1629429720267-0.png)
+<img src="./imgs_/202002_202108/1629429720267-0.png" height="auto" width="auto"  title="digit-x" />
 
 *王垚*
 
@@ -84,15 +83,15 @@ UCL MArch Urban Design
 
 
 
-![图片](./imgs_/202002_202108/1629429720267-1.png)
+<img src="./imgs_/202002_202108/1629429720267-1.png" height="auto" width="auto"  title="digit-x" />
 
 *大一空间训练课程对红楼梦中场景的手绘*
 
-![图片](./imgs_/202002_202108/1629429720267-2.png)
+<img src="./imgs_/202002_202108/1629429720267-2.png" height="auto" width="auto"  title="digit-x" />
 
 *<u>石空间的探索</u>*
 
-![图片](./imgs_/202002_202108/1629429720267-3.png)
+<img src="./imgs_/202002_202108/1629429720267-3.png" height="auto" width="auto"  title="digit-x" />
 
 枝空间的探索
 
@@ -106,7 +105,7 @@ UCL MArch Urban Design
 
 
 
-![图片](./imgs_/202002_202108/1629429720267-4.png)
+<img src="./imgs_/202002_202108/1629429720267-4.png" height="auto" width="auto"  title="digit-x" />
 
 *这好像是学社的第一次开会的时候*
 
@@ -116,11 +115,11 @@ UCL MArch Urban Design
 
 大一的时候主要学会了数字建模和接触了一些参数化的内容。现在回过头看之前做的东西感到很稚嫩，但是也正是有了以前的铺垫，才为了高年级的学习打好了基础。
 
-![图片](./imgs_/202002_202108/1629429720267-5.png)
+<img src="./imgs_/202002_202108/1629429720267-5.png" height="auto" width="auto"  title="digit-x" />
 
 *流水线捕捉小实验*
 
-![图片](./imgs_/202002_202108/1629429720267-6.png)
+<img src="./imgs_/202002_202108/1629429720267-6.png" height="auto" width="auto"  title="digit-x" />
 
 *包老师当时指导的为期两天的参数化集训*
 
@@ -128,13 +127,13 @@ UCL MArch Urban Design
 
 
 
-![图片](./imgs_/202002_202108/1629429720267-7.png)
+<img src="./imgs_/202002_202108/1629429720267-7.png" height="auto" width="auto"  title="digit-x" />
 
 *场地基础数据分析*
 
 
 
-![图片](./imgs_/202002_202108/1629429720267-8.png)
+<img src="./imgs_/202002_202108/1629429720267-8.png" height="auto" width="auto"  title="digit-x" />
 
 *公园设计模型照片*
 
@@ -144,7 +143,7 @@ UCL MArch Urban Design
 
 
 
-![图片](./imgs_/202002_202108/1629429720267-9.png)
+<img src="./imgs_/202002_202108/1629429720267-9.png" height="auto" width="auto"  title="digit-x" />
 
 *鄠邑区土地利用模拟变化影响因子*
 
@@ -154,13 +153,13 @@ UCL MArch Urban Design
 
 
 
-![图片](./imgs_/202002_202108/1629429720267-10.png)
+<img src="./imgs_/202002_202108/1629429720267-10.png" height="auto" width="auto"  title="digit-x" />
 
 *对巨型尺度的城市进行*mapping分析
 
 
 
-![图片](./imgs_/202002_202108/1629429720267-11.png)
+<img src="./imgs_/202002_202108/1629429720267-11.png" height="auto" width="auto"  title="digit-x" />
 
 *结合出租车OD数据进行路网密度分析*
 
@@ -170,7 +169,7 @@ UCL MArch Urban Design
 
 
 
-![图片](./imgs_/202002_202108/1629429720267-12.png)
+<img src="./imgs_/202002_202108/1629429720267-12.png" height="auto" width="auto"  title="digit-x" />
 
 *城市设计利用Netlogo进行业态分布模式的模拟*
 
@@ -182,7 +181,7 @@ UCL MArch Urban Design
 
 
 
-![图片](./imgs_/202002_202108/1629429720267-13.png)
+<img src="./imgs_/202002_202108/1629429720267-13.png" height="auto" width="auto"  title="digit-x" />
 
 *武毅老师当时带队做的竹构照片*
 
@@ -192,37 +191,37 @@ UCL MArch Urban Design
 
 
 
-![图片](./imgs_/202002_202108/1629429720267-14.png)
+<img src="./imgs_/202002_202108/1629429720267-14.png" height="auto" width="auto"  title="digit-x" />
 
 *2019年宣讲会时的观众席*
 
 
 
-![图片](./imgs_/202002_202108/1629429720267-15.png)
+<img src="./imgs_/202002_202108/1629429720267-15.png" height="auto" width="auto"  title="digit-x" />
 
 *课外无人机教学*
 
 有时候我们还会为学社设计一些小周边作为学社的Logo或者做成贺卡，U盘等送给老师同学留作纪念。
 
-![图片](./imgs_/202002_202108/1629429720267-16.png)
+<img src="./imgs_/202002_202108/1629429720267-16.png" height="auto" width="auto"  title="digit-x" />
 
 *带有学社logo的U盘*
 
 
 
-![图片](./imgs_/202002_202108/1629429720267-17.png)
+<img src="./imgs_/202002_202108/1629429720267-17.png" height="auto" width="auto"  title="digit-x" />
 
 *明信片*
 
 
 
-![图片](./imgs_/202002_202108/1629429720267-18.png)
+<img src="./imgs_/202002_202108/1629429720267-18.png" height="auto" width="auto"  title="digit-x" />
 
 *社服*
 
 
 
-![图片](./imgs_/202002_202108/1629429720267-19.png)
+<img src="./imgs_/202002_202108/1629429720267-19.png" height="auto" width="auto"  title="digit-x" />
 
 *和肖景天一起设计的小怪兽形象*
 
@@ -280,7 +279,7 @@ UCL MArch Urban Design
 
 
 
-![图片](./imgs_/202002_202108/1629429720267-20.png)
+<img src="./imgs_/202002_202108/1629429720267-20.png" height="auto" width="auto"  title="digit-x" />
 
 *我在备考英语时一天的schedule*
 
@@ -304,9 +303,9 @@ UCL MArch Urban Design
 
 
 
-![图片](./imgs_/202002_202108/1629429720267-21.png)
+<img src="./imgs_/202002_202108/1629429720267-21.png" height="auto" width="auto"  title="digit-x" />
 
-![图片](./imgs_/202002_202108/1629429720267-22.png)
+<img src="./imgs_/202002_202108/1629429720267-22.png" height="auto" width="auto"  title="digit-x" />
 
 *常海青老师辅导的毕业设计的其中两张图纸*
 

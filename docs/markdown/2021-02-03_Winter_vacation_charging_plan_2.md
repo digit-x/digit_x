@@ -4,7 +4,7 @@
 
 
 
-![图片](./imgs_/202002_202108/41.gif)
+<img src="./imgs_/202002_202108/41.gif" height="auto" width="auto"  title="digit-x" />
 
 
 
@@ -22,7 +22,7 @@
 
 -----
 
-![图片](./imgs_/202002_202108/42.gif)
+<img src="./imgs_/202002_202108/42.gif" height="auto" width="auto"  title="digit-x" />
 
 ##  系列活动一  
 
@@ -44,8 +44,7 @@
 
 
 
-![图片](./imgs_/202002_202108/43.gif)
-
+<img src="./imgs_/202002_202108/43.gif" height="auto" width="auto"  title="digit-x" />
 
 
 
@@ -74,37 +73,37 @@
 
 创意灯具
 
-![图片](./imgs_/202002_202108/441.gif)
+<img src="./imgs_/202002_202108/441.gif" height="auto" width="auto"  title="digit-x" />
 
 小花盆
 
-![图片](./imgs_/202002_202108/2021-08-20-10-26-53.png)
+<img src="./imgs_/202002_202108/2021-08-20-10-26-53.png" height="auto" width="auto"  title="digit-x" />
 
 自制手套
 
-![图片](./imgs_/202002_202108/442.gif)
+<img src="./imgs_/202002_202108/442.gif" height="auto" width="auto"  title="digit-x" />
 
 小饼干模具
 
-![图片](./imgs_/202002_202108/443.gif)
+<img src="./imgs_/202002_202108/443.gif" height="auto" width="auto"  title="digit-x" />
 
 文创产品
 
-![图片](./imgs_/202002_202108/2021-08-20-10-27-48.png)
+<img src="./imgs_/202002_202108/2021-08-20-10-27-48.png" height="auto" width="auto"  title="digit-x" />
 
-![图片](./imgs_/202002_202108/444.gif)
+<img src="./imgs_/202002_202108/444.gif" height="auto" width="auto"  title="digit-x" />
 
 一些具有有趣空间的小东西
 
-![图片](./imgs_/202002_202108/445.gif)
+<img src="./imgs_/202002_202108/445.gif" height="auto" width="auto"  title="digit-x" />
 
-![图片](./imgs_/202002_202108/446.gif)
+<img src="./imgs_/202002_202108/446.gif" height="auto" width="auto"  title="digit-x" />
 
-![图片](./imgs_/202002_202108/447.gif)
+<img src="./imgs_/202002_202108/447.gif" height="auto" width="auto"  title="digit-x" />
 
-![图片](./imgs_/202002_202108/448.gif)
+<img src="./imgs_/202002_202108/448.gif" height="auto" width="auto"  title="digit-x" />
 
-![图片](./imgs_/202002_202108/449.gif)
+<img src="./imgs_/202002_202108/449.gif" height="auto" width="auto"  title="digit-x" />
 
 
 
@@ -158,23 +157,23 @@
 
 ### 5、往年作品欣赏
 
-![图片](./imgs_/202002_202108/2021-08-20-10-31-01.png)
+<img src="./imgs_/202002_202108/2021-08-20-10-31-01.png" height="auto" width="auto"  title="digit-x" />
 
-![图片](./imgs_/202002_202108/2021-08-20-10-31-13.png)
+<img src="./imgs_/202002_202108/2021-08-20-10-31-13.png" height="auto" width="auto"  title="digit-x" />
 
-![图片](./imgs_/202002_202108/2021-08-20-10-31-26.png)
-
-
+<img src="./imgs_/202002_202108/2021-08-20-10-31-26.png" height="auto" width="auto"  title="digit-x" />
 
 
 
-![图片](./imgs_/202002_202108/2021-08-20-10-31-49.png)
 
-![图片](./imgs_/202002_202108/2021-08-20-10-32-04.png)
 
-![图片](./imgs_/202002_202108/2021-08-20-10-32-15.png)
+<img src="./imgs_/202002_202108/2021-08-20-10-31-49.png" height="auto" width="auto"  title="digit-x" />
 
-![图片](./imgs_/202002_202108/2021-08-20-10-32-25.png)
+<img src="./imgs_/202002_202108/2021-08-20-10-32-04.png" height="auto" width="auto"  title="digit-x" />
+
+<img src="./imgs_/202002_202108/2021-08-20-10-32-15.png" height="auto" width="auto"  title="digit-x" />
+
+<img src="./imgs_/202002_202108/2021-08-20-10-32-25.png" height="auto" width="auto"  title="digit-x" />
 
 
 
@@ -222,11 +221,11 @@
 
 rhino+grasshopper建模预期
 
-![图片](./imgs_/202002_202108/461.gif)
+<img src="./imgs_/202002_202108/461.gif" height="auto" width="auto"  title="digit-x" />
 
-![图片](./imgs_/202002_202108/462.gif)
+<img src="./imgs_/202002_202108/462.gif" height="auto" width="auto"  title="digit-x" />
 
-![图片](./imgs_/202002_202108/463.gif)
+<img src="./imgs_/202002_202108/463.gif" height="auto" width="auto"  title="digit-x" />
 
 
 
@@ -246,7 +245,8 @@ rhino+grasshopper建模预期
 
 
 
-![图片](./imgs_/202002_202108/42.gif)
+<img src="./imgs_/202002_202108/42.gif" height="auto" width="auto"  title="digit-x" />
+
 
 ## 下期预告 
 
@@ -258,7 +258,8 @@ rhino+grasshopper建模预期
 
 请大家多多期待哦！
 
-![图片](./imgs_/202002_202108/1629387474114-9.png)
+
+<img src="./imgs_/202002_202108/1629387474114-9.png" height="auto" width="auto"  title="digit-x" />
 
 
 

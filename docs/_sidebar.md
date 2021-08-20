@@ -2,6 +2,7 @@
 
 * 🙀\. 后生 
     - **做实验**
+        * [exper.12 VR初体验：沉浸式打开虚拟世界的技能get](./markdown/2020-12-23_First_Vr_experience_skills_for_the_immersive_opening_of_virtual_worlds.md)
         * [exper.11 打怪利器：三维扫描初体验](./markdown/2020-12-19_Hit_strange_weapon_3d_scan_first_experience.md)
         * [exper.10 飞驰吧无人机！秋叶、白鹿塬与我们](./markdown/flyTHEdrone_autumLeaves_whiteDeer.md)
         * [exper.9 犀游记之暑期充电计划](./markdown/summer_charging_rh.md)
@@ -14,10 +15,18 @@
         * [exper.2 装置_2_测试结果](./markdown/device_2_test_outcome.md)
         * [exper.1 小气候环境差异监测（互动艺术装置）_数据处理](./markdown/microclimate_environment_changes_monitoring.md)    
     - **学姐说**
+        * [upper.1 学姐说_王垚：远方很远，步履不停](./markdown/2021-08-05_Wangyao_far_away_walking_non_stop.md)
     - **学长说**
         * [upper.2 学长说_孙浩鑫：从“不振则死”到“万事皆允”](./markdown/uppercassman_Sunhaoxin.md)
         * [upper.1 学长说_刘辛：数字化设计对我的影响](./markdown/upperclassman_Liuxin_theInfluence_of_digitalDesignOnme.md)
     - **学社事**   
+        * [aff.11 数字工坊与暑假充电](./markdown/2021-08-03_Digital_workshop_and_summer_vacation_charging.md)
+        * [aff.10 社员分享 | 让深夜的教室飘满醇香](./markdown/2021-06-04_Let_the_classroom_at_night_be_full_of_mellow_fragrances.md)
+        * [aff.9 我们都是见证者：学社2021年度分享会](./markdown/2021-04-04_We_are_all_witnesses_society_2021_sharing_session.md)
+        * [aff.8 2021建筑竞赛汇编](./markdown/2021-03-28_Architecture_competition_2021_compilation.md)
+        * [aff.7 2021城规竞赛汇编](./markdown/2021-03-27_Planning_competition_2021_compilation.md)
+        * [aff.6 2021景观竞赛汇编](./markdown/2021-03-13_Landscape_competition_2021_compilation.md)
+        * [aff.5 "犀"游记II之寒期充电计划](./markdown/2021-02-03_Winter_vacation_charging_plan_2.md)
         * [aff.4 辅助线上教学：数字营造学社在行动](./markdown/auxiliary_online_teaching_inAction.md)
         * [aff.3 往事过去，皆为序章：学社年度分享与纳新活动](./markdown/the_past_isthe_preface_recruitment.md)
         * [aff.2 数字营造学社：分享+纳新](./markdown/sharing_recruit.md)
