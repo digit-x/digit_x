@@ -2,6 +2,7 @@
 
 * 🙀\. 后生 
     - **做实验**
+        * [exper.11 打怪利器：三维扫描初体验](./markdown/2020-12-19_Hit_strange_weapon_3d_scan_first_experience.md)
         * [exper.10 飞驰吧无人机！秋叶、白鹿塬与我们](./markdown/flyTHEdrone_autumLeaves_whiteDeer.md)
         * [exper.9 犀游记之暑期充电计划](./markdown/summer_charging_rh.md)
         * [exper.8 冬天校园晒太阳的地方——以建大贾平凹文学馆门前广场为例](./markdown/place_where_sun_bask.md)
@@ -16,7 +17,7 @@
     - **学长说**
         * [upper.2 学长说_孙浩鑫：从“不振则死”到“万事皆允”](./markdown/uppercassman_Sunhaoxin.md)
         * [upper.1 学长说_刘辛：数字化设计对我的影响](./markdown/upperclassman_Liuxin_theInfluence_of_digitalDesignOnme.md)
-    - **学社事**
+    - **学社事**   
         * [aff.4 辅助线上教学：数字营造学社在行动](./markdown/auxiliary_online_teaching_inAction.md)
         * [aff.3 往事过去，皆为序章：学社年度分享与纳新活动](./markdown/the_past_isthe_preface_recruitment.md)
         * [aff.2 数字营造学社：分享+纳新](./markdown/sharing_recruit.md)
