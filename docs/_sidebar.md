@@ -83,7 +83,9 @@
         * [m.18 基于ArcGIS辅助规划技术](./markdown/gisforplan.md)
 
 * 检索
+    * [markdown编辑规范](./markdown/md_norm.md)
     * [知识点检索](./markdown/codeToolIdx.md)
     * [参考文献索引](./markdown/reference.md)
+
 
 
