@@ -36,7 +36,11 @@
         
 * 🦍\. 先生  
     * PYTHON设计（建筑|景观） python_code_archi_la_design_method_study
-        * [pyd.1 设计师与PYTHON | PYTHON基础速学](./markdown/py_designer_and_python_tutorial_basic.md)
+        * [PYD.1 设计师与PYTHON | PYTHON基础速学](./markdown/py_designer_and_python_tutorial_basic.md)
+
+    * 参数化 LA | Archi 设计与数据分析 parameterize_archi_la_design_and_data_analysis
+        * [PARA_e.1 参数化设计的意义 | grasshopper基础速学](./markdown/para_significance_tutorial_basic.md)
+        * [PARA_e.2 从一个设计场地开始-参数化地形](./markdown/parameterized_terrain.md)
 
     * 数字营造导论 Introduction to Digital Construction
         * [IDC.1+2 概述](./markdown/IDC_overview.md)
