@@ -20,8 +20,9 @@
 |  <img src="./imgs_parae/037.jpg" height="auto" width="400"  title="digit-x"> |  <img src="./imgs_parae/038.jpg" height="auto" width="400"  title="digit-x"> | <img src="./imgs_parae/039.jpg" height="auto" width="400"  title="digit-x">  |
 |  <img src="./imgs_parae/040.jpg" height="auto" width="400"  title="digit-x"> |  <img src="./imgs_parae/041.jpg" height="auto" width="400"  title="digit-x"> |  <img src="./imgs_parae/042.jpg" height="auto" width="400"  title="digit-x"> |
 
+<img src="./imgs_parae/045.jpg" height="auto" width="auto"  title="digit-x"> 
+
 <img src="./imgs_parae/044.jpg" height="auto" width="auto"  title="digit-x"> 
 
 GH做设计时，第一版的代码总是会很凌乱，更多的心思在设计上，而代码则是尽量快速的实现想法。
 
-<img src="./imgs_parae/045.jpg" height="auto" width="auto"  title="digit-x"> 
