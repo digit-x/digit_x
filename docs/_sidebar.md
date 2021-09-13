@@ -41,6 +41,7 @@
     * 参数化 LA | Archi 设计与数据分析 parameterize_archi_la_design_and_data_analysis
         * [PARA_e.1 参数化设计的意义 | grasshopper基础速学](./markdown/para_significance_tutorial_basic.md)
         * [PARA_e.2 从一个设计场地开始-参数化地形](./markdown/parameterized_terrain.md)
+        * [PARA_e.3 尺度+一条路径的设计+结构与构造](./markdown/parameterized_a_path_design.md)
 
     * 数字营造导论 Introduction to Digital Construction
         * [IDC.1+2 概述](./markdown/IDC_overview.md)
