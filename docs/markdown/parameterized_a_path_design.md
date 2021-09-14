@@ -15,14 +15,22 @@
 ## 2. 入口的桥设计与标注
 需要确定桥与地形高程之间的关系，以及高差问题。
 
+### 2.1 第一版3维草图
+
+| 草图  |   |
+|---|---|
+|  <img src="./imgs_parae/046.jpg" height="auto" width="400"  title="digit-x"> | <img src="./imgs_parae/047.jpg" height="auto" width="400"  title="digit-x">  |
+
 |   |   |   |
 |---|---|---|
 |  <img src="./imgs_parae/037.jpg" height="auto" width="400"  title="digit-x"> |  <img src="./imgs_parae/038.jpg" height="auto" width="400"  title="digit-x"> | <img src="./imgs_parae/039.jpg" height="auto" width="400"  title="digit-x">  |
-|  <img src="./imgs_parae/040.jpg" height="auto" width="400"  title="digit-x"> |  <img src="./imgs_parae/041.jpg" height="auto" width="400"  title="digit-x"> |  <img src="./imgs_parae/042.jpg" height="auto" width="400"  title="digit-x"> |
+|  <img src="./imgs_parae/040.jpg" height="auto" width="400"  title="digit-x"> |  <img src="./imgs_parae/048.jpg" height="auto" width="400"  title="digit-x"> |  <img src="./imgs_parae/049.jpg" height="auto" width="400"  title="digit-x"> |
 
 <img src="./imgs_parae/045.jpg" height="auto" width="auto"  title="digit-x"> 
 
 <img src="./imgs_parae/044.jpg" height="auto" width="auto"  title="digit-x"> 
 
 GH做设计时，第一版的代码总是会很凌乱，更多的心思在设计上，而代码则是尽量快速的实现想法。
+
+### 2.2 设计调整与代码梳理
 
