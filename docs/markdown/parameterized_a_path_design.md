@@ -26,7 +26,7 @@
 |  <img src="./imgs_parae/037.jpg" height="auto" width="400"  title="digit-x"> |  <img src="./imgs_parae/038.jpg" height="auto" width="400"  title="digit-x"> | <img src="./imgs_parae/039.jpg" height="auto" width="400"  title="digit-x">  |
 |  <img src="./imgs_parae/040.jpg" height="auto" width="400"  title="digit-x"> |  <img src="./imgs_parae/048.jpg" height="auto" width="400"  title="digit-x"> |  <img src="./imgs_parae/049.jpg" height="auto" width="400"  title="digit-x"> |
 
-<img src="./imgs_parae/045.jpg" height="auto" width="auto"  title="digit-x"> 
+<img src="./imgs_parae/050.jpg" height="auto" width="auto"  title="digit-x"> 
 
 <img src="./imgs_parae/044.jpg" height="auto" width="auto"  title="digit-x"> 
 
