@@ -2,6 +2,8 @@
 
 # 从一个设计场地开始-参数化地形
 
+[代码+模型下载地址](https://github.com/richieBao/parameterize_archi_la_design_and_data_analysis)
+
 > 以__风景园林工程与技术__ （西安建筑科技大学建筑学院，杨建辉老师主讲） 课程为依托，阐释参数化技术方法的应用。
 
 基础.dwg图纸调入倒RH中待用。
