@@ -330,4 +330,9 @@ if start==True:
 | <img src="./imgs_parae/083.jpg" height="auto" width="400"  title="digit-x">  |  <img src="./imgs_parae/089.jpg" height="auto" width="400"  title="digit-x"> | <img src="./imgs_parae/084.jpg" height="auto" width="400"  title="digit-x">|
 |  <img src="./imgs_parae/085.jpg" height="auto" width="400"  title="digit-x"> | <img src="./imgs_parae/087.jpg" height="auto" width="400"  title="digit-x">  |  <img src="./imgs_parae/088.jpg" height="auto" width="400"  title="digit-x">  |
 
-### 3.8 北区
+### 未来潜在探索的方向（敬请关注）
+１．室外工程细部构造参数化库的建立（国家建筑标准设计图集）；
+
+２．坡地多种步道形式参数化的可能性；
+
+３. 设计材料数据库结构与调用模式。
