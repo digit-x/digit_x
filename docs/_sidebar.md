@@ -43,6 +43,7 @@
         * [PARA_e.2 从一个设计场地开始-参数化地形](./markdown/parameterized_terrain.md)
         * [PARA_e.3 尺度+一条路径的设计+结构与构造](./markdown/parameterized_a_path_design.md)
         * [PARA_e.4 景观建筑的代码设计逻辑](./markdown/parameterized_building.md)
+        * [PARA_e.5 几何结构优化](./markdown/parameterized_structure_optimization.md)
 
     * 数字营造导论 Introduction to Digital Construction
         * [IDC.1+2 概述](./markdown/IDC_overview.md)
