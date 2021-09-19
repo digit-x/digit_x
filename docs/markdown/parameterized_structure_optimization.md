@@ -1,12 +1,21 @@
 > Created on Sat Sep 18 23\23\17 2021 @author: Richie Bao-parameterize_archi_la_design_and_data_analysis 西安建筑科技大学-规划/建筑/景观本科数字化系列课程
 
 # 几何结构优化+力学知识补充
-## 1. 咖啡吧的几何结构优化
+## 1. 几何结构优化
+
+### 1.1 咖啡吧的柱梁几何结构优化
 
 > 推荐[Karamba](https://www.karamba3d.com/)。Karamba是基于GH的有限元Finite Element结构分析，主要是静力结构分析，能够计算在外力作用下，梁结构三个方向上的受力情况。
 
 <img src="./imgs_parae/161.png" height="auto" width="auto"  title="digit-x">
 
+<img src="./imgs_parae/164.jpg" height="auto" width="auto"  title="digit-x">
+
+| disp->0.304294  |   |
+|---|---|
+| <img src="./imgs_parae/163.jpg" height="auto" width="auto"  title="digit-x">  | <img src="./imgs_parae/162.jpg" height="auto" width="auto"  title="digit-x">  |
+
+### 1.2 寻找拱顶位置
 
 
 
