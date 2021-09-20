@@ -3,9 +3,9 @@
 # 几何结构优化+力学知识补充
 ## 1. 几何结构优化
 
-### 1.1 咖啡吧的柱梁几何结构优化
-
 > 推荐[Karamba](https://www.karamba3d.com/)。Karamba是基于GH的有限元Finite Element结构分析，主要是静力结构分析，能够计算在外力作用下，梁结构三个方向上的受力情况。
+
+### 1.1 咖啡吧的柱梁几何结构优化
 
 <img src="./imgs_parae/161.png" height="auto" width="auto"  title="digit-x">
 
@@ -475,6 +475,13 @@ Young's Modulus反映，值越高材料刚性越好，所使用的单位为 kilo
 关于材料的属性可以查询[材料物性数据库](http://www.matweb.com/)获得材料信息，或者查询国内相关数据库。
 
 <img src="./imgs_parae/160.jpg" height="auto" width="auto"  title="digit-x">
+
+### 未来潜在探索的方向（敬请关注）
+１. 结合参数化与karamba重新阐释材料力学和结构力学；
+
+２. 常用材料库的构建；
+
+３. 常用结构库的构建。
 
 
 

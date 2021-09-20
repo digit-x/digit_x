@@ -44,7 +44,8 @@
         * [PARA_e.3 尺度+一条路径的设计+结构与构造](./markdown/parameterized_a_path_design.md)
         * [PARA_e.4 景观建筑的代码设计逻辑](./markdown/parameterized_building.md)
         * [PARA_e.5 结构分析+几何结构优化](./markdown/parameterized_structure_optimization.md)
-        * [PARA_e.6 水下安全平台设计+索膜结构探索](./markdown/parameterized_tensioned_cable_membrane_structure.md)
+        * [PARA_e.6 建筑物理环境——生态分析](./markdown/parameterized_eco.md)
+        * [PARA_e.7 水下安全平台设计+索膜结构探索](./markdown/parameterized_tensioned_cable_membrane_structure.md)
 
     * 数字营造导论 Introduction to Digital Construction
         * [IDC.1+2 概述](./markdown/IDC_overview.md)
