@@ -15,8 +15,26 @@
 |---|---|
 | <img src="./imgs_parae/163.jpg" height="auto" width="auto"  title="digit-x">  | <img src="./imgs_parae/162.jpg" height="auto" width="auto"  title="digit-x">  |
 
-### 1.2 寻找拱顶位置
+### 1.2 看台支撑结构的几何优化+结构选型
+<img src="./imgs_parae/173.jpg" height="auto" width="auto"  title="digit-x">
 
+<img src="./imgs_parae/169.jpg" height="auto" width="auto"  title="digit-x">
+
+
+|   |   |   |
+|---|---|---|
+| <img src="./imgs_parae/170.jpg" height="auto" width="auto"  title="digit-x">  | <img src="./imgs_parae/171.jpg" height="auto" width="auto"  title="digit-x">  | <img src="./imgs_parae/172.jpg" height="auto" width="auto"  title="digit-x">  |
+
+### 1.3 寻找拱顶位置
+<img src="./imgs_parae/168.jpg" height="auto" width="auto"  title="digit-x">
+
+|Maximum displacement [cm]=0.078096   | Maximum displacement [cm]=0.047733  |   |
+|---|---|---|
+| <img src="./imgs_parae/165.jpg" height="auto" width="auto"  title="digit-x">  |  <img src="./imgs_parae/167.jpg" height="auto" width="auto"  title="digit-x"> | <img src="./imgs_parae/166.jpg" height="auto" width="auto"  title="digit-x">  |
+
+* 阶段性设计成果
+
+<img src="./imgs_parae/174.jpg" height="auto" width="auto"  title="digit-x">
 
 
 ## 2. 力学知识补充
