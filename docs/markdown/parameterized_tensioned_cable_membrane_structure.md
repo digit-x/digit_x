@@ -103,6 +103,16 @@ PLst=grouper(branches,PT)
 |---|---|---|
 | <img src="./imgs_parae/190.jpg" height="auto" width="auto"  title="digit-x">  |  <img src="./imgs_parae/191.jpg" height="auto" width="auto"  title="digit-x"> | <img src="./imgs_parae/192.jpg" height="auto" width="auto"  title="digit-x">  |
 
+**设计更新**
+
+esult (click "Generate" to refresh)
+Copy to clipboard
+  Preview
+
+|   |   |
+|---|---|
+| <img src="./imgs_parae/198.jpg" height="auto" width="auto"  title="digit-x">   | <img src="./imgs_parae/200.jpg" height="auto" width="auto"  title="digit-x">   |
+
 <img src="./imgs_parae/193.jpg" height="auto" width="auto"  title="digit-x">
 
 <img src="./imgs_parae/194.jpg" height="auto" width="auto"  title="digit-x">
