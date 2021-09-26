@@ -37,8 +37,9 @@
 * 🦍\. 先生  
     * PYTHON设计（建筑|景观） python_code_archi_la_design_method_study
         * [PYD.1 设计师与PYTHON | PYTHON基础速学](./markdown/py_designer_and_python_tutorial_basic.md)
-        * [PYD.2 善于数据库_SQlite及与grasshopper的数据交换 | pandas](./markdown/pyd_SQLite.md)
+        * [PYD.2 善用数据库_SQlite及与grasshopper的数据交换 | pandas](./markdown/pyd_SQLite.md)
         * [PYD.3 code数学学公式+机器学习-回归+地形生成 | numpy](./markdown/pyd_sympy_regression.md)
+        * [PYD.4 ](./markdown/pyd_.md)
 
     * 参数化 LA | Archi 设计与数据分析 parameterize_archi_la_design_and_data_analysis
         * [PARA_e.1 参数化设计的意义 | grasshopper基础速学](./markdown/para_significance_tutorial_basic.md)
