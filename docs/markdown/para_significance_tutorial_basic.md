@@ -2,6 +2,8 @@
 
 # 参数化设计方法综述与启示 Overview and Enlightenment of Parametric Design Method
 
+[GH库的扩展](http://cadesign.cn/digit_x/Parameterized_overview_chart.html)
+
 [GH库的扩展](http://cadesign.cn/digit_x/Parameterized_overview_chart.html ':include :type=iframe width=100% height=1200px')
 
 > 参数化设计正在拓展和改变着设计领域传统的设计思维方式，推动着设计朝向数字化和智能化方向发展。首先引入对参数化的基本解释，并就其发展史给与简要介绍。根据参数化的内在本质和特点，就当前拓展的领域，概括为9个主要方向，其中基础的部分为参数化设计工具界面体验和数据管理、处理及云平台；设计部分为设计空间形式的分析、构建，到优化生成和机器学习，结构分析、构建与设计空间形式协同优化，可持续性设计及设计空间形式协同优化，BIM与GIS的参数化途径和机器人建造与3D打印；以及交互硬件与信息数据流和图表报告及制图。并进一步指出参数化设计未来发展方向，以及设计师从工具的使用者成为工具建构者这一角色的转变。
