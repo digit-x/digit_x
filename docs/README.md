@@ -82,24 +82,24 @@
   <img title="Bao ping(Freelancer)Stay alive makes me fascinated" src="./imgs/0166.jpg" height="100" width="auto" />
   <img title="Olivia Chung(designer)Be yourself. " src="./imgs/0167.jpg" height="100" width="auto" />
   <img title="Ouyang Yujing(Designer)Technical nerd saves the world" src="./imgs/0168.jpg" height="100" width="auto" />
-  <img title="" src="./imgs/0169.jpg" height="100" width="auto" />
+  <img title="Jinyu Chai" src="./imgs/0169.jpg" height="100" width="auto" />
   <img title="Burgess(landscape designer)Dare to die, dare to bear" src="./imgs/0170.jpg" height="100" width="auto" />
   <img title="Chuanlin " src="./imgs/Chuanlin Nie_1901 LA.jpg" height="100" width="auto" />
-  <img title="Jiayi Chang " src="./imgs/Jiayi Chang_1902 LA.jpg" height="100" width="auto" />
-  <img title="Mingyue Yang " src="./imgs/Mingyue Yang_2002 LA.jpg" height="100" width="auto" />
-  <img title="Shanyuan Yan " src="./imgs/Shanyuan Yan_1902 planning.jpg" height="100" width="auto" />
-  <img title="Yuanfan Zhang " src="./imgs/Yuanfan Zhang_2001 planning.jpg" height="100" width="auto" />
-  <img title="Zihan Zhang " src="./imgs/Zihan Zhang_2001 planning.jpg" height="100" width="auto" />
-  <img title="Fulin Zhu " src="./imgs/Fulin Zhu_2001 LA.jpg" height="100" width="auto" />
-  <img title="Kaiyue Tang " src="./imgs/Kaiyue Tang_1902 LA.jpg" height="100" width="auto" />
+  <img title="Jiayi Chang(画图狗) 按时干饭" src="./imgs/Jiayi Chang_1902 LA.jpg" height="100" width="auto" />
+  <img title="Mingyue Yang(landscape designer) Let nature take its course." src="./imgs/Mingyue Yang_2002 LA.jpg" height="100" width="auto" />
+  <img title="Ian(Designer) OMO" src="./imgs/Shanyuan Yan_1902 planning.jpg" height="100" width="auto" />
+  <img title="Yuanfan Zhang(creater) All is welll  !!!" src="./imgs/Yuanfan Zhang_2001 planning.jpg" height="100" width="auto" />
+  <img title="Zihan Zhang(Designer) Face the reality, loyal to the ideal." src="./imgs/Zihan Zhang_2001 planning.jpg" height="100" width="auto" />
+  <img title="Ivy(Designer) Freiheit als Autonomie." src="./imgs/Fulin Zhu_2001 LA.jpg" height="100" width="auto" />
+  <img title="Kaiyue Tang(designer) There are girls like lions." src="./imgs/Kaiyue Tang_1902 LA.jpg" height="100" width="auto" />
   <img title="Ruisi Ding " src="./imgs/Ruisi Ding_1901 LA.jpg" height="100" width="auto" />
-  <img title="Yanghao Luo " src="./imgs/Yanghao Luo_1901 LA.jpg" height="100" width="auto" />
-  <img title="Zhaoxi Lu " src="./imgs/Zhaoxi Lv_1902 LA.jpg" height="100" width="auto" />
-  <img title="Zimu Niu " src="./imgs/Zimu Niu_1901 LA.png" height="100" width="auto" />
-  
-
-
-
+  <img title="Yanghao Luo(worker) Be idealistic and face reality." src="./imgs/Yanghao Luo_1901 LA.jpg" height="100" width="auto" />
+  <img title="Zhaoxi Lv(designer) Live. Love.Laugh" src="./imgs/Zhaoxi Lv_1902 LA.jpg" height="100" width="auto" />
+  <img title="Zora Niu(designer) Hakuna Matata！" src="./imgs/Zimu Niu_1901 LA.png" height="100" width="auto" />
+  <img title="Sun Min(designer) Learn real skills and lay down.) " src="./imgs/sunmin.jpg" height="100" width="auto" />
+  <img title="Aladdin(designer) Better is better.) " src="./imgs/Changshuai Ren.jpg" height="100" width="auto" />
+  <img title="Feixiang Li(CEO) Face setbacks and never give up." src="./imgs/Feixiang Li.jpg" height="100" width="auto" />
+  <img title="Jcanrapwell(designer) Things change,roll with it." src="./imgs/JI Hao.jpg" height="100" width="auto" />
 
 
 </p>
