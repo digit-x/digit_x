@@ -2682,7 +2682,7 @@ server.launch()
 
 > Jupyter比较适合于代码笔记、解释库功用和教学等途径。实际应用的代码是需要在Spyder等解释器中完成，以.py形式保存运行。
 
-### 2.2 建筑功能空间布局的代理模型-agent-based modeling，还未完成的代码
+### 2.2 建筑功能空间布局的代理模型-agent-based modeling，未完成的过程代码
 
 <a href=""><img src="./imgs_pyd/043.gif" height="auto" width="auto" title="digit-x"></a>
 

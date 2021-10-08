@@ -100,7 +100,12 @@
         * [m.17 空间数据分析-规划-引导](./markdown/spatial_data_analysis_planning_guidance.md)
         * [m.18 基于ArcGIS辅助规划技术](./markdown/gisforplan.md)
 
+* 产学研合作项目
+    * IUR_1  参数化设计数字技术示范课程建设
+        * [IUR_1.1 启动与招募](./markdown/IUR_para_startup.md)
+
 * 检索
+
     * [markdown编辑规范](./markdown/md_norm.md)
     * [知识点检索](./markdown/codeToolIdx.md)
     * [参考文献索引](./markdown/reference.md)
