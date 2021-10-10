@@ -35,7 +35,7 @@
         * [col.1 IIT-Illinois Institute of Technology](./markdown/IIT.md)
         
 * 🦍\. 先生  
-    * PYTHON设计（建筑|景观） python_code_archi_la_design_method_study
+    * PYTHON设计（建筑|景观） python_coding_archi_la_design_method_study
         * [PYD. 课程准备-考核-info](./markdown/pyd_info.md)
         * [PYD.1 数字化+coding (python)建筑-景观-规划](./markdown/pyd_digital_Archi_LA_UP.md)
         * [PYD.2 设计师与PYTHON | PYTHON基础速学](./markdown/py_designer_and_python_tutorial_basic.md)
