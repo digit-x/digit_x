@@ -43,6 +43,8 @@
         * [PYD.4 code数学学公式+机器学习-回归+地形生成 | numpy](./markdown/pyd_sympy_regression.md)
         * [PYD.5 网络关系->agent基于代理模型-空间模型](./markdown/pyd_network_spatialModel.md)
         * [PYD.6 机器学习——聚类，CA +clustering (植被群落斑块)/调研路径与图像](./markdown/pyd_clustering.md)
+        * [PYD.7 深度学习(pytorch)——基础，梯度+多层感知机](./markdown/pyd_deeplearning_basis.md)
+        * [PYD.8 空间信息要素-全景图+图像分割](./markdown/pyd_panorama.md)
 
     * 参数化 LA | Archi 设计与数据分析 parameterize_archi_la_design_and_data_analysis
         * [PARA_e. 课程准备-考核-info](./markdown/PARA_e_info.md)
