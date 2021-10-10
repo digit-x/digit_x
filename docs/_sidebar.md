@@ -45,7 +45,7 @@
         * [PYD.6 机器学习——聚类，CA +clustering (植被群落斑块)/调研路径与图像](./markdown/pyd_clustering.md)
 
     * 参数化 LA | Archi 设计与数据分析 parameterize_archi_la_design_and_data_analysis
-        * [PYD. 课程准备-考核-info](./markdown/PARA_e_info.md)
+        * [PARA_e. 课程准备-考核-info](./markdown/PARA_e_info.md)
         * [PARA_e.1 参数化设计的意义 | grasshopper基础速学](./markdown/para_significance_tutorial_basic.md)
         * [PARA_e.2 从一个设计场地开始-参数化地形](./markdown/parameterized_terrain.md)
         * [PARA_e.3 尺度+一条路径的设计+结构与构造](./markdown/parameterized_a_path_design.md)
