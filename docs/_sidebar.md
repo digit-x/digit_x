@@ -41,6 +41,7 @@
         * [PYD.3 善用数据库_SQlite及与grasshopper的数据交换 | pandas](./markdown/pyd_SQLite.md)
         * [PYD.4 code数学学公式+机器学习-回归+地形生成 | numpy](./markdown/pyd_sympy_regression.md)
         * [PYD.5 网络关系->agent基于代理模型-空间模型](./markdown/pyd_network_spatialModel.md)
+        * [PYD.6 机器学习——聚类，CA +clustering (植被群落斑块)/调研路径与图像](./markdown/pyd_clustering.md)
 
     * 参数化 LA | Archi 设计与数据分析 parameterize_archi_la_design_and_data_analysis
         * [PARA_e.1 参数化设计的意义 | grasshopper基础速学](./markdown/para_significance_tutorial_basic.md)
