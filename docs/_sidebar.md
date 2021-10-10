@@ -36,6 +36,7 @@
         
 * 🦍\. 先生  
     * PYTHON设计（建筑|景观） python_code_archi_la_design_method_study
+        * [PYD. 课程准备-考核-info](./markdown/pyd_info.md)
         * [PYD.1 数字化+coding (python)建筑-景观-规划](./markdown/pyd_digital_Archi_LA_UP.md)
         * [PYD.2 设计师与PYTHON | PYTHON基础速学](./markdown/py_designer_and_python_tutorial_basic.md)
         * [PYD.3 善用数据库_SQlite及与grasshopper的数据交换 | pandas](./markdown/pyd_SQLite.md)
@@ -44,6 +45,7 @@
         * [PYD.6 机器学习——聚类，CA +clustering (植被群落斑块)/调研路径与图像](./markdown/pyd_clustering.md)
 
     * 参数化 LA | Archi 设计与数据分析 parameterize_archi_la_design_and_data_analysis
+        * [PYD. 课程准备-考核-info](./markdown/PARA_e_info.md)
         * [PARA_e.1 参数化设计的意义 | grasshopper基础速学](./markdown/para_significance_tutorial_basic.md)
         * [PARA_e.2 从一个设计场地开始-参数化地形](./markdown/parameterized_terrain.md)
         * [PARA_e.3 尺度+一条路径的设计+结构与构造](./markdown/parameterized_a_path_design.md)
