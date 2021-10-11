@@ -164,6 +164,10 @@ GH的400多个扩展组件，很多均由设计师、工程师或研究团队自
 [32]	袁旸洋,成玉宁,李哲.虚实相生——参数化风景园林规划设计教学研究[J].中国园林,2017,33(10):35-40.
 ```
 
+##  GH扩展库
 
+<a href=""><img src="./imgs_parae/284.jpg" height="auto" width="auto"  title="digit-x"></a>
 
+## GH书籍
 
+<a href=""><img src="./imgs_parae/285.jpg" height="auto" width="auto"  title="digit-x"></a>
