@@ -79,3 +79,508 @@
 
 
 ### 期末实验
+
+### 分组代码
+
+```python
+import pandas as pd
+requirements_fp=r'./data/python_lesson_roll_book_2021.xlsx'
+pylesson_roll=pd.read_excel(requirements_fp,sheet_name='roll',header=[0],engine='openpyxl')
+pylesson_roll=pylesson_roll[pylesson_roll.filter(regex='^(?!Unnamed)').columns]
+pylesson_roll
+```
+
+
+
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>N</th>
+      <th>ID</th>
+      <th>name</th>
+      <th>major</th>
+      <th>class</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>1</td>
+      <td>2001050101</td>
+      <td>程佳怡</td>
+      <td>建筑</td>
+      <td>建筑2001</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2</td>
+      <td>2001050102</td>
+      <td>王雨晨</td>
+      <td>建筑</td>
+      <td>建筑2001</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>3</td>
+      <td>2001050104</td>
+      <td>武长乐</td>
+      <td>建筑</td>
+      <td>建筑2001</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>4</td>
+      <td>2001050105</td>
+      <td>杨昱萱</td>
+      <td>建筑</td>
+      <td>建筑2001</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>5</td>
+      <td>2001050106</td>
+      <td>李玉洁</td>
+      <td>建筑</td>
+      <td>建筑2001</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>91</th>
+      <td>92</td>
+      <td>1904020502</td>
+      <td>马萍坪</td>
+      <td>建筑</td>
+      <td>风景2001</td>
+    </tr>
+    <tr>
+      <th>92</th>
+      <td>93</td>
+      <td>2001030101</td>
+      <td>马好好</td>
+      <td>建筑</td>
+      <td>风景2001</td>
+    </tr>
+    <tr>
+      <th>93</th>
+      <td>94</td>
+      <td>2001030115</td>
+      <td>凌雨翔</td>
+      <td>建筑</td>
+      <td>风景2001</td>
+    </tr>
+    <tr>
+      <th>94</th>
+      <td>95</td>
+      <td>2001030123</td>
+      <td>张卜予</td>
+      <td>建筑</td>
+      <td>风景2001</td>
+    </tr>
+    <tr>
+      <th>95</th>
+      <td>96</td>
+      <td>2001030220</td>
+      <td>王光辉</td>
+      <td>建筑</td>
+      <td>风景2002</td>
+    </tr>
+  </tbody>
+</table>
+<p>96 rows × 5 columns</p>
+</div>
+
+
+
+
+```python
+from sklearn.utils import shuffle
+pylesson_roll=shuffle(pylesson_roll,random_state=10) 
+pylesson_roll
+```
+
+
+
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>N</th>
+      <th>ID</th>
+      <th>name</th>
+      <th>major</th>
+      <th>class</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>34</th>
+      <td>35</td>
+      <td>2001010220</td>
+      <td>潘洪转</td>
+      <td>建筑</td>
+      <td>建筑2002</td>
+    </tr>
+    <tr>
+      <th>58</th>
+      <td>59</td>
+      <td>2001010331</td>
+      <td>任长帅</td>
+      <td>建筑</td>
+      <td>建筑2003</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>4</td>
+      <td>2001050105</td>
+      <td>杨昱萱</td>
+      <td>建筑</td>
+      <td>建筑2001</td>
+    </tr>
+    <tr>
+      <th>35</th>
+      <td>36</td>
+      <td>2001010223</td>
+      <td>李飞翔</td>
+      <td>建筑</td>
+      <td>建筑2002</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>20</td>
+      <td>2001050128</td>
+      <td>刘恒</td>
+      <td>建筑</td>
+      <td>建筑2001</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>89</th>
+      <td>90</td>
+      <td>2008050205</td>
+      <td>刘茜</td>
+      <td>建筑</td>
+      <td>城规2102</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>29</td>
+      <td>2001010211</td>
+      <td>尹若寒</td>
+      <td>建筑</td>
+      <td>建筑2002</td>
+    </tr>
+    <tr>
+      <th>64</th>
+      <td>65</td>
+      <td>2001010412</td>
+      <td>吴博雅</td>
+      <td>建筑</td>
+      <td>建筑2004</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>16</td>
+      <td>2001050122</td>
+      <td>李凯</td>
+      <td>建筑</td>
+      <td>建筑2001</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>10</td>
+      <td>2001050116</td>
+      <td>薛嘉玮</td>
+      <td>建筑</td>
+      <td>建筑2001</td>
+    </tr>
+  </tbody>
+</table>
+<p>96 rows × 5 columns</p>
+</div>
+
+
+
+
+```python
+import math,itertools
+
+rows=len(pylesson_roll)
+member_num=6
+group_num=math.floor(rows/member_num)
+remainder=rows%member_num
+print("group_num={},remainder={}".format(group_num,remainder))
+group_label=[list(itertools.repeat(i+1,member_num)) for i in range(group_num)]
+print(group_label)
+print("_"*50)
+if remainder !=0:
+    group_label=[group_label[i]+[i+1] if i <remainder else group_label[i] for i in range(group_num) ]
+print(group_label)    
+print("_"*50)
+flatten_lst=lambda lst: [m for n_lst in lst for m in flatten_lst(n_lst)] if type(lst) is list else [lst]
+group_label_flatten=flatten_lst(group_label)
+print(group_label_flatten)
+print("_"*50)
+pd.options.mode.chained_assignment = None  # default='warn'
+pylesson_roll['group_label']=group_label_flatten
+print(pylesson_roll)
+pylesson_roll.to_excel('./data/python_lesson_roll_book_2021_group.xlsx')
+```
+
+    group_num=16,remainder=0
+    [[1, 1, 1, 1, 1, 1], [2, 2, 2, 2, 2, 2], [3, 3, 3, 3, 3, 3], [4, 4, 4, 4, 4, 4], [5, 5, 5, 5, 5, 5], [6, 6, 6, 6, 6, 6], [7, 7, 7, 7, 7, 7], [8, 8, 8, 8, 8, 8], [9, 9, 9, 9, 9, 9], [10, 10, 10, 10, 10, 10], [11, 11, 11, 11, 11, 11], [12, 12, 12, 12, 12, 12], [13, 13, 13, 13, 13, 13], [14, 14, 14, 14, 14, 14], [15, 15, 15, 15, 15, 15], [16, 16, 16, 16, 16, 16]]
+    __________________________________________________
+    [[1, 1, 1, 1, 1, 1], [2, 2, 2, 2, 2, 2], [3, 3, 3, 3, 3, 3], [4, 4, 4, 4, 4, 4], [5, 5, 5, 5, 5, 5], [6, 6, 6, 6, 6, 6], [7, 7, 7, 7, 7, 7], [8, 8, 8, 8, 8, 8], [9, 9, 9, 9, 9, 9], [10, 10, 10, 10, 10, 10], [11, 11, 11, 11, 11, 11], [12, 12, 12, 12, 12, 12], [13, 13, 13, 13, 13, 13], [14, 14, 14, 14, 14, 14], [15, 15, 15, 15, 15, 15], [16, 16, 16, 16, 16, 16]]
+    __________________________________________________
+    [1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 4, 5, 5, 5, 5, 5, 5, 6, 6, 6, 6, 6, 6, 7, 7, 7, 7, 7, 7, 8, 8, 8, 8, 8, 8, 9, 9, 9, 9, 9, 9, 10, 10, 10, 10, 10, 10, 11, 11, 11, 11, 11, 11, 12, 12, 12, 12, 12, 12, 13, 13, 13, 13, 13, 13, 14, 14, 14, 14, 14, 14, 15, 15, 15, 15, 15, 15, 16, 16, 16, 16, 16, 16]
+    __________________________________________________
+         N          ID name major   class  group_label
+    34  35  2001010220  潘洪转    建筑  建筑2002            1
+    58  59  2001010331  任长帅    建筑  建筑2003            1
+    3    4  2001050105  杨昱萱    建筑  建筑2001            1
+    35  36  2001010223  李飞翔    建筑  建筑2002            1
+    19  20  2001050128   刘恒    建筑  建筑2001            1
+    ..  ..         ...  ...   ...     ...          ...
+    89  90  2008050205   刘茜    建筑  城规2102           16
+    28  29  2001010211  尹若寒    建筑  建筑2002           16
+    64  65  2001010412  吴博雅    建筑  建筑2004           16
+    15  16  2001050122   李凯    建筑  建筑2001           16
+    9   10  2001050116  薛嘉玮    建筑  建筑2001           16
+    
+    [96 rows x 6 columns]
+    
+
+
+```python
+def roll_group(member_num,random_state=None,save_path=None,**kwargs):
+    import pandas as pd
+    pd.options.mode.chained_assignment = None  # default='warn'
+    import math,itertools
+    from sklearn.utils import shuffle    
+    
+    '''
+    function - 指定每组人数，随机分组，未尽分组人分配到其他组
+    
+    paras:
+    member_num - 每组成员数
+    random_state - 随机状态。默认每次均变化，给定固定值，则每次一样
+    save_path - 设置保存路径，如果不设置则不保存
+    kwargs - keyword arguments。包括：file_path - excel文件路径； sheet_name - 表名称； header - column 名称为第几行
+
+    return:
+    roll - DataFrame格式，返回随机分配好的成员名单
+    '''
+
+    roll=pd.read_excel(kwargs["file_path"],kwargs["sheet_name"],header=kwargs["header"],engine='openpyxl')    
+    roll=shuffle(roll,random_state=random_state) 
+    #print(roll)
+    
+    member_num=member_num
+    rows=len(pylesson_roll)
+    group_num=math.floor(rows/member_num)
+    remainder=rows%member_num
+    group_label=[list(itertools.repeat(i+1,member_num)) for i in range(group_num)]
+    if remainder !=0:
+        group_label=[group_label[i]+[i+1] if i <remainder else group_label[i] for i in range(group_num) ]    
+    flatten_lst=lambda lst: [m for n_lst in lst for m in flatten_lst(n_lst)] if type(lst) is list else [lst]
+    group_label_flatten=flatten_lst(group_label)   
+    roll['group_label']=group_label_flatten
+    #print(roll)
+    
+    if save_path:
+        roll.to_excel(save_path)
+        print("The group excel has been saved to the path:{}".format(save_path))
+    
+    return roll    
+    
+exel_read_info={"file_path":r'./data/python_lesson_roll_book_2021.xlsx',"sheet_name":'roll',"header":[0]}
+roll_group=roll_group(member_num=6,random_state=10,save_path='./data/python_lesson_roll_book_2021_group.xlsx',**exel_read_info)    
+```
+
+    The group excel has been saved to the path:./data/python_lesson_roll_book_2021_group.xlsx
+    
+
+
+```python
+roll_group
+```
+
+
+
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>N</th>
+      <th>ID</th>
+      <th>name</th>
+      <th>major</th>
+      <th>class</th>
+      <th>group_label</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>34</th>
+      <td>35</td>
+      <td>2001010220</td>
+      <td>潘洪转</td>
+      <td>建筑</td>
+      <td>建筑2002</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>58</th>
+      <td>59</td>
+      <td>2001010331</td>
+      <td>任长帅</td>
+      <td>建筑</td>
+      <td>建筑2003</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>4</td>
+      <td>2001050105</td>
+      <td>杨昱萱</td>
+      <td>建筑</td>
+      <td>建筑2001</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>35</th>
+      <td>36</td>
+      <td>2001010223</td>
+      <td>李飞翔</td>
+      <td>建筑</td>
+      <td>建筑2002</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>20</td>
+      <td>2001050128</td>
+      <td>刘恒</td>
+      <td>建筑</td>
+      <td>建筑2001</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>89</th>
+      <td>90</td>
+      <td>2008050205</td>
+      <td>刘茜</td>
+      <td>建筑</td>
+      <td>城规2102</td>
+      <td>16</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>29</td>
+      <td>2001010211</td>
+      <td>尹若寒</td>
+      <td>建筑</td>
+      <td>建筑2002</td>
+      <td>16</td>
+    </tr>
+    <tr>
+      <th>64</th>
+      <td>65</td>
+      <td>2001010412</td>
+      <td>吴博雅</td>
+      <td>建筑</td>
+      <td>建筑2004</td>
+      <td>16</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>16</td>
+      <td>2001050122</td>
+      <td>李凯</td>
+      <td>建筑</td>
+      <td>建筑2001</td>
+      <td>16</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>10</td>
+      <td>2001050116</td>
+      <td>薛嘉玮</td>
+      <td>建筑</td>
+      <td>建筑2001</td>
+      <td>16</td>
+    </tr>
+  </tbody>
+</table>
+<p>96 rows × 6 columns</p>
+</div>
+
+
