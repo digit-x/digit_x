@@ -60,8 +60,11 @@
 > 签到，1为到，0为未到，2为请假（需假条）。最后汇总，由课代表在python中读取Excel文件编写代码，计算最终签到成绩，小组实验成绩。
 
 ### 小组实验
-#### 实验-1
 
+在Github中的个人账户中，定义Repository（仓库），Repository统一命名为**python_design_archi_course**，并将Repositories设置为"public"，以便教师浏览给出成绩。之后的实验均使用[GitHub Desktop](https://desktop.github.com/)，push（推送）至该repository中。
+
+#### 实验-1
+在Ananconda下的JupyterLab中，完成[**设计师与PYTHON | PYTHON基础速学**](https://digit-x.github.io/digit_x/#/./markdown/py_designer_and_python_tutorial_basic)章节**PYTHON基础速学**部分代码。并上传至GitHub中的个人Repository(python_design_archi_course)中。
 
 #### 实验-2
 
