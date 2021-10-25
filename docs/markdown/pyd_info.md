@@ -61,10 +61,10 @@
 
 ### 小组实验
 
-在Github中的个人账户中，定义Repository（仓库），Repository统一命名为**python_AR_LA_PL_course**，并将Repositories设置为"public"，以便教师浏览给出成绩。之后的实验均使用[GitHub Desktop](https://desktop.github.com/)，push（推送）至该repository中。
+在Github中的个人账户中，定义Repository（仓库），Repository统一命名为`python_AR_LA_PL_course`，并将Repositories设置为"public"，以便教师浏览给出成绩。之后的实验均使用[GitHub Desktop](https://desktop.github.com/)，push（推送）至该repository中。
 
 #### 实验-1
-在Ananconda下的JupyterLab中，完成[**设计师与PYTHON | PYTHON基础速学**](https://digit-x.github.io/digit_x/#/./markdown/py_designer_and_python_tutorial_basic)章节**PYTHON基础速学**部分代码。并上传至GitHub中的个人Repository(python_AR_LA_PL_course)中。
+在Ananconda下的JupyterLab中，完成[**设计师与PYTHON | PYTHON基础速学**](https://digit-x.github.io/digit_x/#/./markdown/py_designer_and_python_tutorial_basic)章节**PYTHON基础速学**部分代码，并命名为`ex_01_python_quick_tutorial.ipynb`，并上传至GitHub中的个人Repository(`python_AR_LA_PL_course`)中。
 
 #### 实验-2
 
