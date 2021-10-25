@@ -85,6 +85,8 @@
 
 ### 分组代码
 
+> 因为多个班级，班级间同学可能并不十分熟识，随机分组会增加磨合时间和配合度，因此改为自行结组。
+
 ```python
 import pandas as pd
 requirements_fp=r'./data/python_lesson_roll_book_2021.xlsx'
