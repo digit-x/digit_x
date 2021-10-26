@@ -78,10 +78,28 @@
 在Github中的个人账户中，定义Repository（仓库），Repository统一命名为`python_AR_LA_PL_course`，并将Repositories设置为"public"，以便教师浏览给出成绩。之后的实验均使用[GitHub Desktop](https://desktop.github.com/)，push（推送）至该repository中。
 
 #### 实验-1
-在Ananconda下的JupyterLab中，完成[**设计师与PYTHON | PYTHON基础速学**](https://digit-x.github.io/digit_x/#/./markdown/py_designer_and_python_tutorial_basic)章节**PYTHON基础速学**部分代码，命名为`ex_01_python_quick_tutorial.ipynb`，并上传至GitHub中的个人Repository(`python_AR_LA_PL_course`)中。
+个人实验：在Ananconda下的JupyterLab中，完成[**设计师与PYTHON | PYTHON基础速学**](https://digit-x.github.io/digit_x/#/./markdown/py_designer_and_python_tutorial_basic)章节**PYTHON基础速学**部分代码，命名为`ex_01_python_quick_tutorial.ipynb`，并上传至GitHub中的个人Repository(`python_AR_LA_PL_course`)中。
 
 #### 实验-2
+小组实验：从各自专业领域选择解决一个问题的任一知识点，应用python语言定义一个泛化通用的函数，能够解决满足此类逻辑不同输入条件参数的问题。例如：
 
+建筑专业：例如解决一注真题_建筑结构[2001-6]的此类问题：
+
+<a href=""><img src="./imgs_pyd/058.jpg" height='auto' width='auto' title="caDesign"></a> 
+
+规划专业：例如计算技术经济指标：容积率，人口毛密度，住宅建筑面积净密度，住宅建筑净密度，住宅平均层数，绿地率，容积率，建筑密度等。下述问题引自网络：
+
+<a href=""><img src="./imgs_pyd/059.jpg" height='auto' width='auto' title="caDesign"></a> 
+
+景观专业：例如求定额工程量。下述问题引自网络：
+
+<a href=""><img src="./imgs_pyd/060.jpg" height='auto' width='auto' title="caDesign"></a> 
+
+> 每组自行选题，各组之间选题不能相同，如果相同则均以最低分计算。
+
+代码文件统一命名为`ex_02_function.ipynb`，并由组长上传至组长的GitHub账户，单独建立代码仓库repository，各组统一命名为:｀PYD_Experiment｀。
+
+文件中，需说明函数的意图，输入参数，和返回值等信息。并应用该函数实际运算演示。
 
 #### 实验-3
 
