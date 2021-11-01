@@ -42,7 +42,7 @@
 
 其它解释器/编辑器：[gedit Text Editor](https://help.gnome.org/users/gedit/stable/), [Sublime Text](https://www.sublimetext.com/), [SPE IDE - Stani's Python Editor](https://pythonide.blogspot.com/), [SciTE](https://www.scintilla.org/SciTEDownload.html), [Geany](https://www.geany.org/); [Wing Python IDE](https://www.wingware.com/), [Pyzo](https://pyzo.org/), [PyScripter](https://sourceforge.net/projects/pyscripter/)
     
-> IDE(Integrated development environmen, 集成开发环境)
+> IDE(Integrated development environmen, 集成开发环境)。安装时，通常为默认路径，路径名为英文名（即，不应包含中文名），并保持联网，否则容易出现安装错误。
 
 > 部分同学下载anaconda比较慢（因位于国外服务器上），因此可以从该网盘下载，链接：https://pan.baidu.com/s/1L3FUxG0UcIzhMj6lj04A5w  ，提取码：n11a 。version:Anaconda3-2021.05-Windows-x86_64+Anaconda3-2021.05-MacOSX-x86_64
 
