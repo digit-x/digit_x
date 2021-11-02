@@ -2,6 +2,8 @@
 
 # 数据库_SQlite及与grasshopper的数据交换
 
+预备知识：[SQLite 数据库-基础](https://richiebao.github.io/Urban-Spatial-Data-Analysis_python/#/./notebook_code/sqlite)+[OpenStreetMap（OSM）数据处理](https://richiebao.github.io/Urban-Spatial-Data-Analysis_python/#/./notebook_code/OSM_dataProcessing)
+
 ## 1. [OSM（OpenStreetMap）](https://www.openstreetmap.org/#map=13/41.8679/-87.6569)数据处理
 
 > 参考 [OpenStreetMap（OSM）数据处理](https://richiebao.github.io/Urban-Spatial-Data-Analysis_python/#/./notebook_code/OSM_dataProcessing)
