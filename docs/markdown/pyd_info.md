@@ -106,6 +106,8 @@
 文件中，需说明函数的意图，输入参数，和返回值等信息。并应用该函数实际运算演示。
 
 #### 实验-3
+个人实验：完成[pandas](https://digit-x.github.io/digit_x/#/./markdown/pyd_SQLite?id=pandas-geopandas)与[numpy](https://digit-x.github.io/digit_x/#/./markdown/pyd_sympy_regression?id=numpy)库的自修。要求同实验-1，命名为`ex_03_pd_np.ipynb`。
+ 
 
 
 #### 实验-4
