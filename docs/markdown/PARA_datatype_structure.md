@@ -10,6 +10,8 @@
 
 <img src="./imgs_parae/278.jpg" height="auto" width="auto"  title="digit-x">
 
+
+
 ## 2. [数据类型和结构-核心](https://digit-x.github.io/digit_x/#/./markdown/parameterized_design_data_type_and_structure_core)
 
 <img src="./imgs_parae/281.jpg" height="auto" width="auto"  title="digit-x">

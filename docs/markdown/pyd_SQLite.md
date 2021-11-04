@@ -1327,6 +1327,11 @@ closest_obj=obj
 
 <a href=""><img src="./imgs_pyd/022.jpg" height="auto" width="auto" title="caDesign"></a>
 
+
+> 第5次课-2021_11_3_Wed_7-8节 :2课时 课程完成时间标识线。增加讲解内容：预备知识-[SQLite 数据库-基础](https://richiebao.github.io/Urban-Spatial-Data-Analysis_python/#/./notebook_code/sqlite)+[OpenStreetMap（OSM）数据处理](https://richiebao.github.io/Urban-Spatial-Data-Analysis_python/#/./notebook_code/OSM_dataProcessing)
+
+---  
+
 ## 3. [GeoJson](https://geojson.org/)格式的建筑高度数据
 
 > [.json](https://en.wikipedia.org/wiki/JSON)
