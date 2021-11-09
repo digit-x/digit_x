@@ -105,6 +105,7 @@
         * [m.16 “数字营造”本科教学体系建构](./markdown/construction_of_undergraduate_teaching_system_of_digital_construction.md)
         * [m.17 空间数据分析-规划-引导](./markdown/spatial_data_analysis_planning_guidance.md)
         * [m.18 基于ArcGIS辅助规划技术](./markdown/gisforplan.md)
+        * [m.19 设计与数字化-2021](./markdown/misc_digital_design_2021.md)
 
 * 产学研合作项目
     * IUR_1  参数化设计数字技术示范课程建设
