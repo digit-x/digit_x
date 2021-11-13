@@ -230,4 +230,24 @@ Aesthetic and material innovation is paralleled by scholarship that theorises an
 
 \+ 建筑、规划学科开设的数字化课程
 
-## 3. 
+## 3. 项目
+### 3.1 [城市空间数据分析方法](https://richiebao.github.io/Urban-Spatial-Data-Analysis_python/#/)
+IIT（拓展国际合作）
+
+中文版预计：2022.06 出版（建工出版社）； 英文版待定。
+
+### 3.2 [参数化设计数字技术示范课程建设](http://localhost:3000/#/./markdown/IUR_para_startup)
+产学研项目合作
+
+有效期限：2022年1月1日 – 2022年12月31日； 专著出版预计：2023.03-06 
+
+### 3.3 [用算法做决策——面向设计师的参数化认知逻辑]()
+出版社项目（广西师范大学出版社）
+
+出版预计：2022.12
+
+## 4. 期许
+
+1. 数字化设计学习的坚持；
+
+2. 逐步明晰自己未来的发展走向。
