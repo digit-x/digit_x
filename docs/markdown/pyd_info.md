@@ -82,7 +82,7 @@
 #### 实验-1
 个人实验：在Ananconda下的JupyterLab中，完成[**设计师与PYTHON | PYTHON基础速学**](https://digit-x.github.io/digit_x/#/./markdown/py_designer_and_python_tutorial_basic)章节**PYTHON基础速学**部分代码，命名为`ex_01_python_quick_tutorial.ipynb`，并上传至GitHub中的个人Repository(`python_AR_LA_PL_course`)中。
 
-> 第一次个人实验评分粗略标准：1. 全，即应包括所有的速学部分内容；2，变化，不要照抄源代码，可以自行发挥变化实验内容，以自修学习为目的；3，注释，通过搜索查阅，给出关键注释，以及自己需要注意的部分。(4.empty;5.似乎复制；6.文件未能打开)
+> 第1次个人实验评分粗略标准：1. 全，即应包括所有的速学部分内容；2，变化，不要照抄源代码，可以自行发挥变化实验内容，以自修学习为目的；3，注释，通过搜索查阅，给出关键注释，以及自己需要注意的部分。(4.empty;5.似乎复制；6.文件未能打开)
 
 > 实验-1的方式，提交的结果不易评判和控制。1.有直接复制的情况；2.有代做的情况；3.自修能力待提升；5.本科生课程之间的时间协调，不能按时完成实验。
 
@@ -107,6 +107,8 @@
 代码文件统一命名为`ex_02_function.ipynb`，并由组长上传至组长的GitHub账户，单独建立代码仓库repository，各组统一命名为:｀PYD_Experiment｀。
 
 文件中，需说明函数的意图，输入参数，和返回值等信息。并应用该函数实际运算演示。
+
+> 第2次个人实验评分粗略标准：1.是否定义了泛化通用的函数； 2.执行代码提示错误；3.未提交；4.变量名过于随意；5.注释不充分；6.无法打开
 
 #### 实验-3
 个人实验：完成[pandas](https://digit-x.github.io/digit_x/#/./markdown/pyd_SQLite?id=pandas-geopandas)与[numpy](https://digit-x.github.io/digit_x/#/./markdown/pyd_sympy_regression?id=numpy)库的自修。要求同实验-1，命名为`ex_03_pd_np.ipynb`。
