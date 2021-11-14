@@ -108,7 +108,7 @@
 
 文件中，需说明函数的意图，输入参数，和返回值等信息。并应用该函数实际运算演示。
 
-> 第2次个人实验评分粗略标准：1.是否定义了泛化通用的函数； 2.执行代码提示错误；3.未提交；4.变量名过于随意；5.注释不充分；6.无法打开
+> 第2次个人实验评分粗略标准：1.是否定义了泛化通用的函数； 2.执行代码提示错误；3.未提交；4.变量名过于随意；5.注释不充分；6.无法打开;7.代码不流畅。
 
 #### 实验-3
 个人实验：完成[pandas](https://digit-x.github.io/digit_x/#/./markdown/pyd_SQLite?id=pandas-geopandas)与[numpy](https://digit-x.github.io/digit_x/#/./markdown/pyd_sympy_regression?id=numpy)库的自修。要求同实验-1，命名为`ex_03_pd_np.ipynb`。
