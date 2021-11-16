@@ -651,6 +651,10 @@ wf.close()
 
 <a href=""><img src="./imgs_pyd/031.jpg" height="auto" width="500" title="caDesign"></a>
 
+> 第7次课-2021_11_10_Wed_7-8节 :2课时 课程完成时间标识线。与第8次课穿插。
+
+---
+
 ## 2. 机器学习-回归
 
 机器学习库[scikit-learn](https://scikit-learn.org/stable/) Machine Learning in Python
