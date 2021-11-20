@@ -126,7 +126,24 @@
 #### 实验-6
 
 
-### 期末实验
+### (期末实验-综合实验)-评估后，第1年放弃该种考核方式，以语言基础为内容的，试卷闭卷考核。
+
+> 小组实验：**题目：**城市地块调研与空间数据分析
+
+
+* __试题主要内容包括：__
+1. [PYTHON基础速学](https://digit-x.github.io/digit_x/#/./markdown/py_designer_and_python_tutorial_basic)
+2. [pandas + GeoPandas](https://digit-x.github.io/digit_x/#/./markdown/pyd_SQLite?id=pandas-geopandas)
+3. [Numpy](https://digit-x.github.io/digit_x/#/./markdown/pyd_sympy_regression?id=numpy)
+4. [数据库](https://digit-x.github.io/digit_x/#/./markdown/pyd_SQLite)、机器学习-[回归](https://digit-x.github.io/digit_x/#/./markdown/pyd_sympy_regression)-[聚类](https://digit-x.github.io/digit_x/#/./markdown/pyd_clustering)、[深度学习](https://digit-x.github.io/digit_x/#/./markdown/pyd_deeplearning_basis)的基础内容。
+5. 不确定的拓展内容。
+
+* __试题形式：__
+1. 选择
+2. 程序阅读题
+3. 程序填空题
+4. 编程题
+
 
 ### 分组代码
 
