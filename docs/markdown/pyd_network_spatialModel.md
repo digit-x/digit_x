@@ -2537,6 +2537,9 @@ plt.show()
 
 [NetLogo](https://ccl.northwestern.edu/netlogo/)
 
+### 2.0 先从官网学习
+[Mesa Tutorial](https://mesa.readthedocs.io/en/stable/overview.html)
+
 
 ### 2.1 开始实验-逐步尝试
 
