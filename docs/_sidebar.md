@@ -55,10 +55,11 @@
         * [PARA_e.4 尺度+一条路径的设计+结构与构造](./markdown/parameterized_a_path_design.md)
         * [PARA_e.5 景观建筑的代码设计逻辑](./markdown/parameterized_building.md)
         * [PARA_e.6 结构分析+几何结构优化](./markdown/parameterized_structure_optimization.md)
-        * [PARA_e.7 建筑物理环境——生态分析](./markdown/parameterized_eco.md)
-        * [PARA_e.8 水下安全平台设计+索膜结构探索](./markdown/parameterized_tensioned_cable_membrane_structure.md)
-        * [PARA_e.9 植被](./markdown/parameterized_vegetation.md)
-        * [PARA_e.10 SQLite+OSM](./markdown/parameterized_SQLite_OSM.md)
+        * [PARA_e.7 课程随机设计实操](./markdown/parameterized_practice.md)
+        * [PARA_e.8 建筑物理环境——生态分析](./markdown/parameterized_eco.md)
+        * [PARA_e.9 水下安全平台设计+索膜结构探索](./markdown/parameterized_tensioned_cable_membrane_structure.md)
+        * [PARA_e.10 植被](./markdown/parameterized_vegetation.md)
+        * [PARA_e.11 SQLite+OSM](./markdown/parameterized_SQLite_OSM.md)
 
     * 数字营造导论 Introduction to Digital Construction
         * [IDC.1+2 概述](./markdown/IDC_overview.md)

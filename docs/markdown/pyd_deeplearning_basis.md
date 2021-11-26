@@ -1447,7 +1447,9 @@ print("hidenLayer_weights_={}\noutput_layer_weights_={}".format(hidenLayer_weigh
     output_layer_weights_=[[-4.28132748279580, -4.25790301529841], [-2.41120108789009, -2.37807889000506]]
     
 
-    
+> 第10次课-2021_11_22_Mon_7-8节 :2课时 课程完成时间标识线。
+
+---   
     
 
 ## 4. 梯度下降法（Gradient Descent）+ 自动求梯度(gradient)
