@@ -123,13 +123,12 @@
 
 例如：获取城市[公共健康数据](https://richiebao.github.io/Urban-Spatial-Data-Analysis_python/#/./notebook_code/regression_publicHeath_grad),分析疾病与拥挤的住房之间的相关性，并建立回归模型；或者，结构分析中由不同初始条件和常规公式计算结果对应到解释变量和结果变量，建立回归模型等。
 
-#### 实验-6
+#### 实验-6 无
 
 
-### (期末实验-综合实验)-评估后，第1年放弃该种考核方式，改为以语言基础为内容的，试卷闭卷考核。
+### 期末（考试 $∨$ 考察）
 
-> 小组实验：**题目：**城市地块调研与空间数据分析
-
+#### 考试途径（闭卷）：
 
 * __试题主要内容包括：__
 1. [PYTHON基础速学](https://digit-x.github.io/digit_x/#/./markdown/py_designer_and_python_tutorial_basic)
@@ -144,8 +143,91 @@
 3. 程序填空题
 4. 编程题
 
+#### 考察途径（综合实验<小组>+个人实验）：
 
-### 分组代码
+> 2021年秋季，考察内容
+
+**题目：** 城市地块调研与空间数据分析
+
+##### 1. 调研区域
+
+* 西安城区内，自行选择区域，但调查街区不小于$2.0 km^{2} $。
+
+##### 2. 数据
+
+包括数据的获取，数据处理，以及数据可视化
+
+2.1  手机调研拍摄图像（含GPS信息，和时间戳）。
+
+* python读取图像，提取GPS经纬度坐标，使用Plotly库提供的go方法调用地图，绘制调研路径，并将GPS位置信息与时间戳写入SQLite数据库。参考课程[调研路径与图像](https://digit-x.github.io/digit_x/#/./markdown/pyd_clustering?id=_3-%e8%b0%83%e7%a0%94%e8%b7%af%e5%be%84%e4%b8%8e%e5%9b%be%e5%83%8f)
+
+
+* 将GPS经纬度和提取的图像时间戳信息，处理为DataFrame格式数据，并转换为GeoDataFrame(使用geopandas库)，通过epsg(crs)配置投影（西安的epsg=32749，为WGS 84 / UTM zone 49S）。参考课程[OSM（OpenStreetMap）数据处理](https://digit-x.github.io/digit_x/#/./markdown/pyd_SQLite)
+
+2.2 下载[POI（西安）](https://github.com/richieBao/Urban-Spatial-Data-Analysis_python/tree/master/notebook/BaiduMapPOIcollection_ipynb/data/xianPOI_36)数据，读取所有数据，转换为GeoDataFrame数据格式（需配置投影），并根据各组调研区域提取所在区域的POI数据。参考文件[批量转换.csv格式数据为GeoDataFrame](https://richiebao.github.io/Urban-Spatial-Data-Analysis_python/#/./notebook_code/BaiduMapPOI_collection_multipleClassification?id=_12-%e6%89%b9%e9%87%8f%e8%bd%ac%e6%8d%a2csv%e6%a0%bc%e5%bc%8f%e6%95%b0%e6%8d%ae%e4%b8%bageodataframe)
+
+2.3 下载[.shp格式的建筑高度数据（西安）](https://github.com/richieBao/python_code_archi_la_design_method_study/tree/main/notebook/data/xianBuildingHeight)，使用geopandas读取为GeoDataFrame数据格式，并根据各组调研区域提取所在区域的建筑高度数据。
+
+2.4 任何可以自行获取的各组调研区域数据。
+
+> 通过GeoDataFrame.plot()方法或其它方法查看提取的数据。
+
+##### 3. 分析
+
+* 调研路径数据分析
+
+3.1 提取调研路径邻近的POI数据，统计分析调研路径业态分布情况，例如聚类POI点，统计簇数量，以及不同业态的分布比例，结构或频数等，并图表表述。（用到[shaply库](通过GeoDataFrame.plot()方法或其它方法查看提取的数据。)）。
+
+3.2 提取调研路径邻近的建筑高度数据，分析延调研路径的建筑高度变化，以及建筑密度变化情况。
+
+* 选择区域数据分析
+
+3.3 区域内的POI数据分析，和建筑分布和高度分析，自行拟定分析内容。
+
+> 可自行分析不同或更多内容。
+
+* __自行获取区域内的任何数据的任何类型分析。（为个人实验）__
+
+##### 4. 讨论
+
+根据上述分析内容，文字总结调研区域和调研路径下，城市空间的特点。
+
+##### 5. 表达
+
+5.1 所有数据，分析过程数据，以及结果，均push到GitHub仓库（repository）中。仓库的文件结构要合理，例如包括data，graph，process_data，database等。
+
+5.2 使用[docsify](https://docsify.js.org/#/)，将综合实验内容，用markdown编辑，发布为在线文档形式，例如[数字营造学社官网](https://digit-x.github.io/digit_x/#/)。综合实验内容的报告文件，包括调研概述，区域，数据，分析和讨论几个环节。需图文并茂，阐述结构合理。
+
+5.3 将在线报告，打印为PDF，push到GitHub的repository中。
+
+##### 综合实验评分标准
+
+1. 完成度：全部完成包括上述5部分，以及各部分内容；
+
+2. 分析深度：给出的分析内容，可以根据具体情况，深入分析，甚至可以提出新的角度；
+
+3. 数据图表表达：结合图表表述分析内容，图表清晰合理；
+
+4. 报告文件：需使用docsify完成在线文档形式，markdown图文并茂编辑，阐释清晰。（基于GitHub的repository使用docsify布局在线文档，为自学）
+
+> 评分标准应能够反应，学习者代码的自修能力，自主解决问题的能力，团队合作的能力，以及创新能力。
+
+---
+
+* 期末成绩评定占比：
+
+| 课程总评成绩  | 成绩组成  |成绩占比（%）   |   
+|---|---|---|
+|   | 期末考核成绩  | 50%  |   
+|   |  出勤 | 10%  |   
+|   | 课堂讨论（分配给平时个人实验） |  15% |   
+|   | 随堂测验（分配给平时小组实验）  |  25% |   
+| 总计  |   |  100% |   
+
+
+---
+
+### 附：分组代码
 
 > 因为多个班级，班级间同学可能并不十分熟识，随机分组会增加磨合时间和配合度，因此改为自行结组。
 
