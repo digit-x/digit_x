@@ -196,7 +196,7 @@
 
 5.1 所有数据，分析过程数据，以及结果，均push到GitHub仓库（repository）中。仓库的文件结构要合理，例如包括data，graph，process_data，database等。
 
-5.2 使用[docsify](https://docsify.js.org/#/)，将综合实验内容，用markdown编辑，发布为在线文档形式，例如[数字营造学社官网](https://digit-x.github.io/digit_x/#/)。综合实验内容的报告文件，包括调研概述，区域，数据，分析和讨论几个环节。需图文并茂，阐述结构合理。
+5.2 使用[docsify](https://docsify.js.org/#/)，将综合实验内容，用markdown编辑，发布为在线文档形式，例如[数字营造学社官网](https://digit-x.github.io/digit_x/#/)。综合实验内容的报告文件，包括调研概述，区域，数据，分析和讨论几个环节。需图文并茂，阐述结构合理。<同时，将平时小组实验和个人实验，写入在线文档中>
 
 5.3 将在线报告，打印为PDF，push到GitHub的repository中。
 
