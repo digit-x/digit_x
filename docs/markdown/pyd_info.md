@@ -118,6 +118,8 @@
 #### 实验-4
 小组实验：依据课程“数据库_SQlite及与grasshopper的数据交换”，每组从OSM下载任一城市区域的数据（各组不能相同），将数据处理后写入SQLite数据库，并在GH中编写GHPython组件调入显示数据。同时，根据所选择城市，查找任一类型数据，同样处理，写入数据库，并调入GH。代码由Spyder编写，并命名为`ex_04_OSM.py`，SQLite数据库文件命名为`ex_04_OSM.sqlite`。将成果组织以markdown形式写入README.md。
 
+> 第2次个人实验评分粗略标准：1.未见代码；2.没有markdown报告；3.未提交。
+
 #### 实验-5
 小组实验：依据课程[机器学习-回归](https://digit-x.github.io/digit_x/#/./markdown/pyd_sympy_regression?id=_2-%e6%9c%ba%e5%99%a8%e5%ad%a6%e4%b9%a0-%e5%9b%9e%e5%bd%92)部分，从各自专业领域选择一组具有“因果”关系的数据，通过[相关性分析](https://richiebao.github.io/Urban-Spatial-Data-Analysis_python/#/./notebook_code/correlation?id=_12-%e7%9b%b8%e5%85%b3%e6%80%a7)确定解释变量(自变量-input)和结果变量(因变量-output)之间的相关强度，并用机器学习库[scikit-learn](https://scikit-learn.org/stable/index.html)，将数据集切分为训练和测试数据集，训练模型及精度评估。代码由Spyder编写，并命名为`ex_05_regression.py`，同时将成果组织以markdown形式写入README.md。
 
@@ -211,6 +213,9 @@
 4. 报告文件：需使用docsify完成在线文档形式，markdown图文并茂编辑，阐释清晰。（基于GitHub的repository使用docsify布局在线文档，为自学）
 
 > 评分标准应能够反应，学习者代码的自修能力，自主解决问题的能力，团队合作的能力，以及创新能力。
+
+综合实验提交截止日期：2021年12月20号前（约3周时间）
+
 
 ---
 
