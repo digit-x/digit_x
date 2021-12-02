@@ -172,7 +172,7 @@
 3.3 自行获取区域内的任何数据的任何类型分析，可以仍为POI和建筑高度数据。（为个人实验）
 
 ##### 4. 表达
-所有代码，写在一个JupyterLab文件中，最后转换为PDF提交。（是否打印纸质版，待定）
+小组实验，所有代码写在一个JupyterLab文件中，最后转换为PDF提交。个人实验部分也为单独一个JupyterLab文件，最后转换为PDF提交。推送到Github后， 也由小组负责人收集后，给课程负责人。（是否打印纸质版，待定）
 
 > [GDF.plot(column=' ') 方法参考](https://geopandas.org/en/stable/docs/user_guide/mapping.html)
 
