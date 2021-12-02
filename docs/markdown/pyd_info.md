@@ -149,6 +149,37 @@
 
 > 2021年秋季，考察内容
 
+### 简版
+
+**题目：** 基本数据处理
+
+##### 1. 选择区域
+
+在GoogleEarth或百度地图等平台下，自行选择一块西安区域，面积不小于$2.0 km^{2} $。可以确定左下角坐标和右上角坐标（wgs84 经纬度）
+
+##### 2. 数据及预处理
+
+2.1 下载[POI（西安）](https://github.com/richieBao/Urban-Spatial-Data-Analysis_python/tree/master/notebook/BaiduMapPOIcollection_ipynb/data/xianPOI_36)数据，读取所有数据，根据分析内容转换为GeoDataFrame数据格式（需配置投影，西安的epsg=32749，为WGS 84 / UTM zone 49S），并根据选择的区域提取所在区域的POI数据。参考文件[批量转换.csv格式数据为GeoDataFrame](https://richiebao.github.io/Urban-Spatial-Data-Analysis_python/#/./notebook_code/BaiduMapPOI_collection_multipleClassification?id=_12-%e6%89%b9%e9%87%8f%e8%bd%ac%e6%8d%a2csv%e6%a0%bc%e5%bc%8f%e6%95%b0%e6%8d%ae%e4%b8%bageodataframe)。打印DataFrame及GDF.plot(column=' ')方法打印图表。
+
+
+2.2 下载[.shp格式的建筑高度数据（西安）](https://github.com/richieBao/python_code_archi_la_design_method_study/tree/main/notebook/data/xianBuildingHeight)，使用geopandas读取为GeoDataFrame数据格式，并根据各组选择区域提取所在区域的建筑高度数据。打印DataFrame及GDF.plot(column=' ')方法打印图表。
+
+##### 3. 分析
+3.1 使用  `from scipy import stats`,`poi_coordi_kernel=stats.gaussian_kde(poi_coordinates) #核密度估计`方法，计算POI的核密度。参考[核密度估计](https://richiebao.github.io/Urban-Spatial-Data-Analysis_python/#/./notebook_code/kde?id=_1-%e6%a0%b8%e5%af%86%e5%ba%a6%e4%bc%b0%e8%ae%a1%e4%b8%8e%e5%9c%b0%e7%90%86%e7%a9%ba%e9%97%b4%e7%82%b9%e5%af%86%e5%ba%a6%e5%88%86%e5%b8%83)。打印DataFrame及GDF.plot(column=' ')方法打印图表。
+
+3.2 使用[聚类 K-Means](https://digit-x.github.io/digit_x/#/./markdown/pyd_clustering)，聚类建筑高度。打印DataFrame及GDF.plot(column=' ')方法打印图表。
+
+3.3 自行获取区域内的任何数据的任何类型分析，可以仍为POI和建筑高度数据。（为个人实验）
+
+##### 4. 表达
+所有代码，写在一个JupyterLab文件中，最后转换为PDF提交。（是否打印纸质版，待定）
+
+> [GDF.plot(column=' ') 方法参考](https://geopandas.org/en/stable/docs/user_guide/mapping.html)
+
+---
+
+### 繁版
+
 **题目：** 城市地块调研与空间数据分析
 
 ##### 1. 调研区域
