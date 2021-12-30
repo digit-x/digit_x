@@ -35,7 +35,7 @@
         * [col.1 IIT-Illinois Institute of Technology](./markdown/IIT.md)
         
 * 🦍\. 先生  
-    * C+微控制器城市空间实验与建造 Urban space experiment and construction based on microcontroller
+    * C+微控制器城市空间实验与建造 Urban_space_experiment_and_construction_based_on_microcontroller
         * [CUSEC. 课程准备-考核-info](./markdown/.md)
         * [CUSEC.1 城市空间实验->微控制器|传感器->C语言](./markdown/CUSEC_USEC2microcontroler2C.md)
 
