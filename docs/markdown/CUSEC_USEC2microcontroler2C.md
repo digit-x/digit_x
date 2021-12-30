@@ -220,3 +220,14 @@ __2) 数据分析阶段，python语言+[grasshopper参数化设计](https://www.
 
 <video height='auto' width=100% controls><source src="./video/you_can_learn_arduino_in_15_minutes.mp4" height='auto' width='auto' title="digit-x" type='video/mp4'></video>
 
+### 1.2.1 [+ROS](https://www.ros.org/)
+
+<video height='auto' width=100% controls><source src="./video/ROS_Introduction_captioned-vimeo.mp4" height='auto' width='auto' title="digit-x" type='video/mp4'></video>
+
+## 1.3 C 编程语言
+
+### 1.3.1 [TIOBE](https://www.tiobe.com/tiobe-index/)
+
+TIOBE Index for December 2021
+
+<img src="./imgs_C/008.jpg" height="auto" width="auto"  title="digit-x">
