@@ -38,6 +38,7 @@
     * C+微控制器城市空间实验与建造 Urban_space_experiment_and_construction_based_on_microcontroller
         * [CUSEC. 课程准备-考核-info](./markdown/.md)
         * [CUSEC.1 城市空间实验->微控制器|传感器->C语言](./markdown/CUSEC_USEC2microcontroler2C.md)
+        * [CUSEC.2 running helloWorld! and understanding program structure](./markdown/CUSEC_hello_C.md)
 
     * PYTHON设计（规划|建筑|景观） python_coding_archi_la_design_method_study
         * [PYD. 课程准备-考核-info](./markdown/pyd_info.md)
