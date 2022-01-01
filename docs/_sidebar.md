@@ -36,7 +36,7 @@
         
 * 🦍\. 先生  
     * C+微控制器城市空间实验与建造 Urban_space_experiment_and_construction_based_on_microcontroller
-        * [CUSEC. 课程准备-考核-info](./markdown/.md)
+        * [CUSEC. 课程准备-考核-info](./markdown/CUSEC_info.md)
         * [CUSEC.1 城市空间实验->微控制器|传感器->C语言](./markdown/CUSEC_USEC2microcontroler2C.md)
         * [CUSEC.2 running helloWorld! and understanding program structure](./markdown/CUSEC_hello_C.md)
 
