@@ -772,3 +772,2189 @@ roll_group
 
 [课程所有原始文件链接]（https://github.com/richieBao/python_code_archi_la_design_method_study/tree/main/notebook）
 
+---
+
+## 评分程序
+
+> Created on Sun Jan  2 12:51:36 2022 @author: Richie Bao
+
+
+```python
+fp="./data/2021Fall_experiment-grade_note.xlsx"
+```
+
+## 1. 到课-分值计算（10）
+
+
+```python
+import pandas as pd
+
+#1. 调整dtype,初步处理字符串（去除空格）
+grade_attendance=pd.read_excel(fp,sheet_name="attendance",header=1,skiprows=0)
+grade_attendance["学号"]=grade_attendance["学号"].astype(str)
+grade_attendance["学号"].str.strip()
+grade_attendance["姓名"].str.strip()
+grade_attendance.fillna(0,inplace=True)
+
+#2. 请假值(2)替换值：0.9
+day_off=0.9 
+grade_attendance.replace({2:0.9},inplace=True) 
+
+#3. 求和与映射到10分制区间（出勤占比10%）,公式：(score/12)*10
+attendance_column_list=list(range(1,13))
+grade_attendance["score_sum"]=grade_attendance[attendance_column_list].sum(axis=1)
+grade_attendance["score_attendance_10"]=grade_attendance.score_sum.apply(lambda row:row*10/12)
+
+grade_attendance
+```
+
+
+
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>组名（英文动物名称）</th>
+      <th>姓名</th>
+      <th>学号</th>
+      <th>1</th>
+      <th>2</th>
+      <th>3</th>
+      <th>4</th>
+      <th>5</th>
+      <th>6</th>
+      <th>7</th>
+      <th>8</th>
+      <th>9</th>
+      <th>10</th>
+      <th>11</th>
+      <th>12</th>
+      <th>score_sum</th>
+      <th>score_attendance_10</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Puffer</td>
+      <td>张行</td>
+      <td>2001010425</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>4.0</td>
+      <td>3.333333</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>0</td>
+      <td>赵一诚</td>
+      <td>2001010516</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>12.0</td>
+      <td>10.000000</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>0</td>
+      <td>刘星原</td>
+      <td>2001010415</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>12.0</td>
+      <td>10.000000</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>0</td>
+      <td>许鑫瑶</td>
+      <td>2001010403</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>6.0</td>
+      <td>5.000000</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>0</td>
+      <td>李晓凯</td>
+      <td>2001010522</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>11.0</td>
+      <td>9.166667</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>91</th>
+      <td>0</td>
+      <td>刘丽华</td>
+      <td>2001010215</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>0.9</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>0.9</td>
+      <td>1.0</td>
+      <td>0.9</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>11.7</td>
+      <td>9.750000</td>
+    </tr>
+    <tr>
+      <th>92</th>
+      <td>0</td>
+      <td>潘洪转</td>
+      <td>2001010220</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>0.9</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>0.9</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>11.8</td>
+      <td>9.833333</td>
+    </tr>
+    <tr>
+      <th>93</th>
+      <td>0</td>
+      <td>曾伟涛</td>
+      <td>2008060220</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>12.0</td>
+      <td>10.000000</td>
+    </tr>
+    <tr>
+      <th>94</th>
+      <td>0</td>
+      <td>刘茜</td>
+      <td>2008050205</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>12.0</td>
+      <td>10.000000</td>
+    </tr>
+    <tr>
+      <th>95</th>
+      <td>0</td>
+      <td>王森</td>
+      <td>2002050118</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>12.0</td>
+      <td>10.000000</td>
+    </tr>
+  </tbody>
+</table>
+<p>96 rows × 17 columns</p>
+</div>
+
+
+
+## 2. 实验1(个人实验)-分值计算（15）
+
+
+```python
+#1. 调整dtype,初步处理字符串（去除空格）+移除Unnamed:n 字段（列）
+grade_experi_1=pd.read_excel(fp,sheet_name="experi-1",header=0,skiprows=0)
+unnamed_columns=[i for i in  grade_experi_1.columns.to_list() if i.split(":")[0]=="Unnamed"]
+grade_experi_1.drop(unnamed_columns,axis=1,inplace=True)
+
+#2. 处理列名中可能存在的空格及处理字符串空格
+columns_grade_experi_1_mapping={i:i.strip() for i in grade_experi_1.columns.to_list()}
+grade_experi_1.rename(columns_grade_experi_1_mapping,axis=1,inplace=True)
+
+grade_experi_1["学号"]=grade_experi_1["学号"].astype(str)
+grade_experi_1["学号"].str.strip()
+grade_experi_1["姓名"].str.strip()
+
+#3. 计算最终评级 
+experi_gradeUpdated_columns=['experiment-1-grade','experiment-1-grade-updated-1','experiment-1-grade-updated-2'] #按照更新顺序给列名
+experi_1_grades=grade_experi_1[experi_gradeUpdated_columns].T
+experi_1_grades.fillna(method="ffill",inplace=True)
+experi_1_grades_final=experi_1_grades.T[experi_gradeUpdated_columns[-1]]
+experi_1_grades_final.fillna("D",inplace=True) #配置空值评级为D
+experi_1_grades_final.replace({"?":"D"},inplace=True) #处理？部分，即没有收到实验
+grade_experi_1["grade_final"]=experi_1_grades_final
+
+#4. 评级-->评分
+grade2score_mapping={"A+":99,"A":95,"A-":91,"B+":89,"B":85,"B-":81,"C+":79,"C":75,"C-":71,"D+":69,"D":65,"D-":61,"E":55}
+grade_experi_1["score_experi_1_100"]=grade_experi_1["grade_final"].map(grade2score_mapping)
+
+#4. 百分之转15分制（平时个人实验占比15%）,公式：(score/100)*15
+grade_experi_1["score_experi_1_15"]=grade_experi_1.score_experi_1_100.apply(lambda row:row*15/100)
+
+grade_experi_1
+```
+
+
+
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>组名（英文动物名称）</th>
+      <th>姓名</th>
+      <th>学号</th>
+      <th>个人Github仓库链接地址</th>
+      <th>experiment-1-grade</th>
+      <th>note</th>
+      <th>experiment-1-grade-updated-1</th>
+      <th>experiment-1-grade-updated-2</th>
+      <th>grade_final</th>
+      <th>score_experi_1_100</th>
+      <th>score_experi_1_15</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Puffer</td>
+      <td>张行</td>
+      <td>2001010425</td>
+      <td>https://github.com/Vanough/python_AR_LA_PL_cou...</td>
+      <td>C</td>
+      <td>1,2,3</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>C</td>
+      <td>75</td>
+      <td>11.25</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>NaN</td>
+      <td>赵一诚</td>
+      <td>2001010516</td>
+      <td>https://github.com/nnkmnn/python_AR_LA_PL_cour...</td>
+      <td>D</td>
+      <td>4</td>
+      <td>B-</td>
+      <td>B-</td>
+      <td>B-</td>
+      <td>81</td>
+      <td>12.15</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>NaN</td>
+      <td>刘星原</td>
+      <td>2001010415</td>
+      <td>https://github.com/liuxingyuan1111/ex_01_pytho...</td>
+      <td>A</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>A</td>
+      <td>95</td>
+      <td>14.25</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>NaN</td>
+      <td>许鑫瑶</td>
+      <td>2001010403</td>
+      <td>https://github.com/xvxinyao/python_AR_LA_PL_co...</td>
+      <td>A</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>A</td>
+      <td>95</td>
+      <td>14.25</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>NaN</td>
+      <td>李晓凯</td>
+      <td>2001010522</td>
+      <td>https://github.com/LXKhhh666/Repository-python...</td>
+      <td>D</td>
+      <td>4</td>
+      <td>D</td>
+      <td>NaN</td>
+      <td>D</td>
+      <td>65</td>
+      <td>9.75</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>91</th>
+      <td>NaN</td>
+      <td>刘丽华</td>
+      <td>2001010215</td>
+      <td>https://github.com/Glax6/python_AR_LA_PL_cours...</td>
+      <td>?</td>
+      <td>6</td>
+      <td>D</td>
+      <td>NaN</td>
+      <td>D</td>
+      <td>65</td>
+      <td>9.75</td>
+    </tr>
+    <tr>
+      <th>92</th>
+      <td>NaN</td>
+      <td>潘洪转</td>
+      <td>2001010220</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>D</td>
+      <td>65</td>
+      <td>9.75</td>
+    </tr>
+    <tr>
+      <th>93</th>
+      <td>NaN</td>
+      <td>曾伟涛</td>
+      <td>2008060220</td>
+      <td>https://github.com/TBtbtTB/python_AR_LA_PL_course</td>
+      <td>B</td>
+      <td>1,3</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>B</td>
+      <td>85</td>
+      <td>12.75</td>
+    </tr>
+    <tr>
+      <th>94</th>
+      <td>NaN</td>
+      <td>刘茜</td>
+      <td>2008050205</td>
+      <td>https://github.com/Veritas1021/small-warehouse...</td>
+      <td>B</td>
+      <td>1,2,3</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>B</td>
+      <td>85</td>
+      <td>12.75</td>
+    </tr>
+    <tr>
+      <th>95</th>
+      <td>NaN</td>
+      <td>王森</td>
+      <td>2002050118</td>
+      <td>https://github.com/Wsen65/ex_01_python_quick_t...</td>
+      <td>A</td>
+      <td>3</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>A</td>
+      <td>95</td>
+      <td>14.25</td>
+    </tr>
+  </tbody>
+</table>
+<p>96 rows × 11 columns</p>
+</div>
+
+
+
+## 3. 实验2(小组实验)-分值计算（18）
+
+> 分配给平时小组实验总共分值为25，其中给实验2为18分，给实验4为7分
+
+
+```python
+def group_experi(df,target_value,group_column,str_columns=None,grade_updated=None,grade2score_mapping=None,contribution_column=None,Unnamed=False):
+    from scipy.stats import zscore
+    import pandas as pd
+    '''
+    function - 处理小组实验分数。包括数据清理，预处理，评级转评分，以及分值缩放
+    
+    Paras:
+    
+    '''
+    #1. 处理列名中可能存在的空格及处理字符串空格，移除Unnamed列
+    df_columns_mapping={i:i.strip() for i in df.columns.to_list()}
+    df.rename(df_columns_mapping,axis=1,inplace=True)
+    
+    if Unnamed:    
+        df_columns=[i for i in  df.columns.to_list() if i.split(":")[0]=="Unnamed"]
+        df.drop(df_columns,axis=1,inplace=True)    
+    
+    #2. 调整dtype,初步处理字符串（去除空格）
+    if str_columns:
+        for sc in str_columns:
+            df[sc]=df[sc].astype(str)
+            df[sc].str.strip()
+            
+    #3. 计算最终评级    
+    if grade_updated:
+        df_grades=df[grade_updated].T
+        df_grades.fillna(method="ffill",inplace=True)
+        df_grades_final=df_grades.T[grade_updated[-1]]
+        df_grades_final.fillna(method="ffill",inplace=True)
+        df_grades_final.replace({"?":"E"},inplace=True) #处理？部分，即没有收到实验
+        print("gourp experiment grade:\n{}".format(df_grades_final.to_list()))        
+        df_grades_final.fillna("D",inplace=True) #配置空值评级为D
+        df["grade_final"]=df_grades_final      
+        
+    #4. 评级-->评分
+    if grade2score_mapping:
+        df["score_experi_original"]=df["grade_final"].map(grade2score_mapping)
+    
+    #5. 贡献值，计算公式：(score_experi_original+z_score*offsetScale)*target_value/(100+offset_max),其中配置offsetScale=10，当值越大，贡献值的影响越大，否则越小
+    if contribution_column:
+        df[group_column].fillna(method="ffill",inplace=True)
+        count=df[group_column].value_counts().to_dict()
+        #print("_"*50)
+        #print("the number of group:\n{}".format(count))
+        contribution_average={k:1/v for k,v in count.items()}
+        #print(contribution_average)
+        df["contribution"]=df.apply(lambda row:contribution_average[row[group_column]] if pd.isnull(row[contribution_column]) else row[contribution_column],axis=1)
+        df["z_score"]=df.groupby([group_column]).contribution.transform(lambda row:zscore(row,ddof=1))
+        df["z_score"].fillna(0,inplace=True)
+        print("_"*50)
+        z_score_offset_scale=10
+        offset_min=grade_experi_2.z_score.min()* z_score_offset_scale
+        offset_max=grade_experi_2.z_score.max()* z_score_offset_scale
+        print("z_score_offset domain=[{},{}]".format(offset_min,offset_max))
+        df["score_experi_final"]=df.apply(lambda row:(row.score_experi_original+row.z_score* z_score_offset_scale)*target_value/(100+offset_max),axis=1)          
+    
+    return df
+
+grade_experi_2=pd.read_excel(fp,sheet_name="experi-2",header=0,skiprows=0)
+str_columns=["学号","姓名"]
+grade_updated=["experiment-2-grade","experiment-2-grade-updated-1"]
+grade2score_mapping={"A+":99,"A":95,"A-":91,"B+":89,"B":85,"B-":81,"C+":79,"C":75,"C-":71,"D+":69,"D":65,"D-":61,"E":55}
+contribution_column="个人贡献值"
+target_value=18
+grade_experi_2_=group_experi(grade_experi_2,target_value,"组名（英文动物名称）",str_columns,grade_updated,grade2score_mapping,contribution_column,Unnamed=True)
+
+print("final score domain=[{},{}]".format(grade_experi_2_.score_experi_final.min(),grade_experi_2_.score_experi_final.max()))
+grade_experi_2_
+```
+
+    gourp experiment grade:
+    ['A', 'A', 'A', 'A', 'A', 'A', 'A', 'D', 'D', 'D', 'D', 'B', 'B', 'B', 'B', 'B', 'B', 'B', 'B', 'B', 'B', 'B', 'B', 'B', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A+', 'A+', 'A+', 'A+', 'A+', 'A+', 'C', 'C', 'C', 'C', 'C', 'C', 'A', 'A', 'A', 'A', 'A', 'A', 'A+', 'A+', 'A+', 'A+', 'A+', 'A+', 'A+', 'A+', 'A+', 'A+', 'A+', 'B', 'B', 'B', 'B', 'B', 'B', 'C', 'C', 'C', 'C', 'C', 'C', 'A', 'A', 'A', 'A', 'A', 'A']
+    __________________________________________________
+    z_score_offset domain=[-22.67786838055363,20.412414523193153]
+    final score domain=[9.048083265535332,17.850513752495736]
+    
+
+
+
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>组名（英文动物名称）</th>
+      <th>姓名</th>
+      <th>学号</th>
+      <th>实验2 Github链接地址</th>
+      <th>个人贡献值</th>
+      <th>experiment-2-grade</th>
+      <th>note</th>
+      <th>experiment-2-grade-updated-1</th>
+      <th>grade_final</th>
+      <th>score_experi_original</th>
+      <th>contribution</th>
+      <th>z_score</th>
+      <th>score_experi_final</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Puffer</td>
+      <td>张行</td>
+      <td>2001010425</td>
+      <td>https://github.com/Vanough/-PYD_Experiment-</td>
+      <td>0.20</td>
+      <td>D</td>
+      <td>1,2</td>
+      <td>A</td>
+      <td>A</td>
+      <td>95</td>
+      <td>0.20</td>
+      <td>0.645497</td>
+      <td>15.166123</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Puffer</td>
+      <td>赵一诚</td>
+      <td>2001010516</td>
+      <td>https://github.com/liuxingyuan1111/PYD_Experiment</td>
+      <td>0.20</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>A</td>
+      <td>95</td>
+      <td>0.20</td>
+      <td>0.645497</td>
+      <td>15.166123</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Puffer</td>
+      <td>刘星原</td>
+      <td>2001010415</td>
+      <td>NaN</td>
+      <td>0.20</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>A</td>
+      <td>95</td>
+      <td>0.20</td>
+      <td>0.645497</td>
+      <td>15.166123</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Puffer</td>
+      <td>许鑫瑶</td>
+      <td>2001010403</td>
+      <td>NaN</td>
+      <td>0.20</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>A</td>
+      <td>95</td>
+      <td>0.20</td>
+      <td>0.645497</td>
+      <td>15.166123</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Puffer</td>
+      <td>李晓凯</td>
+      <td>2001010522</td>
+      <td>NaN</td>
+      <td>0.10</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>A</td>
+      <td>95</td>
+      <td>0.10</td>
+      <td>-1.290994</td>
+      <td>12.271334</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>91</th>
+      <td>frog</td>
+      <td>刘丽华</td>
+      <td>2001010215</td>
+      <td>NaN</td>
+      <td>0.25</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>A</td>
+      <td>95</td>
+      <td>0.25</td>
+      <td>1.613743</td>
+      <td>16.613517</td>
+    </tr>
+    <tr>
+      <th>92</th>
+      <td>frog</td>
+      <td>潘洪转</td>
+      <td>2001010220</td>
+      <td>NaN</td>
+      <td>0.10</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>A</td>
+      <td>95</td>
+      <td>0.10</td>
+      <td>-1.290994</td>
+      <td>12.271334</td>
+    </tr>
+    <tr>
+      <th>93</th>
+      <td>frog</td>
+      <td>曾伟涛</td>
+      <td>2008060220</td>
+      <td>NaN</td>
+      <td>0.15</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>A</td>
+      <td>95</td>
+      <td>0.15</td>
+      <td>-0.322749</td>
+      <td>13.718729</td>
+    </tr>
+    <tr>
+      <th>94</th>
+      <td>frog</td>
+      <td>刘茜</td>
+      <td>2008050205</td>
+      <td>NaN</td>
+      <td>0.15</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>A</td>
+      <td>95</td>
+      <td>0.15</td>
+      <td>-0.322749</td>
+      <td>13.718729</td>
+    </tr>
+    <tr>
+      <th>95</th>
+      <td>frog</td>
+      <td>王森</td>
+      <td>2002050118</td>
+      <td>NaN</td>
+      <td>0.15</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>A</td>
+      <td>95</td>
+      <td>0.15</td>
+      <td>-0.322749</td>
+      <td>13.718729</td>
+    </tr>
+  </tbody>
+</table>
+<p>96 rows × 13 columns</p>
+</div>
+
+
+
+## 4. 实验4(小组实验)-分值计算（7）
+
+> 分配给平时小组实验总共分值为25，其中给实验2为18分，给实验4为7分
+
+
+```python
+grade_experi_4=pd.read_excel(fp,sheet_name="experi-4",header=0,skiprows=0)
+str_columns=["学号","姓名"]
+grade_updated=["experiment-4-grade","experiment-4-grade-updated-1"]
+grade2score_mapping={"A+":99,"A":95,"A-":91,"B+":89,"B":85,"B-":81,"C+":79,"C":75,"C-":71,"D+":69,"D":65,"D-":61,"E":55}
+contribution_column="个人贡献值"
+target_value=7
+grade_experi_4_=group_experi(grade_experi_4,target_value,"组名（英文动物名称）",str_columns,grade_updated,grade2score_mapping,contribution_column,Unnamed=True)
+
+print("final score domain=[{},{}]".format(grade_experi_4_.score_experi_final.min(),grade_experi_4_.score_experi_final.max()))
+grade_experi_4_
+```
+
+    gourp experiment grade:
+    ['D', 'D', 'D', 'D', 'D', 'D', 'D', 'D', 'D', 'D', 'D', 'D', 'D', 'D', 'D', 'D', 'D', 'D', 'D', 'D', 'D', 'D', 'D', 'D', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A-', 'A-', 'A-', 'A-', 'A-', 'A-', 'A-', 'A-', 'A-', 'A-', 'A-', 'A-', 'A-', 'D', 'D', 'D', 'D', 'D', 'A', 'A', 'A', 'A', 'A', 'A', 'D', 'D', 'D', 'D', 'D', 'D', 'D', 'D', 'D', 'D', 'D', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'D', 'D', 'D', 'D', 'D', 'D', 'D', 'D', 'D', 'D', 'D', 'D', 'A', 'A', 'A', 'A', 'A', 'A']
+    __________________________________________________
+    z_score_offset domain=[-22.67786838055363,20.412414523193153]
+    final score domain=[3.7786801452466556,6.709332296519489]
+    
+
+
+
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>组名（英文动物名称）</th>
+      <th>姓名</th>
+      <th>学号</th>
+      <th>实验4 Github链接地址</th>
+      <th>个人贡献值</th>
+      <th>experiment-4-grade</th>
+      <th>note</th>
+      <th>experiment-4-grade-updated-1</th>
+      <th>grade_final</th>
+      <th>score_experi_original</th>
+      <th>contribution</th>
+      <th>z_score</th>
+      <th>score_experi_final</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Puffer</td>
+      <td>张行</td>
+      <td>2001010425</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>D</td>
+      <td>3</td>
+      <td>NaN</td>
+      <td>D</td>
+      <td>65</td>
+      <td>0.166667</td>
+      <td>0.000000</td>
+      <td>3.778680</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Puffer</td>
+      <td>赵一诚</td>
+      <td>2001010516</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>D</td>
+      <td>65</td>
+      <td>0.166667</td>
+      <td>0.000000</td>
+      <td>3.778680</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Puffer</td>
+      <td>刘星原</td>
+      <td>2001010415</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>D</td>
+      <td>65</td>
+      <td>0.166667</td>
+      <td>0.000000</td>
+      <td>3.778680</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Puffer</td>
+      <td>许鑫瑶</td>
+      <td>2001010403</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>D</td>
+      <td>65</td>
+      <td>0.166667</td>
+      <td>0.000000</td>
+      <td>3.778680</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Puffer</td>
+      <td>李晓凯</td>
+      <td>2001010522</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>D</td>
+      <td>65</td>
+      <td>0.166667</td>
+      <td>0.000000</td>
+      <td>3.778680</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>91</th>
+      <td>frog</td>
+      <td>刘丽华</td>
+      <td>2001010215</td>
+      <td>NaN</td>
+      <td>0.15</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>A</td>
+      <td>95</td>
+      <td>0.150000</td>
+      <td>-0.408248</td>
+      <td>5.285357</td>
+    </tr>
+    <tr>
+      <th>92</th>
+      <td>frog</td>
+      <td>潘洪转</td>
+      <td>2001010220</td>
+      <td>NaN</td>
+      <td>0.15</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>A</td>
+      <td>95</td>
+      <td>0.150000</td>
+      <td>-0.408248</td>
+      <td>5.285357</td>
+    </tr>
+    <tr>
+      <th>93</th>
+      <td>frog</td>
+      <td>曾伟涛</td>
+      <td>2008060220</td>
+      <td>NaN</td>
+      <td>0.15</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>A</td>
+      <td>95</td>
+      <td>0.150000</td>
+      <td>-0.408248</td>
+      <td>5.285357</td>
+    </tr>
+    <tr>
+      <th>94</th>
+      <td>frog</td>
+      <td>刘茜</td>
+      <td>2008050205</td>
+      <td>NaN</td>
+      <td>0.15</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>A</td>
+      <td>95</td>
+      <td>0.150000</td>
+      <td>-0.408248</td>
+      <td>5.285357</td>
+    </tr>
+    <tr>
+      <th>95</th>
+      <td>frog</td>
+      <td>王森</td>
+      <td>2002050118</td>
+      <td>NaN</td>
+      <td>0.15</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>A</td>
+      <td>95</td>
+      <td>0.150000</td>
+      <td>-0.408248</td>
+      <td>5.285357</td>
+    </tr>
+  </tbody>
+</table>
+<p>96 rows × 13 columns</p>
+</div>
+
+
+
+## 5. 期末(小组实验)-分值计算（30）
+
+> 分配给期末实验总共分值为50，其中期末小组实验30分，期末个人实验20分
+
+
+```python
+grade_experi_final=pd.read_excel(fp,sheet_name="experi-final",header=0,skiprows=0)
+str_columns=["学号","姓名"]
+grade_updated=["experiment-final-grade","experiment-final-grade-updated-1"]
+grade2score_mapping={"A+":99,"A":95,"A-":91,"B+":89,"B":85,"B-":81,"C+":79,"C":75,"C-":71,"D+":69,"D":65,"D-":61,"E":55}
+contribution_column="个人贡献值"
+target_value=30
+grade_experi_final_=group_experi(grade_experi_final,target_value,"组名（英文动物名称）",str_columns,grade_updated,grade2score_mapping,contribution_column,Unnamed=True)
+
+print("final score domain=[{},{}]".format(grade_experi_final_.score_experi_final.min(),grade_experi_final_.score_experi_final.max()))
+grade_experi_final_
+```
+
+    gourp experiment grade:
+    ['A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A-', 'A-', 'A-', 'A-', 'A-', 'A-', 'B-', 'B-', 'B-', 'B-', 'B-', 'B-', 'B-', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'B-', 'B-', 'B-', 'B-', 'B-', 'B-', 'B-', 'C', 'C', 'C', 'C', 'C', 'C', 'A-', 'A-', 'A-', 'A-', 'A-', 'A+', 'A+', 'A+', 'A+', 'A+', 'A+', 'D', 'D', 'D', 'D', 'D', 'A-', 'A-', 'A-', 'A-', 'A-', 'A-', 'A-', 'A-', 'A-', 'A-', 'A-', 'A-', 'B+', 'B+', 'B+', 'B+', 'B+', 'B+', 'B-', 'B-', 'B-', 'B-', 'B-', 'B-', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A']
+    __________________________________________________
+    z_score_offset domain=[-22.67786838055363,20.412414523193153]
+    final score domain=[13.007285974306422,28.75428127079781]
+    
+
+
+
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>组名（英文动物名称）</th>
+      <th>姓名</th>
+      <th>学号</th>
+      <th>个人贡献值</th>
+      <th>experiment-final-grade</th>
+      <th>note</th>
+      <th>experiment-final-grade-updated-1</th>
+      <th>个人实验-grade</th>
+      <th>note.1</th>
+      <th>temp-personal</th>
+      <th>temp-group</th>
+      <th>grade-personal-updated-1</th>
+      <th>note.2</th>
+      <th>grade_final</th>
+      <th>score_experi_original</th>
+      <th>contribution</th>
+      <th>z_score</th>
+      <th>score_experi_final</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Puffer</td>
+      <td>张行</td>
+      <td>2001010425</td>
+      <td>NaN</td>
+      <td>A</td>
+      <td>能够处理下载的POI和建筑高度数据。能够裁切数据到分析区域。可以完成KDE及Kmeans计算...</td>
+      <td>NaN</td>
+      <td>A</td>
+      <td>提出以area和floor两个变量为解释变量，实现Kmeans聚类，具有一定的应用价值。</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>A</td>
+      <td>NaN</td>
+      <td>A</td>
+      <td>95</td>
+      <td>0.166667</td>
+      <td>0.000000</td>
+      <td>23.668656</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Puffer</td>
+      <td>赵一诚</td>
+      <td>2001010516</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>A</td>
+      <td>根据建筑高度（层数）数据，数据可视化表达建筑高度分布，具有一定的应用价值。</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>A</td>
+      <td>NaN</td>
+      <td>A</td>
+      <td>95</td>
+      <td>0.166667</td>
+      <td>0.000000</td>
+      <td>23.668656</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Puffer</td>
+      <td>刘星原</td>
+      <td>2001010415</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>A-</td>
+      <td>使用tag字段，标识POI的业态类型。不过是否需要编码为序号，而tag本身就已是分类。</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>A-</td>
+      <td>NaN</td>
+      <td>A</td>
+      <td>95</td>
+      <td>0.166667</td>
+      <td>0.000000</td>
+      <td>23.668656</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Puffer</td>
+      <td>许鑫瑶</td>
+      <td>2001010403</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>A-</td>
+      <td>统计分析目标建筑高度的空间分布，具有一定的价值，可进一步拓展。</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>A-</td>
+      <td>NaN</td>
+      <td>A</td>
+      <td>95</td>
+      <td>0.166667</td>
+      <td>0.000000</td>
+      <td>23.668656</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Puffer</td>
+      <td>李晓凯</td>
+      <td>2001010522</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>B</td>
+      <td>单独可视化POI数据的价格分布，思考深度稍显简单。</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>B</td>
+      <td>NaN</td>
+      <td>A</td>
+      <td>95</td>
+      <td>0.166667</td>
+      <td>0.000000</td>
+      <td>23.668656</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>91</th>
+      <td>frog</td>
+      <td>刘丽华</td>
+      <td>2001010215</td>
+      <td>0.16</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>？</td>
+      <td>未收到个人实验。</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>C</td>
+      <td>NaN</td>
+      <td>A</td>
+      <td>95</td>
+      <td>0.160000</td>
+      <td>-0.408248</td>
+      <td>22.651531</td>
+    </tr>
+    <tr>
+      <th>92</th>
+      <td>frog</td>
+      <td>潘洪转</td>
+      <td>2001010220</td>
+      <td>0.16</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>？</td>
+      <td>未收到个人实验。</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>C</td>
+      <td>NaN</td>
+      <td>A</td>
+      <td>95</td>
+      <td>0.160000</td>
+      <td>-0.408248</td>
+      <td>22.651531</td>
+    </tr>
+    <tr>
+      <th>93</th>
+      <td>frog</td>
+      <td>曾伟涛</td>
+      <td>2008060220</td>
+      <td>0.16</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>？</td>
+      <td>未收到个人实验。</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>C</td>
+      <td>NaN</td>
+      <td>A</td>
+      <td>95</td>
+      <td>0.160000</td>
+      <td>-0.408248</td>
+      <td>22.651531</td>
+    </tr>
+    <tr>
+      <th>94</th>
+      <td>frog</td>
+      <td>刘茜</td>
+      <td>2008050205</td>
+      <td>0.16</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>？</td>
+      <td>未收到个人实验。</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>C</td>
+      <td>NaN</td>
+      <td>A</td>
+      <td>95</td>
+      <td>0.160000</td>
+      <td>-0.408248</td>
+      <td>22.651531</td>
+    </tr>
+    <tr>
+      <th>95</th>
+      <td>frog</td>
+      <td>王森</td>
+      <td>2002050118</td>
+      <td>0.16</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>？</td>
+      <td>未收到个人实验。</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>C</td>
+      <td>NaN</td>
+      <td>A</td>
+      <td>95</td>
+      <td>0.160000</td>
+      <td>-0.408248</td>
+      <td>22.651531</td>
+    </tr>
+  </tbody>
+</table>
+<p>96 rows × 18 columns</p>
+</div>
+
+
+
+## 6. 期末(个人实验)-分值计算（20）
+
+> 分配给期末实验总共分值为50，其中期末小组实验30分，期末个人实验20分
+
+
+```python
+grade_experi_final_personal=pd.read_excel(fp,sheet_name="experi-final",header=0,skiprows=0)
+grade_experi_final_personal["学号"]=grade_experi_final_personal["学号"].astype(str)
+grade_experi_final_personal["学号"].str.strip()
+grade_experi_final_personal["姓名"].str.strip()
+
+grade2score_mapping={"A+":99,"A":95,"A-":91,"B+":89,"B":85,"B-":81,"C+":79,"C":75,"C-":71,"D+":69,"D":65,"D-":61,"E":55,"?":55}
+grade_experi_final_personal["final_personal_score"]=grade_experi_final_personal["grade-personal-updated-1"].map(grade2score_mapping)
+grade_experi_final_personal["final_personal_score_20"]=grade_experi_final_personal.final_personal_score.apply(lambda row:row*20/100)
+
+grade_experi_final_personal
+```
+
+
+
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>组名（英文动物名称）</th>
+      <th>姓名</th>
+      <th>学号</th>
+      <th>个人贡献值</th>
+      <th>experiment-final-grade</th>
+      <th>note</th>
+      <th>experiment-final-grade-updated-1</th>
+      <th>个人实验-grade</th>
+      <th>note.1</th>
+      <th>temp-personal</th>
+      <th>temp-group</th>
+      <th>grade-personal-updated-1</th>
+      <th>note.2</th>
+      <th>final_personal_score</th>
+      <th>final_personal_score_20</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Puffer</td>
+      <td>张行</td>
+      <td>2001010425</td>
+      <td>NaN</td>
+      <td>A</td>
+      <td>能够处理下载的POI和建筑高度数据。能够裁切数据到分析区域。可以完成KDE及Kmeans计算...</td>
+      <td>NaN</td>
+      <td>A</td>
+      <td>提出以area和floor两个变量为解释变量，实现Kmeans聚类，具有一定的应用价值。</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>A</td>
+      <td>NaN</td>
+      <td>95</td>
+      <td>19.0</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>NaN</td>
+      <td>赵一诚</td>
+      <td>2001010516</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>A</td>
+      <td>根据建筑高度（层数）数据，数据可视化表达建筑高度分布，具有一定的应用价值。</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>A</td>
+      <td>NaN</td>
+      <td>95</td>
+      <td>19.0</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>NaN</td>
+      <td>刘星原</td>
+      <td>2001010415</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>A-</td>
+      <td>使用tag字段，标识POI的业态类型。不过是否需要编码为序号，而tag本身就已是分类。</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>A-</td>
+      <td>NaN</td>
+      <td>91</td>
+      <td>18.2</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>NaN</td>
+      <td>许鑫瑶</td>
+      <td>2001010403</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>A-</td>
+      <td>统计分析目标建筑高度的空间分布，具有一定的价值，可进一步拓展。</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>A-</td>
+      <td>NaN</td>
+      <td>91</td>
+      <td>18.2</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>NaN</td>
+      <td>李晓凯</td>
+      <td>2001010522</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>B</td>
+      <td>单独可视化POI数据的价格分布，思考深度稍显简单。</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>B</td>
+      <td>NaN</td>
+      <td>85</td>
+      <td>17.0</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>91</th>
+      <td>NaN</td>
+      <td>刘丽华</td>
+      <td>2001010215</td>
+      <td>0.16</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>？</td>
+      <td>未收到个人实验。</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>C</td>
+      <td>NaN</td>
+      <td>75</td>
+      <td>15.0</td>
+    </tr>
+    <tr>
+      <th>92</th>
+      <td>NaN</td>
+      <td>潘洪转</td>
+      <td>2001010220</td>
+      <td>0.16</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>？</td>
+      <td>未收到个人实验。</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>C</td>
+      <td>NaN</td>
+      <td>75</td>
+      <td>15.0</td>
+    </tr>
+    <tr>
+      <th>93</th>
+      <td>NaN</td>
+      <td>曾伟涛</td>
+      <td>2008060220</td>
+      <td>0.16</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>？</td>
+      <td>未收到个人实验。</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>C</td>
+      <td>NaN</td>
+      <td>75</td>
+      <td>15.0</td>
+    </tr>
+    <tr>
+      <th>94</th>
+      <td>NaN</td>
+      <td>刘茜</td>
+      <td>2008050205</td>
+      <td>0.16</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>？</td>
+      <td>未收到个人实验。</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>C</td>
+      <td>NaN</td>
+      <td>75</td>
+      <td>15.0</td>
+    </tr>
+    <tr>
+      <th>95</th>
+      <td>NaN</td>
+      <td>王森</td>
+      <td>2002050118</td>
+      <td>0.16</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>？</td>
+      <td>未收到个人实验。</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>C</td>
+      <td>NaN</td>
+      <td>75</td>
+      <td>15.0</td>
+    </tr>
+  </tbody>
+</table>
+<p>96 rows × 15 columns</p>
+</div>
+
+
+
+## 总分数（100）
+
+
+```python
+import pandas as pd
+from functools import reduce
+
+score_attendance=grade_attendance[["姓名","学号","score_attendance_10"]]
+score_experi_1=grade_experi_1[["学号","score_experi_1_15"]]
+
+score_experi_2=grade_experi_2_[["学号","score_experi_final"]]
+score_experi_2.rename(columns={"score_experi_final":"score_experi_2_18"},inplace=True)
+
+score_experi_4=grade_experi_4_[["学号","score_experi_final"]]
+score_experi_4.rename(columns={"score_experi_final":"score_experi_4_7"},inplace=True)
+
+score_final_group=grade_experi_final_[["学号","score_experi_final"]]
+score_final_group.rename(columns={"score_experi_final":"final_group_score_30"},inplace=True)
+
+score_final_personal=grade_experi_final_personal[["学号","final_personal_score_20"]]
+
+df_list=[score_attendance,score_experi_1,score_experi_2,score_experi_4,score_final_group,score_final_personal]
+overall_score=reduce(lambda left,right:pd.merge(left,right,on=["学号"],how="outer"),df_list)
+column_name_list=["score_attendance_10","score_experi_1_15","score_experi_2_18","score_experi_4_7","final_group_score_30","final_personal_score_20"]
+
+overall_score['class_score']=overall_score[["score_experi_1_15","score_experi_2_18","score_experi_4_7"]].sum(axis=1)
+overall_score['final_score']=overall_score[["final_group_score_30","final_personal_score_20"]].sum(axis=1)
+overall_score['overall_score']=overall_score[column_name_list].sum(axis=1)
+
+print("overall_score describe:\n{}".format(overall_score.overall_score.describe()))
+overall_score.to_excel("./data/overall score.xlsx",sheet_name="overall_score")
+overall_score
+```
+
+    overall_score describe:
+    count    96.000000
+    mean     77.191630
+    std       6.197220
+    min      61.716713
+    25%      72.832321
+    50%      77.334719
+    75%      81.141538
+    max      94.596403
+    Name: overall_score, dtype: float64
+    
+
+    C:\Users\richi\anaconda3\envs\USDA_database\lib\site-packages\pandas\core\frame.py:4296: SettingWithCopyWarning: 
+    A value is trying to be set on a copy of a slice from a DataFrame
+    
+    See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+      return super().rename(
+    
+
+
+
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>姓名</th>
+      <th>学号</th>
+      <th>score_attendance_10</th>
+      <th>score_experi_1_15</th>
+      <th>score_experi_2_18</th>
+      <th>score_experi_4_7</th>
+      <th>final_group_score_30</th>
+      <th>final_personal_score_20</th>
+      <th>class_score</th>
+      <th>final_score</th>
+      <th>overall_score</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>张行</td>
+      <td>2001010425</td>
+      <td>3.333333</td>
+      <td>11.25</td>
+      <td>15.166123</td>
+      <td>3.778680</td>
+      <td>23.668656</td>
+      <td>19.0</td>
+      <td>30.194803</td>
+      <td>42.668656</td>
+      <td>76.196792</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>赵一诚</td>
+      <td>2001010516</td>
+      <td>10.000000</td>
+      <td>12.15</td>
+      <td>15.166123</td>
+      <td>3.778680</td>
+      <td>23.668656</td>
+      <td>19.0</td>
+      <td>31.094803</td>
+      <td>42.668656</td>
+      <td>83.763459</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>刘星原</td>
+      <td>2001010415</td>
+      <td>10.000000</td>
+      <td>14.25</td>
+      <td>15.166123</td>
+      <td>3.778680</td>
+      <td>23.668656</td>
+      <td>18.2</td>
+      <td>33.194803</td>
+      <td>41.868656</td>
+      <td>85.063459</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>许鑫瑶</td>
+      <td>2001010403</td>
+      <td>5.000000</td>
+      <td>14.25</td>
+      <td>15.166123</td>
+      <td>3.778680</td>
+      <td>23.668656</td>
+      <td>18.2</td>
+      <td>33.194803</td>
+      <td>41.868656</td>
+      <td>80.063459</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>李晓凯</td>
+      <td>2001010522</td>
+      <td>9.166667</td>
+      <td>9.75</td>
+      <td>12.271334</td>
+      <td>3.778680</td>
+      <td>23.668656</td>
+      <td>17.0</td>
+      <td>25.800015</td>
+      <td>40.668656</td>
+      <td>75.635337</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>91</th>
+      <td>刘丽华</td>
+      <td>2001010215</td>
+      <td>9.750000</td>
+      <td>9.75</td>
+      <td>16.613517</td>
+      <td>5.285357</td>
+      <td>22.651531</td>
+      <td>15.0</td>
+      <td>31.648875</td>
+      <td>37.651531</td>
+      <td>79.050405</td>
+    </tr>
+    <tr>
+      <th>92</th>
+      <td>潘洪转</td>
+      <td>2001010220</td>
+      <td>9.833333</td>
+      <td>9.75</td>
+      <td>12.271334</td>
+      <td>5.285357</td>
+      <td>22.651531</td>
+      <td>15.0</td>
+      <td>27.306692</td>
+      <td>37.651531</td>
+      <td>74.791556</td>
+    </tr>
+    <tr>
+      <th>93</th>
+      <td>曾伟涛</td>
+      <td>2008060220</td>
+      <td>10.000000</td>
+      <td>12.75</td>
+      <td>13.718729</td>
+      <td>5.285357</td>
+      <td>22.651531</td>
+      <td>15.0</td>
+      <td>31.754086</td>
+      <td>37.651531</td>
+      <td>79.405617</td>
+    </tr>
+    <tr>
+      <th>94</th>
+      <td>刘茜</td>
+      <td>2008050205</td>
+      <td>10.000000</td>
+      <td>12.75</td>
+      <td>13.718729</td>
+      <td>5.285357</td>
+      <td>22.651531</td>
+      <td>15.0</td>
+      <td>31.754086</td>
+      <td>37.651531</td>
+      <td>79.405617</td>
+    </tr>
+    <tr>
+      <th>95</th>
+      <td>王森</td>
+      <td>2002050118</td>
+      <td>10.000000</td>
+      <td>14.25</td>
+      <td>13.718729</td>
+      <td>5.285357</td>
+      <td>22.651531</td>
+      <td>15.0</td>
+      <td>33.254086</td>
+      <td>37.651531</td>
+      <td>80.905617</td>
+    </tr>
+  </tbody>
+</table>
+<p>96 rows × 11 columns</p>
+</div>
+
+
+
+
+```python
+
+```
+
+
+```python
+score_final_personal[score_final_personal.final_personal_score_20.isnull()]
+```
+
+
+
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>学号</th>
+      <th>final_personal_score_20</th>
+    </tr>
+  </thead>
+  <tbody>
+  </tbody>
+</table>
+</div>
+
+
+
+
+```python
+a=overall_score.isnull()
+[a[i].value_counts() for i in a.columns]
+```
+
+
+
+
+    [False    96
+     Name: 姓名, dtype: int64,
+     False    96
+     Name: 学号, dtype: int64,
+     False    96
+     Name: score_attendance_10, dtype: int64,
+     False    96
+     Name: score_experi_1_15, dtype: int64,
+     False    96
+     Name: score_experi_2_18, dtype: int64,
+     False    96
+     Name: score_experi_4_7, dtype: int64,
+     False    96
+     Name: final_group_score_30, dtype: int64,
+     False    96
+     Name: final_personal_score_20, dtype: int64,
+     False    96
+     Name: overall_score, dtype: int64]
+
+
+
+
+```python
+
+```
+
+
+```python
+
+```
+
+
+```python
+grade_experi_final_[grade_experi_final_["组名（英文动物名称）"]=='Eagle']
+```
+
+
+
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>组名（英文动物名称）</th>
+      <th>姓名</th>
+      <th>学号</th>
+      <th>个人贡献值</th>
+      <th>experiment-final-grade</th>
+      <th>note</th>
+      <th>experiment-final-grade-updated-1</th>
+      <th>个人实验-grade</th>
+      <th>note.1</th>
+      <th>temp-personal</th>
+      <th>temp-group</th>
+      <th>grade-personal-updated-1</th>
+      <th>note.2</th>
+      <th>grade_final</th>
+      <th>score_experi_original</th>
+      <th>contribution</th>
+      <th>z_score</th>
+      <th>score_experi_final</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>24</th>
+      <td>Eagle</td>
+      <td>薛嘉玮</td>
+      <td>2001050116</td>
+      <td>NaN</td>
+      <td>C</td>
+      <td>可以粗略读取与处理POI和建筑高度.shp格式数据。能够计算KDE和Kmeans。但代码组织...</td>
+      <td>A</td>
+      <td>C</td>
+      <td>为POI转DataFrame及图示。小组全部基本同</td>
+      <td>B-/--&gt;C</td>
+      <td>NaN</td>
+      <td>A</td>
+      <td>能够研究探索DBSCAN聚类的方法，并打印地图。</td>
+      <td>A</td>
+      <td>95</td>
+      <td>0.142857</td>
+      <td>0.0</td>
+      <td>23.668656</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>Eagle</td>
+      <td>李凯</td>
+      <td>2001050122</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>C</td>
+      <td>为POI转DataFrame及图示。小组全部基本同</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>C</td>
+      <td>NaN</td>
+      <td>A</td>
+      <td>95</td>
+      <td>0.142857</td>
+      <td>0.0</td>
+      <td>23.668656</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>Eagle</td>
+      <td>李泽宇</td>
+      <td>2001050121</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>C</td>
+      <td>为POI转DataFrame及图示。小组全部基本同</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>C</td>
+      <td>NaN</td>
+      <td>A</td>
+      <td>95</td>
+      <td>0.142857</td>
+      <td>0.0</td>
+      <td>23.668656</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>Eagle</td>
+      <td>曾欣锐</td>
+      <td>2001050123</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>C</td>
+      <td>为POI转DataFrame及图示。小组全部基本同</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>C</td>
+      <td>NaN</td>
+      <td>A</td>
+      <td>95</td>
+      <td>0.142857</td>
+      <td>0.0</td>
+      <td>23.668656</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>Eagle</td>
+      <td>姬少山</td>
+      <td>2001050124</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>C</td>
+      <td>为POI转DataFrame及图示。小组全部基本同</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>C</td>
+      <td>NaN</td>
+      <td>A</td>
+      <td>95</td>
+      <td>0.142857</td>
+      <td>0.0</td>
+      <td>23.668656</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>Eagle</td>
+      <td>王英行</td>
+      <td>2001050118</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>C</td>
+      <td>为POI转DataFrame及图示。小组全部基本同</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>C</td>
+      <td>NaN</td>
+      <td>A</td>
+      <td>95</td>
+      <td>0.142857</td>
+      <td>0.0</td>
+      <td>23.668656</td>
+    </tr>
+    <tr>
+      <th>30</th>
+      <td>Eagle</td>
+      <td>周义明</td>
+      <td>2001050125</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>C</td>
+      <td>为POI转DataFrame及图示。小组全部基本同</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>C</td>
+      <td>NaN</td>
+      <td>A</td>
+      <td>95</td>
+      <td>0.142857</td>
+      <td>0.0</td>
+      <td>23.668656</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+
+```python
+
+```
