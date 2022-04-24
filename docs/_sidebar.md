@@ -93,7 +93,7 @@
         * [RGB.9 Arudino库](./markdown/RCB_C_arduino_lib.md)
         * [RGB.10 C语言(arduino)串讲，考前必备](./markdown/RCB_C_lecture_necessary_before_the_test.md)
 
-    * misc
+    * MISC
         * [m.1 数字营造概述](./markdown/overview_of_digital_construction.md)
         * [m.2 建模途径横向比较-结构](./markdown/modeling_approach_comparison_structure.md)
         * [m.3 设计/创作层面探索](./markdown/design_exploration.md)
@@ -108,13 +108,18 @@
         * [m.12 GIS(python)+SWWM城市雨洪管理](./markdown/GIS(python)_SWWM_urban_stormwater_management.md)
         * [m.13《地理信息系统(GIS)在风景园林和城市规划中的应用》_13版](./markdown/application_of_GIS_in_landscape_and_urban_planning_V13.md)
         * [m.14 提取子流域](./markdown/extract_subwatershed.md)
-        * [m.15 python测验_20171101_根据提供的数据采集程序下载自选城市的poi数据，基于python编写描述性统计(包括评分和价格等相关性分析)及图表代码](./markdown/python_test_20171101.md)
-        * [m.16 “数字营造”本科教学体系建构](./markdown/construction_of_undergraduate_teaching_system_of_digital_construction.md)
-        * [m.17 空间数据分析-规划-引导](./markdown/spatial_data_analysis_planning_guidance.md)
-        * [m.18 基于ArcGIS辅助规划技术](./markdown/gisforplan.md)
-        * [m.19 设计与数字化-2021](./markdown/misc_digital_design_2021.md)
-        * [m.20 《生态辅助设计技术》](./markdown/eco_aided_design_tech.md)
-        * [m.21 《参数化设计方法》](./markdown/algorithmic_design_methodology.md)
+        * [m.15 python测验_20171101_根据提供的数据采集程序下载自选城市的poi数据，基于python编写描述性统计(包括评分和价格等相关性分析)及图表代码](./markdown/python_test_20171101.md)        
+        * [m.16 空间数据分析-规划-引导](./markdown/spatial_data_analysis_planning_guidance.md)
+        * [m.17 基于ArcGIS辅助规划技术](./markdown/gisforplan.md)
+        * [m.18 设计与数字化-2021](./markdown/misc_digital_design_2021.md)
+        * [m.19 《生态辅助设计技术》](./markdown/eco_aided_design_tech.md)
+        * [m.20 《参数化设计方法》](./markdown/algorithmic_design_methodology.md)
+
+    * 报告
+        * [P.1 “数字营造”本科教学体系建构](./markdown/construction_of_undergraduate_teaching_system_of_digital_construction.md) 
+        * [P.2 城市空间数据分析方法](./markdown/P_USDataAnalysisMethod.md)
+        * [P.3 Guide to the knowledge structure of the digital LA|UP|Archi design](./markdown/iit_guide.md)
+        * [P.4 数字化设计教学实践与数字营造学社](./markdown/P_DDTeachingPractice_DCS.md)
 
 * 产学研合作项目
     * IUR_1  参数化设计数字技术示范课程建设
