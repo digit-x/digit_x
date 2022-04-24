@@ -35,11 +35,11 @@ section D 学生社团
 数字营造学社 - 2017.03 -           :active,    des12, 2017-03,2026-01
 ```
 
-## 2. 已开课情况问题与调整
+## 2 课程之间及课程与规划设计的关系
 
-### 2.1 课程之间及课程与规划设计的关系
+<a href=""><img src="./imgs/P_4_courses_structure.png" height='auto' width='auto' title="caDesign"></a> 
 
-### 2.2 问题与回应
+## 3. 已开课情况问题与调整
 
 | 课程名称 |专业结合-别名| 简介  |信息| 问题  | 回应与调整  | 备注|
 |---|---|---|---|---|---|---|
@@ -49,7 +49,7 @@ section D 学生社团
 
 **数字化设计相关课程均为选修课，未真正纳入专业教学体系，必然会制约数字化设计的发展。**
 
-## 3. 近期新开课预期与计划
+## 4. 近期新开课预期与计划
 
 **课程名称：**数字化设计方法研究
 
@@ -59,7 +59,7 @@ section D 学生社团
 
 **预计开新课时间：**2023秋季或2024年春季
 
-## 4. 产学研与教材更新
+## 5. 产学研与教材专著更新
 
 * [《参数化设计编程——GRASSHOPPER》](https://richiebao.github.io/parametric_design_coding_grasshopper/#/)－进行中
 
@@ -71,7 +71,7 @@ section D 学生社团
 
 
 
-## 5. 数字营造学社
+## 6. 数字营造学社
 
 <a href=""><img src="./imgs/logo_digit-x_small.gif" height='auto' width=200 title="caDesign"></a> 
 
