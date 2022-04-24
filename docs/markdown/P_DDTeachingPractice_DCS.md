@@ -61,27 +61,30 @@ section D 学生社团
 
 ## 4. 产学研与教材更新
 
-[《参数化设计编程——GRASSHOPPER》](https://richiebao.github.io/parametric_design_coding_grasshopper/#/)－进行中
+* [《参数化设计编程——GRASSHOPPER》](https://richiebao.github.io/parametric_design_coding_grasshopper/#/)－进行中
 
-[《参数化设计编程——GHPython》](https://richiebao.github.io/parametric_design_coding_GHPython/#/)－进行中
+* [《参数化设计编程——GHPython》](https://richiebao.github.io/parametric_design_coding_GHPython/#/)－进行中
 
-[《用算法做决策——面向设计师的参数化认知逻辑（CATERPILLAR）》](https://richiebao.github.io/parametric_design_coding_module/#/)－启动中
+* [《用算法做决策——面向设计师的参数化认知逻辑（CATERPILLAR）》](https://richiebao.github.io/parametric_design_coding_module/#/)－启动中
 
-[城市空间数据分析方法（改版本停更）](https://richiebao.github.io/Urban-Spatial-Data-Analysis_python/#/) - 进入终版
+* [《城市空间数据分析方法》（该版本已停更）](https://richiebao.github.io/Urban-Spatial-Data-Analysis_python/#/)     [城市空间数据分析方法-初版探索代码（该版本已停更）](https://github.com/richieBao/python-urbanPlanning) - 进入终版，准备出版阶段
+
+
 
 ## 5. 数字营造学社
 
 <a href=""><img src="./imgs/logo_digit-x_small.gif" height='auto' width=200 title="caDesign"></a> 
 
-2017年，由王丁冉、包瑞清老师引导建立的数字化设计方向学生［学习社团](https://digit-x.github.io/digit_x/#/)，目前由学生自行组织活动。
+2017年，由王丁冉、包瑞清老师引导建立的数字化设计方向学生[学习社团](https://digit-x.github.io/digit_x/#/)，目前由学生自行组织活动。
 
 **价值：**
 
 1. 能够把想学习数字化设计的同学聚集在一起，互相敦促学习；
 2. 学社日常活动，和学社同学应用数字化的方法可以激发周围同学的兴趣，关注、尝试学习数字化设计；
-3. 参与到教师教材，和产学协同活动中，一方面为学习者，实践者；另一方面问题反馈，为教材内容调整提供建议。
+3. 参与到教师教材，和产学协同活动中，一方面为学习者，实践者；另一方面问题反馈，为教材内容调整提供建议；
+4. 学社网站包括学社活动，和教师更新的历年课件，及相关探索，可以为本校学生和外校学生提供更易于接近了解数字化设计，和学习的机会。
 
-## 6. 没有“围墙”的线上课程计划
+
 
 
 
