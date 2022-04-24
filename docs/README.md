@@ -41,9 +41,9 @@
 
 > 学社历届成员
 
-<p float="left">
-  <img title="richie bao(Designer)Living from your heart!" src="./imgs/0002.jpg" height="100" width="auto"/>
+<p float="left">  
   <img title="Dora Wang(Planner)Doing real and permanent good" src="./imgs/0003.jpg" height="100" width="auto" />
+  <img title="richie bao(Designer)Living from your heart!" src="./imgs/0002.jpg" height="100" width="auto"/>
   <img title="X Tuan(Designer)innovation, or death" src="./imgs/0004.jpg" height="100" width="auto" />
   <img title="Wang Yaoyao(Artist)The little flower lies in the dust.It sought the path of the butterfly." src="./imgs/0005.jpg" height="100" width="auto" />
   <img title="PokerFace(Designer)Do my best today" src="./imgs/0006.jpg" height="100" width="auto" />

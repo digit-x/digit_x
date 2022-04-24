@@ -121,7 +121,7 @@
         * [IUR_1.1 启动与招募](./markdown/IUR_para_startup.md)
         * [IUR_1.2 参数化设计编程-GRASSHOPPER](https://richiebao.github.io/parametric_design_coding_grasshopper/#/)
         * [IUR_1.3 参数化设计编程-GHPython](https://richiebao.github.io/parametric_design_coding_GHPython/#/)
-        * [IUR_1.4 CATERPILLAR 参数化编程设计模组-IDEAS](./markdown/.md)
+        * [IUR_1.4 CATERPILLAR 参数化编程设计模组-IDEAS](https://richiebao.github.io/parametric_design_coding_module)
     
 
 * 检索
