@@ -61,3 +61,5 @@ $ pip install torch-sparse==latest+cu102 -f https://pytorch-geometric.com/whl/to
 $ pip install torch-cluster==latest+cu102 -f https://pytorch-geometric.com/whl/torch-1.6.0.html
 $ pip install torch-spline-conv==latest+cu102 -f https://pytorch-geometric.com/whl/torch-1.6.0.html
 $ pip install torch-geometric
+
+（源）参数化设计实践-清华城市规划设计研究院（清华同衡） 2009 - 2010.07            :done,    des1, 2009-01,2010-07
