@@ -1,6 +1,6 @@
 > Created on Sun Jan 17 09\46\23 2021 @author: Richie Bao-Chicago.IIT
 
-**Ruiqing BAO: Guide to the knowledge structure of the digital LA|UP|Archi design-Illinois Institute of Technology 2021-1-23**
+**Ruiqing BAO: Guide to the knowledge structure of the digital LA|UP|Archi design-（Illinois Institute of Technology） 2021-1-23**
 
 # [Guide to the knowledge structure of the digital LA|UP|Archi design](https://github.com/richieBao/guide_to_digitalDesign_of_LAUPArhi_knowledgeStruc)
 
