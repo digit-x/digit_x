@@ -84,20 +84,19 @@ In a series of UN reports, thousands of scientists and government reviewers agre
 
 ### 2.1 空间设计思维VS数理逻辑思维
 
-e.g. 
+* e.g. 
 
-| 示例名  | 1-纯粹空间推敲方法  | 2-参数化设计方法（构建数理逻辑）- 常规 | 3-参数化设计方法 - 生成  | 备注 |
+| 示例名  | 1-纯粹空间推敲方法  | 2-参数化设计方法（构建数理逻辑）- 常规 | 3-参数化设计方法 - 生成  | 备注|
 |---|---|---|---|---|
-| 铺地 | 绘制或填充  |   |   |   |
-| 地形 |   |   |   |   |
+| * |   |   |   |   |
+| 铺地 | 绘制或填充  |拖动点，控制点位置 <br/><img src="./imgs_p/002_c_s.png" height="auto" width=500 title="digit-x"><br/><img src="./imgs_p/002_s.gif" height="auto" width=500 title="digit-x"> |自动生成控制点（无条件）<br/><img src="./imgs_p/005.png" height="auto" width=500 title="digit-x"> <br/> <img src="./imgs_p/004_s.gif" height="auto" width=500 title="digit-x"> |  <img src="./imgs_p/003_s.jpg" height="auto" width=500 title="digit-x">  |
+| 地形 |   | 控制边界和控制线+点<br/> <img src="./imgs_p/008_s.png" height="auto" width=500 title="digit-x"><br/> <img src="./imgs_p/007_s.gif" height="auto" width=500 title="digit-x">   |自动生成控制点--->控制线<br/> <img src="./imgs_p/006_s.png" height="auto" width=500 title="digit-x"><br/> <img src="./imgs_p/005_s.gif" height="auto" width=500 title="digit-x">  |   |
 | 种植 |   |   |   |   |
 | 建筑 |   |   |   |   |
 | 表皮 |   |   |   |   |
 | 协同-结构  |   |   |   |   |
 | 协同-生态  |   |   |   |   |
 
-
-<a href="./code/1_1_01_hello world.gh"><img src="./imgs_p/001.jpeg" height="auto" width=500 title="digit-x"></a>
 
 
 
