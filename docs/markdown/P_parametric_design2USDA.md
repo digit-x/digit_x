@@ -42,21 +42,48 @@
 
 ### 1.2 对自然的向往
 
-
+城市的集聚、扩张，对自然土地的侵蚀，及城市与自然的割裂，使得城市环境恶化，生态问题突出，难以达到宜居的基本要求。空气、噪声污染，绿地碎片化，开敞空间不足，步行空间缺失，城市公共空间的生活品质趋于下降。拥挤、烦躁、疾病、压抑、孤独潜藏于城市繁荣的表面之下。现代城市的发展历经半个多世纪，在解决了人类生存和各类社会问题的同时，也以牺牲环境为代价，积累下各类潜在的城市问题。时至今日，城市环境恶化已经是不得不面对的重大问题，大量相关研究的跟进，都在试图为解决城市问题寻找方法。
 
 |Causes and Effects of Climate Change _ National Geographic <br/> <video height='auto' width=100% controls><source src="./video/CLIMATE Change  May 05, 2022 news, naturel disasters, flooding, wildfire, tornado, earthquake-IzOVwpGfOoo.mp4" height='auto' width='auto' title="digit-x" type='video/mp4'></video> | Air pollution in cities <br/><video height='auto' width=100% controls><source src="./video/Air pollution in cities-720p.mp4" height='auto' width='auto' title="digit-x" type='video/mp4'></video>|
 |---|---|
 
+[What Is Climate Change?](https://www.un.org/en/climatechange/what-is-climate-change) And emissions continue to rise. As a result, the Earth is now about 1.1°C warmer than it was in the late 1800s. The last decade (2011-2020) was the warmest on record.
 
+Many people think climate change mainly means warmer temperatures. But temperature rise is only the beginning of the story. Because the Earth is a system, where everything is connected, changes in one area can influence changes in all others.
 
-<img src="./imgs_p/CCSM4_rcp85_global_temperature_change_spiral.gif" height="auto" width=300  title="digit-x">
+The consequences of climate change now include, among others, intense droughts, water scarcity, severe fires, rising sea levels, flooding, melting polar ice, catastrophic storms and declining biodiversity.
+
+In a series of UN reports, thousands of scientists and government reviewers agreed that limiting global temperature rise to no more than 1.5°C would help us avoid the worst climate impacts and maintain a livable climate. Yet based on current national climate plans, global warming is projected to reach around 3.2°C by the end of the century.
+
+* Simulated global temperature change (1850-2100)
+
+<img src="./imgs_p/CCSM4_rcp85_global_temperature_change_spiral.gif" height="auto" width="auto"  title="digit-x">
+
+### 1.3 科技-设计-环境
+
+* 对于（规划）设计
+
+数字化设计可以帮助设计师更好的分析理解场地（城市），及进行设计本身。合理的设计可以引导人们的（生活）习惯或行为，也可以调整局地小气候环境，对整个城市环境的改善尽微薄之力；
+
+* 对于研究
+
+尽量避免“务虚”神游般的论调，以设计想法似的概念，宣传似的口号去做研究。尽量用“务实”的数据进行分析，更新或提出新方法，解决实际，重要、尤其迫在眉睫的（环境、生活）问题。
+
+<span style = "color:maroon;background-color:;font-size:30.0pt">从不懂设计到会做设计；从不会研究到知道怎么做研究。</span>
+
+> 讲课人踩坑：硕士毕业后，在清华规划设计研究院工作，跟随朱育帆老师做设计，设计反复推敲修改（大大小小修改几十次也是正常），学习实践积累，日复一日，突然有一天，感觉我能做不错的设计了（推敲修改次数明显减少，参数化设计方法同时提升效率和创作能力。切记：第一份工作要跟对老板。）； 设计专业怎么做研究？还记得硕士时的文章不堪回首（对于选题，读上十几篇论文，就开始拍脑袋攒），即使博士阶段的文章也不堪入目（茫然），不知道怎么做研究！！！高校任教时，尝试多次自选题目，“做研究”，投文章，关键是等同行评审，学习意见。并梳理了'Landscape and Urban Planning'4年（15，16，17，18）的所有论文。直至开始写《城市空间数据分析方法》（还在进行中），用Python编程语言进行数据分析（定量），庞大的开源库（意味着无数人的研究成果可以学习，及使用），突然有一天（2021年的某一天），感觉我能做研究了（托Python数据分析的福，任何选题似乎都能找到创新点，“文思泉涌”！）。
 
 
 ## 2. 参数化设计编程
 
+[Let’s talk about Grasshopper 2.0](https://discourse.mcneel.com/t/lets-talk-about-grasshopper-2-0/140402)；[Grasshopper 2 对外公测](https://mp.weixin.qq.com/s/ESDEkkY5tnprOt7Vl3BzgA)
 
+参数化设计工具[Grasshopper](https://www.grasshopper3d.com/) 1.0(2007年发布，至今已15年)，发展的[扩展库](https://www.food4rhino.com/en)至少400组以上，涉及拓扑分析、最小曲面、包装展开、粒子系统、多代理、表皮细分、分形、形状语法（Shape Grammar Designing）、离散与聚合、体素化算法（Voxelization）、热点分析、动力学、图论、折纸、几何填充、编织等。Grasshopper 2.0（全面重新开发，更强大的全新参数化设计平台）已在公测阶段，2.0充满了创意，界面和交互方式的优化意味着友好的学习环境；彻底重写的代码，重新设计的数据类型、核心函数，多线程，意味着更好的计算速度和设计者使用体验，及更大数据处理需求；元数据标记对象信息，意味着基于参数化设计方法的BIM（LIM，CIM）将会迅速发展（重要的一个研究方向）。非常期待GH2的最终完成发布！
+
+<a href=""><img src="./imgs_p/001.jpeg" height="auto" width=500 title="digit-x"></a>
 
 ### 2.1 空间设计思维VS数理逻辑思维
+
 
 
 e.g. 
