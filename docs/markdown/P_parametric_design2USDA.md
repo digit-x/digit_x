@@ -89,8 +89,8 @@ In a series of UN reports, thousands of scientists and government reviewers agre
 | 示例名  | 1-纯粹空间推敲方法  | 2-参数化设计方法（构建数理逻辑）- 常规 | 3-参数化设计方法 - 生成  | 备注|
 |---|---|---|---|---|
 | * |   |   |   |   |
-| 铺地 | 绘制或填充  |拖动点，控制点位置 <br/><img src="./imgs_p/002_c_s.png" height="auto" width=500 title="digit-x"><br/><img src="./imgs_p/002_s.gif" height="auto" width=500 title="digit-x"> |自动生成控制点（无条件）<br/><img src="./imgs_p/005.png" height="auto" width=500 title="digit-x"> <br/> <img src="./imgs_p/004_s.gif" height="auto" width=500 title="digit-x"> |  <img src="./imgs_p/003_s.jpg" height="auto" width=500 title="digit-x">  |
-| 地形 |   | 控制边界和控制线+点<br/> <img src="./imgs_p/008_s.png" height="auto" width=500 title="digit-x"><br/> <img src="./imgs_p/007_s.gif" height="auto" width=500 title="digit-x">   |自动生成控制点--->控制线<br/> <img src="./imgs_p/006_s.png" height="auto" width=500 title="digit-x"><br/> <img src="./imgs_p/005_s.gif" height="auto" width=500 title="digit-x">  |   |
+| 铺地 | 绘制或填充  |拖动点，控制点位置 <br/><img src="./imgs_p/002_c_s.png" height="auto" width="auto" title="digit-x"><br/><img src="./imgs_p/002_s.gif" height="auto" width="auto" title="digit-x"> |自动生成控制点（无条件）<br/><img src="./imgs_p/005.png" height="auto" width="auto" title="digit-x"> <br/> <img src="./imgs_p/004_s.gif" height="auto" width="auto" title="digit-x"> |  <img src="./imgs_p/003_s.jpg" height="auto" width="auto" title="digit-x">  |
+| 地形 |  一根根绘制等高线？ | 控制边界和控制线+点<br/> <img src="./imgs_p/008_s.png" height="auto" width="auto" title="digit-x"><br/> <img src="./imgs_p/007_s.gif" height="auto" width="auto" title="digit-x">   |自动生成控制点--->控制线<br/> <img src="./imgs_p/006_s.png" height="auto" width="auto" title="digit-x"><br/> <img src="./imgs_p/005_s.gif" height="auto" width="auto" title="digit-x">  | <img src="./imgs_p/009_s.jpg" height="auto" width="auto" title="digit-x">  |
 | 种植 |   |   |   |   |
 | 建筑 |   |   |   |   |
 | 表皮 |   |   |   |   |
