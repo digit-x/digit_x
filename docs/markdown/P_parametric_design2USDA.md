@@ -88,27 +88,33 @@ In a series of UN reports, thousands of scientists and government reviewers agre
 
 | 示例名  | 1-纯粹空间推敲方法  | 2-参数化设计方法（构建数理逻辑）- 常规 | 3-参数化设计方法 - 生成  | 备注|
 |---|---|---|---|---|
-| * |   |   |   |   |
+| 拉索 | 仿生形态不太好建模！绳索拉拽的位置不太好确定！  |  拖动点，控制点位置;随机Seed控制连接位置 <br/><img src="./imgs_p/011_s.png" height="auto" width="auto" title="digit-x"><br/><img src="./imgs_p/010_s.gif" height="auto" width="auto" title="digit-x"> | <span style = "color:maroon;background-color:gainsboro;font-size:10.5.0pt"> 协同-动力学（Kangaroo）</span> <br/><img src="./imgs_p/012_s.png" height="auto" width="auto" title="digit-x"><br/><img src="./imgs_p/011_s.gif" height="auto" width="auto" title="digit-x"> |   |
 | 铺地 | 绘制或填充  |拖动点，控制点位置 <br/><img src="./imgs_p/002_c_s.png" height="auto" width="auto" title="digit-x"><br/><img src="./imgs_p/002_s.gif" height="auto" width="auto" title="digit-x"> |自动生成控制点（无条件）<br/><img src="./imgs_p/005.png" height="auto" width="auto" title="digit-x"> <br/> <img src="./imgs_p/004_s.gif" height="auto" width="auto" title="digit-x"> |  <img src="./imgs_p/003_s.jpg" height="auto" width="auto" title="digit-x">  |
-| 地形 |  一根根绘制等高线？ | 控制边界和控制线+点<br/> <img src="./imgs_p/008_s.png" height="auto" width="auto" title="digit-x"><br/> <img src="./imgs_p/007_s.gif" height="auto" width="auto" title="digit-x">   |自动生成控制点--->控制线<br/> <img src="./imgs_p/006_s.png" height="auto" width="auto" title="digit-x"><br/> <img src="./imgs_p/005_s.gif" height="auto" width="auto" title="digit-x">  | <img src="./imgs_p/009_s.jpg" height="auto" width="auto" title="digit-x">  |
-| 种植 |   |   |   |   |
-| 建筑 |   |   |   |   |
-| 表皮 |   |   |   |   |
-| 协同-结构  |   |   |   |   |
-| 协同-生态  |   |   |   |   |
-
-
-
-
+| 地形 |  一根根绘制等高线？ | 控制边界和控制线+点<br/> <img src="./imgs_p/008_s.png" height="auto" width="auto" title="digit-x"><br/> <img src="./imgs_p/007_s.gif" height="auto" width="auto" title="digit-x">   |自动生成控制点--->控制线（无条件）<br/> <img src="./imgs_p/006_s.png" height="auto" width="auto" title="digit-x"><br/> <img src="./imgs_p/005_s.gif" height="auto" width="auto" title="digit-x">  | <img src="./imgs_p/009_s.jpg" height="auto" width="auto" title="digit-x">  |
+| 桥 | 同拉索；合理的结构亦不好找！  |  控制点<br/> <img src="./imgs_p/017_s.png" height="auto" width="auto" title="digit-x"><br/> <img src="./imgs_p/016_duration_s.gif" height="auto" width="auto" title="digit-x"> |   <span style = "color:maroon;background-color:gainsboro;font-size:10.5.0pt"> 协同-结构（Karamba3D）</span> <br/><img src="./imgs_p/015_s.png" height="auto" width="auto" title="digit-x"><br/><img src="./imgs_p/013_duration_s.gif" height="auto" width="auto" title="digit-x"> <br/><img src="./imgs_p/014.png" height="auto" width="auto" title="digit-x"> |  |
+|  |   |   |  <span style = "color:maroon;background-color:gainsboro;font-size:10.5.0pt"> 协同-生态（Ladybug Tools）</span> <br/>  |   |
 
 ### 2.2 设计方法数字化思辨
 
+1. 思考设计时，一种直接思考某种形态，然后绘制或者三维模型构建；一种则思考某类形态通过何种逻辑构建出来，先有形态，后有逻辑；再者则思考何种逻辑构建出某类形态，先有逻辑，后有形态；
+2. 参数化设计在寻找形态时，需要确定控制形态的参数，可以手动调参选择该类形态下的一种形态；也可以结构、动力学和生态等途径协同优化（进化算法）自行调参，确定最优形态；
+3. 思维需要在空间设计思维和数理逻辑思维之间跳跃切换，需要适应这种设计思维方式，尤其数据类型、结构和数据流组织方式需要有深入认知；
+4. 参数化设计过程是一个不断在创造设计方法和设计工具的过程，养成构建工具积累方法技术的习惯，这有助于设计效率的提升，及方法-算法总结和新方法的提出。
+
+* 如果已经接触和应用了参数化设计方法，有什么地方需要改进？或能提出新的见解。
 
 ### 2.3 从0开始，进入到参数化设计编程领域推荐学习实践流程
 
+Step_1. [Grasshopper参数化逻辑构建过程](https://www.bilibili.com/video/BV1iJ411C7FS?p=1)。虽然这个教程编写的较早，但对初学者很友好，被广泛传阅；
 
+Step_2. [参数化设计编程——GRASSHOPPER](https://richiebao.github.io/parametric_design_coding_grasshopper/#/)。更新中，有大量代码段练习，可逐一或者挑选练习。培养建立设计工具模组的方法和习惯。这个阶段要养成参数化设计的习惯，不要再用常规方式；
+
+Step_3. [参数化设计编程——GHPython](https://richiebao.github.io/parametric_design_coding_GHPython/#/)。这个更新最迟，也较慢，是用Python写参数化方法，可以更大程度的扩展设计方法探索途径（这涉及全世界无以计数的开源项目），让数据处理更自由，设计方法更具创新性。
+
+> 注：由讲课人编写的6本老版教材，不再推荐阅读。包括《参数化逻辑构建过程》、《参数模型构建》、《编程景观》、《学习PYTHON—做个有编程能力的设计师》、《ArcGIS下的Python编程》和《折叠的程序》。
 
 ## 3. 城市空间数据分析方法
+
 
 
 ### 3.1 工具的桎梏
