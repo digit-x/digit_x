@@ -115,19 +115,60 @@ Step_3. [参数化设计编程——GHPython](https://richiebao.github.io/parame
 
 ## 3. 城市空间数据分析方法
 
+* Most Popular Programming Languages (Tiobe Index) | 2001-2021
 
+<video height='auto' width=100% controls><source src="./video/Most Popular Programming Languages (Tiobe Index) _ 2001-2021_s.mp4" height='auto' width='auto' title="digit-x" type='video/mp4'></video> 
+
+<img src="./imgs_p/018.png" height="auto" width="auto" title="digit-x">
+
+[python](https://www.python.org/)，目前[TIOBE](https://www.tiobe.com/tiobe-index/)排名为首位。
 
 ### 3.1 工具的桎梏
 
+> Wikipedia claims there are approximately 700 programming languages, while others say that number is closer to 9000! The truth is, there’ve been countless programming languages created throughout history. 
 
+**世界上有几百种编程语言，会几种？**   ): or (:
 
+1. 那么多数据源（POI,OSM,AOT,Cityscape,...）涉及方方面面（业态、地图、城市环境传感器、分类数据、点云、遥感图像...），我却只能望而兴叹；
+2. (python)庞大的库，涉及方方面面（...），又只能望而兴叹。
+
+> Python的库高达137,000多个，涉及不可胜数的算法，领域，并无时无刻的不在持续增长，新方法在不断的涌现。在城市空间数据分析中，基础的数据分析涉及到Scipy、NumPy、Pandas、SymPy等库；地理信息数据分析涉及到GDAL、GeoPandas、Rasterio、Rasterstats、EarthPy、PySAL等库；数据可视化涉及到Matplotlib、Plotly、Seaborn、Bokeh、PyViz等库；机器学习涉及到Scikit-learn，Statsmodels等库；深度学习涉及到PyTorch、Tensorflow、MXNet等；网络分析涉及到NetworkX库等；数据库涉及到Sqlite3、MySAL库等；点云数据涉及到PDAL库等。包括了大数据分析、机器（深度）学习、图像处理等诸多规划设计领域智能化研究的方法、算法，这为城市空间数据分析方法研究提供了基础工具。
+
+**工具就摆在那，非得用省事不费力的“老办法”（还是“笨方法”？），不想花功夫学新事物，也是没办法的事...**
 
 ### 3.2 研究与代码库
 
+每一项研究，都会形成一个针对该项研究的Python库（工具）。把日积月累的成果汇集在一起，就构成工具集。不仅用于该项研究，亦可以分享，只需调用库即可选择执行其中的方法。
+
+<span style = "color:maroon;background-color:;font-size:20.0pt">代码的过程，是数据分析的过程，是研究的过程，也是论文写作的过程。</span>
+
+1. 涉及数据处理方法，数据库管理途径；
+2. 涉及文件结构及配置方法；
+3. 涉及依赖库环境；
+4. 涉及数据处理分析方法，和新方法的提出；
+5. 涉及数据可视化、地图构建和图表表达；
+6. 涉及代码更新，发布于安装分享；
+7. 涉及工具集成;
+8. 涉及论文写作。
+
+* e.g.
+
+1. [城市街道视域景观指数与邻里尺度特征效应](https://richiebao.github.io/USDA_CH_final/#/./markdown/3_2_1_%E5%9F%8E%E5%B8%82%E8%A1%97%E9%81%93%E7%A9%BA%E9%97%B4%E6%8C%87%E6%95%B0%E8%AE%A1%E7%AE%97%E4%B8%8E%E5%AF%B9%E7%A9%BA%E9%97%B4%E7%89%B9%E5%BE%81%E5%88%86%E5%B8%83%E7%9A%84%E8%B4%A1%E7%8C%AE%E5%BA%A6);
+2. [综合性公园公共交通可达性及规划配置均衡性](https://github.com/richieBao/codes_repository_for_papers_publication-richie_bao)。
+
 ### 2.4 从0开始，进入到城市空间数据分析领域推荐学习实践流程
 
+对于规划、建筑、风景及生态等专业，首先Python编程语言。如果你还没有掌握，务必要从现在开始学习了。
+
+1. Python的入门级教材、在线课程、交互练习异常多，可以根据自己的习惯，选择学习就好。当然，好的内容会让你少走弯路，并提高学习效率；
+2. 跟随[城市空间数据分析方法](https://richiebao.github.io/USDA_CH_final/#/)学习，或者当作代码参考手册使用。更新完结出版中。
 
 ## 4. 成为工具的建构者——具有编程能力的设计师
 
+不管是参数化设计编程还是使用Python编程语言的城市空间数据分析方法，都是设计师或者研究者自己在不断的创作工具来解决不同的设计内容或者研究问题。
 
+不再被已有工具绑架思想，想自由的从事设计和研究，请......
 
+<span style = "color:maroon;background-color:;font-size:30.0pt">成为工具的建构者！</span>
+
+> 富余时间内容，[参数化设计编程——GRASSHOPPER](https://richiebao.github.io/parametric_design_coding_grasshopper/#/)
