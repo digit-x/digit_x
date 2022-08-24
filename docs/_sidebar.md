@@ -15,11 +15,17 @@
         * [exper.2 装置_2_测试结果](./markdown/device_2_test_outcome.md)
         * [exper.1 小气候环境差异监测（互动艺术装置）_数据处理](./markdown/microclimate_environment_changes_monitoring.md)    
     - **学姐说**
+        * [upper.3 学姐说_赵晨思：不偏不倚，边做边学](./markdown/2021-08-25_Zhao_Chensi_Unbiased_learning_by_doing.md)
+        * [upper.2 学姐说_Bihan——选所爱，爱所选](./markdown/2021-08-15_Bihan_Choose_what_you_love_love_what_you_choose.md)
         * [upper.1 学姐说_王垚：远方很远，步履不停](./markdown/2021-08-05_Wangyao_far_away_walking_non_stop.md)
     - **学长说**
         * [upper.2 学长说_孙浩鑫：从“不振则死”到“万事皆允”](./markdown/uppercassman_Sunhaoxin.md)
         * [upper.1 学长说_刘辛：数字化设计对我的影响](./markdown/upperclassman_Liuxin_theInfluence_of_digitalDesignOnme.md)
     - **学社事**   
+        * [aff.15 GIS实践与经验分享会](./markdown/2021-12-13_GIS_Practice_and_Experience_Sharing_Session.md)
+        * [aff.14 包老师年度数字分享活动](./markdown/2021-11-21_Bao_annual_digital_sharing_event.md)
+        * [aff.13 设计资料库汇总（二）——素材](./markdown/2021-09-22_Design_Library_Summary_2-Material.md)
+        * [aff.12 设计资料库汇总（一）——案例](./markdown/2021-09-08_Design_Database_Summary_1_Case.md)
         * [aff.11 数字工坊与暑假充电](./markdown/2021-08-03_Digital_workshop_and_summer_vacation_charging.md)
         * [aff.10 社员分享 | 让深夜的教室飘满醇香](./markdown/2021-06-04_Let_the_classroom_at_night_be_full_of_mellow_fragrances.md)
         * [aff.9 我们都是见证者：学社2021年度分享会](./markdown/2021-04-04_We_are_all_witnesses_society_2021_sharing_session.md)
