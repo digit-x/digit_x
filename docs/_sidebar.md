@@ -41,6 +41,18 @@
         * [col.1 IIT-Illinois Institute of Technology](./markdown/IIT.md)
         
 * 🦍\. 先生  
+    * PYTHON+（新版-2022秋季更新,规划|建筑|景观）
+        * [PCS_0 学写代码的方式](./markdown/pcs_0_学写代码的方式.md)
+        * [PCS_1 善用print()，基础运算，变量及赋值](./markdown/pcs_1.md)
+        * [PCS_2 数据结构-list_tuple_dict_set](./markdown/pcs_2.md)
+        * [PCS_3 数据结构-string](./markdown/pcs_3.md)
+        * [PCS_4 基本语句-if_for_while_comprehension](./markdown/pcs_4.md)
+        * [PCS_5 函数-def_scope_args](./markdown/pcs_5.md)  
+        * [PCS_6 函数-recursion_lambda_generator](./markdown/pcs_6.md)  
+        * [PCS_7 模块与包及发布-module_package_pypi](./markdown/pcs_7.md)  
+        * [PCS_8 类(OOP)-class](./markdown/pcs_8.md)
+        * [PCS_X 测验-练习](./markdown/pcs_quize.md)  
+
     * C+微控制器城市空间实验与建造 Urban_space_experiment_and_construction_based_on_microcontroller
         * [CUSEC. 课程准备-考核-info](./markdown/CUSEC_info.md)
         * [CUSEC.1 城市空间实验->微控制器|传感器->C语言](./markdown/CUSEC_USEC2microcontroler2C.md)
