@@ -51,6 +51,7 @@
         * [PCS_6 函数-recursion_lambda_generator](./markdown/pcs_6.md)  
         * [PCS_7 模块与包及发布-module_package_pypi](./markdown/pcs_7.md)  
         * [PCS_8 类(OOP)-class](./markdown/pcs_8.md)
+        * [PCS_9 类(OOP)-2](./markdown/pcs_8.md)
         * [PCS_X 测验-练习](./markdown/pcs_quize.md)  
 
     * C+微控制器城市空间实验与建造 Urban_space_experiment_and_construction_based_on_microcontroller
