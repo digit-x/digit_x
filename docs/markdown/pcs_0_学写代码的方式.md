@@ -45,19 +45,20 @@
 ## 1.4 完成度自测
 
 
-| 等级  | ID  | 卡片名称  |  是否完成 |  得分 |备注|
+| 等级  | ID  | 卡片名称  |   分值 |是否完成 | 备注|
 |---|---|---|---|---|---|
-| Ⅰ 级  |  1 |   |   |   |   |
-|   | 2  |   |   |   |   |
-|   | 3  |   |   |   |   |
-|   | 4  |   |   |   |   |
-|   | 5  |   |   |   |   |
-|   | 6  |   |   |   |   |
-|   |  7 |   |   |   |   |
+| Ⅰ 级  |  PCS_1 |  善用print()，基础运算，变量及赋值 |  10 |   |   |
+|   | PCS_2   | 数据结构-list_tuple_dict_set | 10   |   |   |
+|   | PCS_3  |  数据结构-string  | 10  |   |   |
+|   | PCS_4  |   基本语句-if_for_while_comprehension | 10  |   |   |
+|   | PCS_5 |  函数-def_scope_args  | 10  |   |   |
+|   | PCS_6  |  函数-recursion_lambda_generator  | 10  |   |   |
+|   | PCS_7 |  模块与包及发布-module_package_pypi  | 10  |   |   |
 |   | 8  |   |   |   |   |
 |   | 9  |   |   |   |   |
 |   | 10  |   |   |   |   |
 |   |11|   |   |   |   |
+|   |12|   |   |   |   |
 | 测试  |   |   |   |   |   |
 | Ⅱ 级  |   |   |   |   |   |
 |   |   |   |   |   |   |
@@ -83,3 +84,10 @@
   allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
   allowfullscreen>
 </iframe>
+
+
+* 关注我们的研究
+
+1. [城市空间数据分析方法](https://richiebao.github.io/USDA_CH_final/#/)
+2. [参数化设计编程——GHPython | 用算法做决策——面向设计师的参数化认知逻辑](https://richiebao.github.io/parametric_design_coding_GHPython/#/)
+3. [参数化设计编程——GRASSHOPPER | 构建模组库——成为工具的建构者](https://richiebao.github.io/parametric_design_coding_grasshopper/#/)
