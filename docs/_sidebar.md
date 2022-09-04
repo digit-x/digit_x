@@ -50,7 +50,7 @@
         * [PCS_5 函数-def_scope_args](./markdown/pcs_5.md)  
         * [PCS_6 函数-recursion_lambda_generator](./markdown/pcs_6.md)  
         * [PCS_7 模块与包及发布-module_package_pypi](./markdown/pcs_7.md)  
-        * [PCS_8 类(OOP)-class](./markdown/pcs_8.md)
+        * [PCS_8 类(OOP)Classes_定义，继承，__init_()构造方法，私有变量/方法](./markdown/pcs_8.md)
         * [PCS_9 类(OOP)-2](./markdown/pcs_8.md)
         * [PCS_X 测验-练习](./markdown/pcs_quize.md)  
 
