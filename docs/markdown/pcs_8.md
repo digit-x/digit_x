@@ -968,10 +968,114 @@ instance._PB__subPrintData()
 </td>
 </tr>
 
+
 <tr>
 <td> 
 
-__8.4__ 类属性格式"字典"
+__8.4__ Operator Overloading（运算符/操作符重载） 与类属性格式"字典"
+
+</td>
+<td>
+
+* Operator Overloading（操作符重载） 
+
+操作符重载理解为，如果在类的内部重写了python内置操作（build-in operations），类的实例化时会自动调用重写的方法，由重写的方法计算的结果作为返回值。对于操作符重载： 即重写的方法拦截了python正常的内置操作方法；类可以重载所有的python表达式操作；类也可以重载python内置操作，例如打印（printing），函数调用（function calls）和属性访问（attribute access）等； 重载使类的实例表现得更像内置类型；重载是通过在一个类中提供特别命名的方法来实现的。
+
+例如下述案例在类里重写了python的运算符加号`+`，即`__add__`方法。为了区别正常的加法运算，这里在两个数相加后，再加10。下述类重写加法运算符直接调用了重写的方法运算方式，同时调用类进行计算时类似于常规的内置类型运算方式，直接使用`+`进行计算，而不必按照类调用方法的途径实现。
+
+</td>
+<td>
+
+
+```python
+class OO_Add:
+    def __init__(self,data):
+        self.data=data
+    def __add__(self,y):
+        return OO_Add(self.data+y+10)
+
+x=OO_Add(3)
+y=x+9
+print(y.data)
+
+print("-"*50)
+class OO_Add_:
+    def __init__(self,data):
+        self.data=data
+    def __add__(self,y):
+        return self.data+y+10
+print(OO_Add_(3)+9)
+```
+</td>
+<td>
+
+    22
+    --------------------------------------------------
+    22
+
+</td>
+<td>
+</td>
+</tr>
+
+
+<tr>
+<td> 
+
+</td>
+<td>
+
+常见可用于操作符重载方法的内置运算符：
+
+|  Method | Implements  | Called for  |
+|---|---|---|
+|  `__init__` | Constructor 构造函数  |  Object creation: X=Class(args) |
+| `__del__`  | Destructor 析构函数 | Object deletion of X  |
+|  `__add__` | Operator `+`  加法| X+Y, X+=Y if no `__iadd__`  |
+|  `__or__` |  Operator `\|`(bitwise OR) 运算符`\|`|  X\|Y, X\|=Y if no `__ior__` |
+| `__repr__`, `__str__`  | Printing, conversions 打印／转换 | print(X), repr(X),str(X)  |
+| `__call__`  | Function calls 函数调用 | X(*args, **kwargs)  |
+|  `__getattr__` | Attribute fetch  属性引用| X.undefined  |
+|  `__setattr__` | Attribute assignment  属性赋值| X.attribute=value  |
+| `__delattr__`  |  Attribute deletion 属性删除| del X.attribute  |
+| `__getattribute__`  | Attribute fetch  属性获取 |  X.any |
+| `__getitem__`  |  Indexing, slicing, iteration 索引运算| X[Key], X[i:j], for loops and other iterations if no `__iter__`  |
+| `__setitem__`  | Index and slice assignment  索引赋值 | X[Key]=value, X[i:j]=iterable  |
+| `__delitem__`  | Index and slice deletion  索引和分片删除| del X[Key],del X[i:j]  |
+| `__len__`  | Length  长度| len(X), truth tests if no `__bool__`  |
+| `__bool__`  | Boolean tests  布尔测试| bool(X), truth tests(named `__nonzero__` in 2.X)  |
+|  `__lt__`, `__gt__` , `__le__`,`__ge__`,`__eq__`,`__ne__`| Comparisons 特定的比较 | X<Y, X>Y, X<=Y, X>=Y, X==Y, X!=Y  |
+|  `__radd__` | Right-side operators   右侧加法| Other+X  |
+| `__iadd__`  | In-place augmented operators 实地（增强的）加法 | X+=Y (or else `__add__`)  |
+| `__iter__`, `__next__`  | Iteration contexts  迭代| I=iter(X), next(I); for loops, in if no `__contains__`, all comprehensions, map(F,X), others(`__next__` is named next in 2.X)  |
+|  `__contains__` | Membership test  成员关系测试| item in X(any iterable)  |
+|  `__index__` | Integer value  整数值| hex(X), bin(X), oct(X), O[X],O[X:]   |
+| `__enter__`, `__exit__`  | Context manager 环境管理器 | with obj as var:  |
+| `__get__`,`__set__`,`__delete__`  | Descriptor attributes 描述符属性 | X.attr, X.attr=value, del X.attr  |
+| `_new__`  | Creation  创建| Object creation, before `__init__`  |
+
+</td>
+<td>
+
+
+
+</td>
+<td>
+
+
+
+</td>
+<td>
+</td>
+</tr>
+
+
+
+
+<tr>
+<td> 
+
+* 类属性格式"字典"
 
 </td>
 <td>
