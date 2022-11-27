@@ -53,6 +53,8 @@
         * [PCS_8 (OOP)类Classes_定义，继承，__init_()构造方法，私有变量/方法](./markdown/pcs_8.md)
         * [PCS-9 (OOP)类Classes-Decorators(装饰器)_Slots](./markdown/pcs_9.md)
         * [PCS-10 异常-Errors and Exceptions](./markdown/pcs_10.md)
+        * [PCS-11 代码风格-Pyton Style Guide](./markdown/pcs_11.md)
+        * [PCS-12 拓展-Content Expansion](./markdown/pcs_12.md)        
         * [PCS_X 测验-练习](./markdown/pcs_quize.md)  
 
     * C+微控制器城市空间实验与建造 Urban_space_experiment_and_construction_based_on_microcontroller
@@ -112,6 +114,9 @@
         * [RGB.8 结构与联合](./markdown/RCB_C_struct_union.md)
         * [RGB.9 Arudino库](./markdown/RCB_C_arduino_lib.md)
         * [RGB.10 C语言(arduino)串讲，考前必备](./markdown/RCB_C_lecture_necessary_before_the_test.md)
+    
+    * 设计相关课程 Design-related courses
+        * [DRC.1 住区环境规划设计-阶段](./markdown/DRC_1_settlements.md)
 
     * MISC
         * [m.1 数字营造概述](./markdown/overview_of_digital_construction.md)
@@ -148,8 +153,6 @@
             * [IUR_1.1 启动与招募](./markdown/IUR_para_startup.md)
             * [IUR_1.2 参数化设计编程-GRASSHOPPER](https://richiebao.github.io/parametric_design_coding_grasshopper/#/)
             * [IUR_1.3 参数化设计编程-GHPython](https://richiebao.github.io/parametric_design_coding_GHPython/#/)
-            * [IUR_1.4 CATERPILLAR 参数化编程设计模组-IDEAS](https://richiebao.github.io/parametric_design_coding_module)
-
 
 * 检索
 
