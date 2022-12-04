@@ -39,6 +39,63 @@
 <img src="./imgs_misc/dcr_1_17.jpg" height="auto" width="auto"  title="digit-x" style="float:right" /> 
 
 
+> Created on Sun Dec  4 09:27:42 2022 @author: Richie Bao
+
+## 3. 设计手段——案例演示仅参考（住区和不限于住区）
+
+### 3.1 以模型为设计的核心——在3D里推敲设计（因素权衡协调与整合的过程）
+
+设计是一个不断权衡各种设计因素（环境协调、功能布局、空间艺术、材料颜色、施工建造、内核融入等），调整整合的过程。这个过程需要反反复复的推敲，直至建造完成，不过随着设计师能力的提升，反复推敲的次数会降低，设计深度的把握也越来越精细。设计手段无定法，但是基于既有技术，在3D里推敲方案是设计界普遍共识，可以更真实的把握方案结构、尺度、细节等内容，那么对于设计师，对于设计院而言，3D模型就是最为核心的知识产权。一旦3D模型推敲完毕，任何分析（图）、预算（表格）、效果图、动画基本都从3D模型中导出获取（如结合到BIM，后期各类分析统计报告常自动生成），进一步完成图册或展板的最终成果，因此可见3D模型的重要性。
+
+> 下述结合3D模型、文本展示的案例，可以给予设计学习者以借鉴，但不唯一，设计无定法，仅为参考。（因知识产权等问题，文件无法分享，但可以结合自身情况，对展示中需要的部分截图备查）
+
+| Case  | case-1  | case-2  | case-3  | case-4  | case-5  | case-6  |case-7|
+|---|---|---|---|---|---|---|---|
+| Type  |  住区 | 住区  | 公园  | 公园  |  住区 | 建筑  |构筑|
+| Designer | Zhu Yufan | Zhu Yufan  | Richie Bao  | Richie Bao |  Richie Bao | Richie Bao  |Richie Bao|
+|Priority | :red_circle: | :red_circle:   | :red_circle:   | :black_circle: |  :red_circle: | :white_circle: |:white_circle:|
+| Illustration| <img src="./imgs_misc/dcr_1_18_s.jpg" height="auto" width="auto"  title="digit-x" style="float:right" />  | <img src="./imgs_misc/dcr_1_19_s.jpg" height="auto" width="auto"  title="digit-x" style="float:right" />   | <img src="./imgs_misc/dcr_1_20_s.jpg" height="auto" width="auto"  title="digit-x" style="float:right" />   | <img src="./imgs_misc/dcr_1_21_s.jpg" height="auto" width="auto"  title="digit-x" style="float:right" />|  <img src="./imgs_misc/dcr_1_22_s.jpg" height="auto" width="auto"  title="digit-x" style="float:right" />  |  <img src="./imgs_misc/dcr_1_23_s.jpg" height="auto" width="auto"  title="digit-x" style="float:right" />  |<img src="./imgs_misc/dcr_1_24_s.jpg" height="auto" width="auto"  title="digit-x" style="float:right" /> |
+
+一个推敲过程的截图示例：
+
+| Phases  | 上位 -详细规划-|  P1-景观规划 | P2-设计-01  |  P2-02 |  P2-... | P2-n  |
+|---|---|---|---|---|---|---|
+| Datetime  | 2007-10-18  | 2007-11-25  | 2009-04-26 |  2009-06-19 |  ... |  2009-07-26 |
+| Illustration  |  <img src="./imgs_misc/dcr_1_25_s.jpg" height="auto" width="auto"  title="digit-x" style="float:right" />   |  <img src="./imgs_misc/dcr_1_27_s.jpg" height="auto" width="auto"  title="digit-x" style="float:right" />  |    <img src="./imgs_misc/dcr_1_28_s.jpg" height="auto" width="auto"  title="digit-x" style="float:right" />| <img src="./imgs_misc/dcr_1_29_s.jpg" height="auto" width="auto"  title="digit-x" style="float:right" />| <img src="./imgs_misc/dcr_1_30_s.jpg" height="auto" width="auto"  title="digit-x" style="float:right" /> |  <img src="./imgs_misc/dcr_1_31_s.jpg" height="auto" width="auto"  title="digit-x" style="float:right" /> <img src="./imgs_misc/dcr_1_34_s.jpg" height="auto" width="auto"  title="digit-x" style="float:right" /></br><img src="./imgs_misc/dcr_1_32_s.jpg" height="auto" width="auto"  title="digit-x" style="float:right" /> <img src="./imgs_misc/dcr_1_33_s.jpg" height="auto" width="auto"  title="digit-x" style="float:right" />|   
+
+
+### 3.2 参数化构建逻辑与生成
+
+1. [空间设计思维VS数理逻辑思维](https://digit-x.github.io/digit_x/#/./markdown/P_parametric_design2USDA?id=_21-%e7%a9%ba%e9%97%b4%e8%ae%be%e8%ae%a1%e6%80%9d%e7%bb%b4vs%e6%95%b0%e7%90%86%e9%80%bb%e8%be%91%e6%80%9d%e7%bb%b4)
+2. [参数化设计编程——GRASSHOPPER | 构建模组库——成为工具的建构者](https://richiebao.github.io/parametric_design_coding_grasshopper/#/)
+3. [参数化设计编程——GHPython | 用算法做决策——面向设计师的参数化认知逻辑](https://richiebao.github.io/parametric_design_coding_GHPython/#/)
+
+### 3.3 分析与设计协同—分析技术引导
+
+仅部分示意，通常根据设计场地情况，设计内容，设计方法等确定分析内容辅助于设计过程。
+
+| 人流分析   | 生态-日照累积小时数| 生态-太阳辐射累积小时数 |  生态-UTCI-Universal Thermal Climate Index-通用热气候指标   |  
+|---|---|---|---|
+|  <img src="./imgs_misc/dcr_1_35.gif" height="auto" width="auto"  title="digit-x" style="float:right" /> | <img src="./imgs_misc/dcr_1_36_s.jpg" height="auto" width="auto"  title="digit-x" style="float:right" />     |  <img src="./imgs_misc/dcr_1_37_s.jpg" height="auto" width="auto"  title="digit-x" style="float:right" />   |  <img src="./imgs_misc/dcr_1_38_s.jpg" height="auto" width="auto"  title="digit-x" style="float:right" />  |
+|人流模拟使用扩展库PdeSim（GH）  | 结合到GH的生态环境分析工具推荐使用[Ladybug Tools](https://www.ladybug.tools/)</br>参数：1月1日-12月31日，9点-18点，（每5分钟采样）累积小时数  |   | | 
+
+### 3.4 手绘（尺规）途径再叙
+
+可以确定的是，实际工作设计任务通常在3D里推敲设计完成，那么对于设计专业学生而言，在大三阶段，是否应该进入到3D推敲阶段，还是仍然以手绘（尺规）为主？
+
+### 3.5 设计无边界——关于巧妙设计的解释
+
+
+
+### 3.6 设计层级结构的完型到细节的把控 
+
+
+### 3.7 设计与设计技术的博弈
+
+
+
+
+
 ---
 
 注释（Notes）：
