@@ -151,8 +151,7 @@
     * 产学研合作项目
         * IUR_1  参数化设计数字技术示范课程建设
             * [IUR_1.1 启动与招募](./markdown/IUR_para_startup.md)
-            * [IUR_1.2 参数化设计编程-GRASSHOPPER](https://richiebao.github.io/parametric_design_coding_grasshopper/#/)
-            * [IUR_1.3 参数化设计编程-GHPython](https://richiebao.github.io/parametric_design_coding_GHPython/#/)
+            * [IUR_1.2 结题报告](./markdown/IUR_closing_report.md)
 
 * 检索
 
