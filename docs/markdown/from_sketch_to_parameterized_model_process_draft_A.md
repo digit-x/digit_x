@@ -78,4 +78,4 @@
 
 <img src="./imgs/0065.jpg" height="auto" width="auto"  title="digit-x" />
 
-[集训录制下载地址](https://pan.baidu.com/s/1jIOILQe#list/path=%2F)
+[集训录制下载地址](https://pan.baidu.com/s/137L9Ar9OCXV6W_VUzWonnA ) 提取码：ljaa 
