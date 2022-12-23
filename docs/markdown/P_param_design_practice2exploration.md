@@ -55,9 +55,11 @@ section C 项目实践
 | <img src="./imgs_p/param_practicce2exploration/01.png" height="auto" width=50  title="digit-x"> <br/> [markdown](https://www.markdownguide.org/)| <img src="./imgs_p/param_practicce2exploration/02.png" height="auto" width=50  title="digit-x"> <br/> [Visual Studio Code（VSC）](https://code.visualstudio.com/)  |<img src="./imgs_p/param_practicce2exploration/03.jpg" height="auto" width=50  title="digit-x"> <br/> [jupyterlab](https://jupyter.org/)|<img src="./imgs_p/param_practicce2exploration/04.png" height="auto" width=50  title="digit-x"> [Colab](https://colab.research.google.com/notebooks/welcome.ipynb?authuser=1#scrollTo=5fCEDCU_qrC0)<br/><img src="./imgs_p/param_practicce2exploration/05.png" height="auto" width=50  title="digit-x"> [kaggle](https://www.kaggle.com/code)|
 
 
+
+
 :interrobang: 做了那么多设计，写了那么多逻辑代码，为什么新的设计任务还要重新思考写逻辑？ 
 
-* 解决的方法⟶建立模组库|包+案例的必要性
+* 解决的方法⟶建立模组库|包+案例的必要性 🠊 拥有自行构建可不断扩展的工具库（代码库、模组库、算法库）——不一样的设计库
 
 1. 对于GH，建立模组；
 
@@ -72,34 +74,58 @@ section C 项目实践
 
 :interrobang: 你在做别人已完成的工作，为什么要从0开始及必须从0开始？
 
-<span style = "color:Goldenrod;background-color:;font-size:15.0pt">避免重复造轮子！</span>
+<span style = "color:Goldenrod;background-color:;font-size:15.0pt">避免重复造轮子！</span><span style = "color:Goldenrod;background-color:;font-size:15.0pt">1个地球，1个世界！</span>
 
-已有扩展或库不稳定时，需要自行写代码。
+**互联**网改变了很多事，这尤其在代码世界，无以计数的研究成果很多都已代码形式存在，让研究成果/实验更容易再现分享，甚至研究的过程就是代码书写的过程（工具构建的过程）。这非常容易的研究实验再现方式，和无以计数集“世界之力”的数据处理方法，都加快了知识的迭代更新。
+
+已有扩展或库不稳定时，需要自行写代码。...
 
 :interrobang: 什么都需要藏着掖着吗？版权与分享精神，共建社区
 
+<img src="./imgs_p/param_practicce2exploration/08.png" height="auto" width=70  title="digit-x"> [GitHub](https://github.com/)，[kaggle](https://www.kaggle.com/)，[Colab](https://colab.research.google.com/notebooks/welcome.ipynb?authuser=1#scrollTo=5fCEDCU_qrC0)，<img src="./imgs_p/param_practicce2exploration/09.png" height="auto" width=70  title="digit-x"> [huggingface](https://huggingface.co/)，...
 
-
-
-:interrobang: 参数化设计工具是工具的按钮吗？，参数化设计是工具也不是工具
-
-
+> 核心技术也许例外
 
 :interrobang: 参数化设计只是参数化吗？横行霸道的领域拓展
 
+<iframe 
+  width="auto"
+  height="375"
+  src="./html/Parameterized_overview_chart.html"
+  frameborder="0"
+  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen>
+</iframe>
+
+[food4Rhino](https://www.food4rhino.com/en)；[Grasshopper3D](https://www.grasshopper3d.com/)
 
 :interrobang: 太多东西，麻爪了？抓住核心——代码（编程）
+
+<img src="./imgs_p/param_practicce2exploration/10.png" height="auto" width="auto"  title="digit-x"> <sup>①</sup>设计尸VS程序猿<img src="./imgs_p/param_practicce2exploration/11.jpg" height="auto" width="auto"  title="digit-x"><sup>②</sup>
+
+1. 空间思维和逻辑思维之间从跳跃到融合，基本上就完成了用代码写设计的思维提升（也是转变）；
+2. 参数化设计虽然是一种设计方式亦或设计思维，但是核心的东西还是对代码的理解，即从工具构建者的角度去看待问题，例如，通常设计师是到处寻找工具，但是现在很多工具自行处理，且能够更好的融入到设计流中；
+3. 代码程序不计其数，可以先浏览知道有什么，打牢编程基础和专业基础，用到什么时现学就可以。
 
 
 
 :interrobang: 学写代码背完就了之了？练习实践反复的不断重复
 
 
-
+<font size='10'>🠋</font>
 
 ##  :shipit: 学习途径推荐
 
+* 参数化设计部分
+
+* Python编程部分
+
+---
+
+注释（Notes）：
+
+① shutterstock，（<https://www.shutterstock.com/image-vector/friendly-ghosts-funny-spooky-cartoon-spirit-1454365862>）。
+
+② pinteres，（<https://www.pinterest.com/pin/689121180499310381/>）。
 
 
-
-## 1个地球，1个世界！
