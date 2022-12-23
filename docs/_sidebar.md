@@ -146,6 +146,7 @@
         * [P.3 Guide to the knowledge structure of the digital LA|UP|Archi design](./markdown/iit_guide.md)
         * [P.4 数字化设计教学实践与数字营造学社](./markdown/P_DDTeachingPractice_DCS.md)
         * [P.5 数字化设计——从参数化设计编程到城市空间数据分析方法](./markdown/P_parametric_design2USDA.md)        
+        * [P.6 参数化设计——小白->实践->探索](./markdown/P_param_design_practice2exploration.md)
     * 教学法    
         * [TM_1.1 数字化设计教学（2022）](./markdown/TM_2022.md)
     * 产学研合作项目
