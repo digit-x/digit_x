@@ -55,13 +55,13 @@ section C 项目实践
 | <img src="./imgs_p/param_practicce2exploration/01.png" height="auto" width=50  title="digit-x"> <br/> [markdown](https://www.markdownguide.org/)| <img src="./imgs_p/param_practicce2exploration/02.png" height="auto" width=50  title="digit-x"> <br/> [Visual Studio Code（VSC）](https://code.visualstudio.com/)  |<img src="./imgs_p/param_practicce2exploration/03.jpg" height="auto" width=50  title="digit-x"> <br/> [jupyterlab](https://jupyter.org/)|<img src="./imgs_p/param_practicce2exploration/04.png" height="auto" width=50  title="digit-x"> [Colab](https://colab.research.google.com/notebooks/welcome.ipynb?authuser=1#scrollTo=5fCEDCU_qrC0)<br/><img src="./imgs_p/param_practicce2exploration/05.png" height="auto" width=50  title="digit-x"> [kaggle](https://www.kaggle.com/code)|
 
 
-
+:trident: (demo)
 
 :interrobang: 做了那么多设计，写了那么多逻辑代码，为什么新的设计任务还要重新思考写逻辑？ 
 
 * 解决的方法⟶建立模组库|包+案例的必要性 🠊 拥有自行构建可不断扩展的工具库（代码库、模组库、算法库）——不一样的设计库
 
-1. 对于GH，建立模组；
+1. 对于GH，建立模组；(:trident: (demo))
 
 <img src="./imgs_p/param_practicce2exploration/06.png" height="auto" width="auto"  title="digit-x"> 
 
@@ -114,13 +114,20 @@ section C 项目实践
 
 <font size='10'>🠋</font>
 
-##  :shipit: 学习途径推荐
+##  :shipit: 不妨挑战下
 
 * 参数化设计部分
 
--
+[完成度记录](https://richiebao.github.io/parametric_design_coding_grasshopper/#/./markdown/0_3_%E5%AE%8C%E6%88%90%E5%BA%A6%E8%AE%B0%E5%BD%95)
 
 * Python编程部分
+
+[完成度记录](https://richiebao.github.io/parametric_design_coding_GHPython/#/./markdown/pcs_0_%E5%AD%A6%E5%86%99%E4%BB%A3%E7%A0%81%E7%9A%84%E6%96%B9%E5%BC%8F)
+
+
+> 学习Python等文本式编程语言，会加深理解参数化设计的深度，会拓展更多的可能性，因此如果想在参数设计上走的更远，学习Python非常必要。
+
+推荐学习[城市空间数据分析方法](https://richiebao.github.io/USDA_CH_final/#/)
 
 ---
 
