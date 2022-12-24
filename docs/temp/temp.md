@@ -65,3 +65,11 @@ $ pip install torch-geometric
 （源）参数化设计实践-清华城市规划设计研究院（清华同衡） 2009 - 2010.07            :done,    des1, 2009-01,2010-07
 
             * [IUR_1.4 CATERPILLAR 参数化编程设计模组-IDEAS](https://richiebao.github.io/parametric_design_coding_module)
+
+
+
+ to deprecate:
+
+ Detectron2 Beginner's Tutorial : https://colab.research.google.com/drive/16jcaJoc6bCFAQ96jDe2HwtXj7BMD_-m5#scrollTo=QHnVupBBn9eR
+
+https://pytorch.org/ecosystem/ 
