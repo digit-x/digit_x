@@ -86,7 +86,7 @@ section C 项目实践
 
 > 核心技术也许例外
 
-:interrobang: 参数化设计只是参数化吗？横行霸道的领域拓展
+:interrobang: 参数化设计只是参数化吗？只是设计吗？横行霸道的领域拓展
 
 <iframe 
   width="auto"
