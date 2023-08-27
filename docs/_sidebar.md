@@ -154,6 +154,9 @@
             * [IUR_1.1 启动与招募](./markdown/IUR_para_startup.md)
             * [IUR_1.2 结题报告](./markdown/IUR_closing_report.md)
 
+    * 建筑学院教学资源共享平台——数字化设计系列课程
+        * [trsp.1 数字化设计课程与知识图谱](./markdown/trsp_1_digital_design_course_and_knowledge_graph.md) 
+
 * 检索
 
     * [markdown编辑规范](./markdown/md_norm.md)

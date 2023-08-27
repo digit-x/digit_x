@@ -54,11 +54,10 @@
 |   | PCS_5 |  函数-def_scope_args  | 10  |   |   |
 |   | PCS_6  |  函数-recursion_lambda_generator  | 10  |   |   |
 |   | PCS_7 |  模块与包及发布-module_package_pypi  | 10  |   |   |
-|   | 8  |   |   |   |   |
-|   | 9  |   |   |   |   |
-|   | 10  |   |   |   |   |
-|   |11|   |   |   |   |
-|   |12|   |   |   |   |
+|   | PCS_8  |  类(OOP)Classes_定义，继承，__init_()构造方法，私有变量/方法 | 10  |   |   |
+|   | PCS_9  | (OOP)_Classes_Decorators(装饰器)_Slots  | 10  |   |   |
+|   | PCS_10  |  异常-Errors and Exceptions | 10  |   |   |
+|   |PCS_X|  Python 特性更新 |  10 |   |   |
 | 测试  |   |   |   |   |   |
 | Ⅱ 级  |   |   |   |   |   |
 |   |   |   |   |   |   |
