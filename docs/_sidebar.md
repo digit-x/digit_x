@@ -41,7 +41,7 @@
         * [col.1 IIT-Illinois Institute of Technology](./markdown/IIT.md)
         
 * 🦍\. 先生  
-    * PYTHON+（新版-2022秋季更新,规划|建筑|景观）
+    * PYTHON+（新版-2023秋季更新,规划|建筑|景观）
         * [PCS_0 学写代码的方式](./markdown/pcs_0_学写代码的方式.md)
         * [PCS_1 善用print()，基础运算，变量及赋值](./markdown/pcs_1.md)
         * [PCS_2 数据结构-list_tuple_dict_set](./markdown/pcs_2.md)

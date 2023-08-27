@@ -1,5 +1,7 @@
 > Created on Wed Jun 22 14:28:12 2022 @author: Richie Bao-caDesign设计(cadesign.cn)
 
+?> 2023年球季：微更新《--- 2022年秋季：彻底更新（基础知识为主-定稿）《--- 2021年秋季：首次开课（课程设置难度偏大）
+
 # 1. 学写代码的方式
 
 对于从未接触过python，或者对python代码有些了解的初学者，究竟如何进入到python代码的世界里，并能够应用于自身的专业解决实际的问题？
@@ -87,6 +89,20 @@
 
 * 关注我们的研究
 
-1. [城市空间数据分析方法](https://richiebao.github.io/USDA_CH_final/#/)
+1. [城市空间数据分析方法](https://richiebao.github.io/USDA_CH_endup/#/)
 2. [参数化设计编程——GHPython | 用算法做决策——面向设计师的参数化认知逻辑](https://richiebao.github.io/parametric_design_coding_GHPython/#/)
 3. [参数化设计编程——GRASSHOPPER | 构建模组库——成为工具的建构者](https://richiebao.github.io/parametric_design_coding_grasshopper/#/)
+
+## 1.5 编程语言与智能世界（拓展）
+
+[TIOBE Index](https://www.tiobe.com/tiobe-index/)
+
+<iframe 
+  style="min-height:98vh"     
+  width=100%  
+  src="./html/codingNintelligentWorld.html"
+  frameborder="0"
+  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen>
+</iframe>
+
