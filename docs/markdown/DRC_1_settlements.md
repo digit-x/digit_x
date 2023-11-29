@@ -1,4 +1,4 @@
-> Created on Sun Nov 27 10:04:55 2022 @author: Richie Bao
+>Last updated on Wed Nov 29 18:52:54 2023 | Created on Sun Nov 27 10:04:55 2022 @author: Richie Bao
 
 # 住区环境规划设计-阶段
 
@@ -69,6 +69,7 @@
 1. [空间设计思维VS数理逻辑思维](https://digit-x.github.io/digit_x/#/./markdown/P_parametric_design2USDA?id=_21-%e7%a9%ba%e9%97%b4%e8%ae%be%e8%ae%a1%e6%80%9d%e7%bb%b4vs%e6%95%b0%e7%90%86%e9%80%bb%e8%be%91%e6%80%9d%e7%bb%b4)
 2. [参数化设计编程——GRASSHOPPER | 构建模组库——成为工具的建构者](https://richiebao.github.io/parametric_design_coding_grasshopper/#/)
 3. [参数化设计编程——GHPython | 用算法做决策——面向设计师的参数化认知逻辑](https://richiebao.github.io/parametric_design_coding_GHPython/#/)
+4. [+参数化设计编程——GRASSHOPPER + GHPython + C# | 构建模组库——成为工具的建构者](https://richiebao.github.io/parametric_design_coding_ghNghPython/#/)
 
 ### 3.3 分析与设计协同—分析技术引导
 
@@ -93,8 +94,20 @@
 ### 3.7 设计与设计技术的博弈
 
 
+### 3.8 AI 设计生成
 
+[PromAI](https://www.promeai.com/)
 
+[midjourney](https://www.midjourney.com/home?callbackUrl=%2Fexplore)
+
+[urbanistai](https://urbanistai.com/)
+
+> AI 生成谨慎使用。
+
+|sketch|AI rendering (promeai)|
+|---|---|
+|<img src="./imgs_misc/promeai_01.png" height="auto" width="auto"  title="digit-x" style="float:right" />|<img src="./imgs_misc/promeai_03.png" height="auto" width="auto"  title="digit-x" style="float:right" /><img src="./imgs_misc/promeai_04.png" height="auto" width="auto"  title="digit-x" style="float:right" /><img src="./imgs_misc/promeai_05.png" height="auto" width="auto"  title="digit-x" style="float:right" />|
+|<img src="./imgs_misc/promeai_02.png" height="auto" width="auto"  title="digit-x" style="float:right" />|<img src="./imgs_misc/promeai_06.png" height="auto" width="auto"  title="digit-x" style="float:right" /><img src="./imgs_misc/promeai_07.png" height="auto" width="auto"  title="digit-x" style="float:right" /><img src="./imgs_misc/promeai_08.png" height="auto" width="auto"  title="digit-x" style="float:right" />|
 
 ---
 

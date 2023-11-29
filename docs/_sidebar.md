@@ -156,12 +156,18 @@
 
     * 建筑学院教学资源共享平台——数字化设计系列课程
         * [trsp.1 数字化设计课程与知识图谱](./markdown/trsp_1_digital_design_course_and_knowledge_graph.md) 
+        * [trsp.2 Python 数字设计编程基础](./markdown/trsp_2_python_digital_design_coding_basics.md)
+        * [trsp.3 软件基础CAAD与创新设计](./markdown/trsp_3_param_design_coding.md)
+        * [trsp.4 城市空间数据分析方法](./markdown/trsp_4_usda.md)
+        * [trsp.5 论文专著](./markdown/trsp_3_articlesNmonographs.md)
+
 
 * 检索
 
     * [markdown编辑规范](./markdown/md_norm.md)
     * [知识点检索](./markdown/codeToolIdx.md)
     * [参考文献索引](./markdown/reference.md)
+    * [TEMP](./temp/temp_02.md)
 
 
 
