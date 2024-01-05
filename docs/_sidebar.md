@@ -1,6 +1,24 @@
 * [digit-x](./markdown/preface.md)
 
 * 🙀\. 后生 
+    - **学社事**   
+        * [aff.17 数字营造学社进驻校园文化艺术节](./markdown/2023_5_校园文化艺术节.md)
+        * [aff.16 数字营造学社招新啦！](./markdown/2023_3_百团大战.md)
+        * [aff.15 GIS实践与经验分享会](./markdown/2021-12-13_GIS_Practice_and_Experience_Sharing_Session.md)
+        * [aff.14 包老师年度数字分享活动](./markdown/2021-11-21_Bao_annual_digital_sharing_event.md)
+        * [aff.13 设计资料库汇总（二）——素材](./markdown/2021-09-22_Design_Library_Summary_2-Material.md)
+        * [aff.12 设计资料库汇总（一）——案例](./markdown/2021-09-08_Design_Database_Summary_1_Case.md)
+        * [aff.11 数字工坊与暑假充电](./markdown/2021-08-03_Digital_workshop_and_summer_vacation_charging.md)
+        * [aff.10 社员分享 | 让深夜的教室飘满醇香](./markdown/2021-06-04_Let_the_classroom_at_night_be_full_of_mellow_fragrances.md)
+        * [aff.9 我们都是见证者：学社2021年度分享会](./markdown/2021-04-04_We_are_all_witnesses_society_2021_sharing_session.md)
+        * [aff.8 2021建筑竞赛汇编](./markdown/2021-03-28_Architecture_competition_2021_compilation.md)
+        * [aff.7 2021城规竞赛汇编](./markdown/2021-03-27_Planning_competition_2021_compilation.md)
+        * [aff.6 2021景观竞赛汇编](./markdown/2021-03-13_Landscape_competition_2021_compilation.md)
+        * [aff.5 "犀"游记II之寒期充电计划](./markdown/2021-02-03_Winter_vacation_charging_plan_2.md)
+        * [aff.4 辅助线上教学：数字营造学社在行动](./markdown/auxiliary_online_teaching_inAction.md)
+        * [aff.3 往事过去，皆为序章：学社年度分享与纳新活动](./markdown/the_past_isthe_preface_recruitment.md)
+        * [aff.2 数字营造学社：分享+纳新](./markdown/sharing_recruit.md)
+        * [aff.1 数字营造学社：新的征程！](./markdown/digital_Construction_society_newJourney.md)
     - **做实验**
         * [exper.12 VR初体验：沉浸式打开虚拟世界的技能get](./markdown/2020-12-23_First_Vr_experience_skills_for_the_immersive_opening_of_virtual_worlds.md)
         * [exper.11 打怪利器：三维扫描初体验](./markdown/2020-12-19_Hit_strange_weapon_3d_scan_first_experience.md)
@@ -21,22 +39,6 @@
     - **学长说**
         * [upper.2 学长说_孙浩鑫：从“不振则死”到“万事皆允”](./markdown/uppercassman_Sunhaoxin.md)
         * [upper.1 学长说_刘辛：数字化设计对我的影响](./markdown/upperclassman_Liuxin_theInfluence_of_digitalDesignOnme.md)
-    - **学社事**   
-        * [aff.15 GIS实践与经验分享会](./markdown/2021-12-13_GIS_Practice_and_Experience_Sharing_Session.md)
-        * [aff.14 包老师年度数字分享活动](./markdown/2021-11-21_Bao_annual_digital_sharing_event.md)
-        * [aff.13 设计资料库汇总（二）——素材](./markdown/2021-09-22_Design_Library_Summary_2-Material.md)
-        * [aff.12 设计资料库汇总（一）——案例](./markdown/2021-09-08_Design_Database_Summary_1_Case.md)
-        * [aff.11 数字工坊与暑假充电](./markdown/2021-08-03_Digital_workshop_and_summer_vacation_charging.md)
-        * [aff.10 社员分享 | 让深夜的教室飘满醇香](./markdown/2021-06-04_Let_the_classroom_at_night_be_full_of_mellow_fragrances.md)
-        * [aff.9 我们都是见证者：学社2021年度分享会](./markdown/2021-04-04_We_are_all_witnesses_society_2021_sharing_session.md)
-        * [aff.8 2021建筑竞赛汇编](./markdown/2021-03-28_Architecture_competition_2021_compilation.md)
-        * [aff.7 2021城规竞赛汇编](./markdown/2021-03-27_Planning_competition_2021_compilation.md)
-        * [aff.6 2021景观竞赛汇编](./markdown/2021-03-13_Landscape_competition_2021_compilation.md)
-        * [aff.5 "犀"游记II之寒期充电计划](./markdown/2021-02-03_Winter_vacation_charging_plan_2.md)
-        * [aff.4 辅助线上教学：数字营造学社在行动](./markdown/auxiliary_online_teaching_inAction.md)
-        * [aff.3 往事过去，皆为序章：学社年度分享与纳新活动](./markdown/the_past_isthe_preface_recruitment.md)
-        * [aff.2 数字营造学社：分享+纳新](./markdown/sharing_recruit.md)
-        * [aff.1 数字营造学社：新的征程！](./markdown/digital_Construction_society_newJourney.md)
     - **去读书**        
         * [col.1 IIT-Illinois Institute of Technology](./markdown/IIT.md)
         

@@ -33,15 +33,36 @@
 
 * 现任社长
 
-<img title="Yuhui Wang(Artist)Know how to live." src="./imgs/0157.jpg" height="100" width="auto" /><em>王育辉</em>
+<img title="屈子萱" src="./imgs/members201401/屈子萱.png" height="100" width="auto" /><em>屈子萱</em>
 
 * 往届社长
 
-<img title="Wang Yaoyao(Artist)The little flower lies in the dust.It sought the path of the butterfly." src="./imgs/0005.jpg" height="100" width="auto" /><em>王垚</em> <img title="Justyn Xiao(Designer)Thinking will not overcome fear but action will" src="./imgs/0011.jpg" height="100" width="auto" /><em>肖景天</em>
+<img title="Yuhui Wang(Artist)Know how to live." src="./imgs/0157.jpg" height="100" width="auto" /><em>王育辉</em> <img title="Wang Yaoyao(Artist)The little flower lies in the dust.It sought the path of the butterfly." src="./imgs/0005.jpg" height="100" width="auto" /><em>王垚</em> <img title="Justyn Xiao(Designer)Thinking will not overcome fear but action will" src="./imgs/0011.jpg" height="100" width="auto" /><em>肖景天</em>
 
 > 学社历届成员
 
 <p float="left">  
+  <img title="余戈言" src="./imgs/members201401/余戈言.jpg" height="100" width="auto" />
+  <img title="张琳娇" src="./imgs/members201401/张琳娇.jpg" height="100" width="auto" />
+  <img title="杨明烨" src="./imgs/members201401/杨明烨.jpg" height="100" width="auto" />
+  <img title="/王皖杰" src="./imgs/members201401/王皖杰.jpg" height="100" width="auto" />
+  <img title="王霞" src="./imgs/members201401/王霞.jpg" height="100" width="auto" />
+  <img title="韦子怡" src="./imgs/members201401/韦子怡.jpg" height="100" width="auto" />
+  <img title="马婉婷" src="./imgs/members201401/马婉婷.jpg" height="100" width="auto" />
+  <img title="鲍砾阳" src="./imgs/members201401/鲍砾阳.jpg" height="100" width="auto" />
+  <img title="刘冬妮" src="./imgs/members202401/刘冬妮.jpg" height="100" width="auto" />
+  <img title="孙晓月" src="./imgs/members202401/孙晓月.jpg" height="100" width="auto" />
+  <img title="孙雨萱" src="./imgs/members202401/孙雨萱.jpg" height="100" width="auto" />
+  <img title="宋新颖" src="./imgs/members202401/宋新颖.jpg" height="100" width="auto" />
+  <img title="张奕扬" src="./imgs/members202401/张奕扬.jpg" height="100" width="auto" />
+  <img title="张津榕" src="./imgs/members202401/张津榕.jpg" height="100" width="auto" />
+  <img title="李思琪" src="./imgs/members202401/李思琪.jpg" height="100" width="auto" />
+  <img title="杜思懿" src="./imgs/members202401/杜思懿.jpg" height="100" width="auto" />
+  <img title="王梓晨" src="./imgs/members202401/王梓晨.jpg" height="100" width="auto" />
+  <img title="田雨晨" src="./imgs/members202401/田雨晨.jpg" height="100" width="auto" />
+  <img title="郑宗兴" src="./imgs/members202401/郑宗兴.jpg" height="100" width="auto" />
+  <img title="韩正升" src="./imgs/members202401/韩正升.jpg" height="100" width="auto" />
+  <img title="黄昊天" src="./imgs/members202401/黄昊天.jpg" height="100" width="auto" />
   <img title="Dora Wang(Planner)Doing real and permanent good" src="./imgs/0003.jpg" height="100" width="auto" />
   <img title="richie bao(Designer)Living from your heart!" src="./imgs/0002.jpg" height="100" width="auto"/>
   <img title="X Tuan(Designer)innovation, or death" src="./imgs/0004.jpg" height="100" width="auto" />
