@@ -43,6 +43,15 @@
         * [col.1 IIT-Illinois Institute of Technology](./markdown/IIT.md)
         
 * 🦍\. 先生  
+    * 报告
+        * [P.7 专业，数字化、AI和未来](./markdown/P_future202401.md)
+        * [P.6 参数化设计——小白->实践->探索](./markdown/P_param_design_practice2exploration.md)
+        * [P.5 数字化设计——从参数化设计编程到城市空间数据分析方法](./markdown/P_parametric_design2USDA.md)  
+        * [P.4 数字化设计教学实践与数字营造学社](./markdown/P_DDTeachingPractice_DCS.md)
+        * [P.3 Guide to the knowledge structure of the digital LA|UP|Archi design](./markdown/iit_guide.md)
+        * [P.2 城市空间数据分析方法](./markdown/P_USDataAnalysisMethod.md)
+        * [P.1 “数字营造”本科教学体系建构](./markdown/construction_of_undergraduate_teaching_system_of_digital_construction.md) 
+
     * PYTHON+（新版-2023秋季更新,规划|建筑|景观）
         * [PCS_0 学写代码的方式](./markdown/pcs_0_学写代码的方式.md)
         * [PCS_1 善用print()，基础运算，变量及赋值](./markdown/pcs_1.md)
@@ -142,13 +151,6 @@
         * [m.19 《生态辅助设计技术》](./markdown/eco_aided_design_tech.md)
         * [m.20 《参数化设计方法》](./markdown/algorithmic_design_methodology.md)
 
-    * 报告
-        * [P.1 “数字营造”本科教学体系建构](./markdown/construction_of_undergraduate_teaching_system_of_digital_construction.md) 
-        * [P.2 城市空间数据分析方法](./markdown/P_USDataAnalysisMethod.md)
-        * [P.3 Guide to the knowledge structure of the digital LA|UP|Archi design](./markdown/iit_guide.md)
-        * [P.4 数字化设计教学实践与数字营造学社](./markdown/P_DDTeachingPractice_DCS.md)
-        * [P.5 数字化设计——从参数化设计编程到城市空间数据分析方法](./markdown/P_parametric_design2USDA.md)        
-        * [P.6 参数化设计——小白->实践->探索](./markdown/P_param_design_practice2exploration.md)
     * 教学法    
         * [TM_1.1 数字化设计教学（2022）](./markdown/TM_2022.md)
     * 产学研合作项目
